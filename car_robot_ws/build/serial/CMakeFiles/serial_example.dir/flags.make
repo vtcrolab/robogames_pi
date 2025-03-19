@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/robogames/vt-cro/car_robot_ws/src/serial/include
+CXX_INCLUDES = -I/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial/include
 
 CXX_FLAGS = 
 

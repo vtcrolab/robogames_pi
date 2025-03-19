@@ -1,0 +1,117 @@
+[0.033s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one
+[0.235s] -- The C compiler identification is GNU 13.3.0
+[0.406s] -- The CXX compiler identification is GNU 13.3.0
+[0.492s] -- Detecting C compiler ABI info
+[0.842s] -- Detecting C compiler ABI info - done
+[0.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.879s] -- Detecting C compile features
+[0.887s] -- Detecting C compile features - done
+[0.901s] -- Detecting CXX compiler ABI info
+[1.249s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.296s] -- Detecting CXX compile features
+[1.301s] -- Detecting CXX compile features - done
+[1.303s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.785s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.047s] -- Found serial: 1.2.1 (/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake)
+[2.051s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.130s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.151s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.396s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.404s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.640s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.727s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.195s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.429s] -- Found OpenCV: /usr (found version "4.6.0") 
+[3.432s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[3.445s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[3.452s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.980s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.998s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.999s] -- Configured cppcheck include dirs: 
+[3.999s] -- Configured cppcheck exclude dirs and/or files: 
+[4.015s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.021s] -- Configured cpplint exclude dirs and/or files: 
+[4.024s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.027s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.037s] -- Added test 'lint_cmake' to check CMake code style
+[4.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.057s] -- Added test 'uncrustify' to check C / C++ code style
+[4.063s] -- Configured uncrustify additional arguments: 
+[4.070s] -- Added test 'xmllint' to check XML markup files
+[4.083s] -- Configuring done (4.0s)
+[4.160s] -- Generating done (0.0s)
+[4.175s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one
+[4.224s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one
+[4.226s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one -- -j4 -l4
+[4.364s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o[0m
+[4.399s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o[0m
+[19.987s] [ 75%] [32m[1mLinking CXX executable joy_serial[0m
+[21.068s] [ 75%] Built target joy_serial
+[32.527s] [100%] [32m[1mLinking CXX executable depth_to_laserscan[0m
+[34.673s] [100%] Built target depth_to_laserscan
+[34.701s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one -- -j4 -l4
+[34.703s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one
+[34.721s] -- Install configuration: ""
+[34.721s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config
+[34.721s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/empty.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/gz_bridge.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[34.722s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/joystick.yaml
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/main.rviz
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/map.rviz
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[34.723s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/face.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[34.724s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/camera.xacro
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/lidar.xacro
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[34.725s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/worlds
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[34.726s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/worlds/empty.world
+[34.727s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/lib/articubot_one/joy_serial
+[34.736s] -- Set non-toolchain portion of runtime path of "/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/lib/articubot_one/joy_serial" to ""
+[34.736s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/lib/articubot_one/depth_to_laserscan
+[34.754s] -- Set non-toolchain portion of runtime path of "/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/lib/articubot_one/depth_to_laserscan" to ""
+[34.754s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[34.754s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[34.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[34.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[34.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/environment/path.sh
+[34.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/environment/path.dsv
+[34.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/local_setup.bash
+[34.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/local_setup.sh
+[34.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/local_setup.zsh
+[34.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/local_setup.dsv
+[34.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/package.dsv
+[34.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[34.757s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[34.757s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[34.757s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/install/articubot_one/share/articubot_one/package.xml
+[34.760s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/build/articubot_one
