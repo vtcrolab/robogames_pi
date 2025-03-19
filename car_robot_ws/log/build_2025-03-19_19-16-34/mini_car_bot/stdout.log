@@ -18,7 +18,7 @@
 -- Added test 'lint_cmake' to check CMake code style
 -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
 -- Added test 'xmllint' to check XML markup files
--- Configuring done (3.1s)
+-- Configuring done (2.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot
 -- Install configuration: ""
