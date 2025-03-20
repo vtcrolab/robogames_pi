@@ -3,6 +3,7 @@
 cd ~/vt-cro/robogames_pi/car_robot_ws
 rm -rf build/ log/ install/
 colcon build --packages-select serial
+#colcon build --packages-select articubot_one
 source install/setup.bash
 colcon build
 # ros2 run realsense2_camera realsense2_camera_node

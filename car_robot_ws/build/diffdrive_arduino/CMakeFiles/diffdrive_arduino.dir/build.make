@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino
+CMAKE_SOURCE_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino
+CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino
 
 # Include any dependencies generated for this target.
 include CMakeFiles/diffdrive_arduino.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/diffdrive_arduino.dir/progress.make
 include CMakeFiles/diffdrive_arduino.dir/flags.make
 
 CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: CMakeFiles/diffdrive_arduino.dir/flags.make
-CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp
+CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp
 CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: CMakeFiles/diffdrive_arduino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o -MF CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o.d -o CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o -c /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o -MF CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o.d -o CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o -c /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp
 
 CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp > CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp > CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.i
 
 CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp -o CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp -o CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.s
 
 # Object files for target diffdrive_arduino
 diffdrive_arduino_OBJECTS = \
@@ -147,9 +147,9 @@ libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesuppo
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_generator_c.so
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/liburdf.so
-libdiffdrive_arduino.so: /opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_model.so.4.0
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdiffdrive_arduino.so: /opt/ros/jazzy/lib/aarch64-linux-gnu/liburdfdom_model.so.4.0
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so.10.0.0
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -267,7 +267,7 @@ libdiffdrive_arduino.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_genera
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdiffdrive_arduino.so: /opt/ros/jazzy/lib/librcutils.so
 libdiffdrive_arduino.so: CMakeFiles/diffdrive_arduino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libdiffdrive_arduino.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libdiffdrive_arduino.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diffdrive_arduino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -279,6 +279,6 @@ CMakeFiles/diffdrive_arduino.dir/clean:
 .PHONY : CMakeFiles/diffdrive_arduino.dir/clean
 
 CMakeFiles/diffdrive_arduino.dir/depend:
-	cd /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/diffdrive_arduino.dir/depend
 

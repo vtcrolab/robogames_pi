@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot
+CMAKE_SOURCE_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot
+CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/mini_car_bot /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/mini_car_bot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

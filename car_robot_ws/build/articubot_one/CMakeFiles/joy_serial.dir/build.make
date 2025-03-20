@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one
+CMAKE_SOURCE_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
+CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
 
 # Include any dependencies generated for this target.
 include CMakeFiles/joy_serial.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/joy_serial.dir/progress.make
 include CMakeFiles/joy_serial.dir/flags.make
 
 CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o: CMakeFiles/joy_serial.dir/flags.make
-CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp
+CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o: /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp
 CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o: CMakeFiles/joy_serial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o -MF CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o.d -o CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o -c /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o -MF CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o.d -o CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o -c /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp
 
 CMakeFiles/joy_serial.dir/src/joy_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/joy_serial.dir/src/joy_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp > CMakeFiles/joy_serial.dir/src/joy_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp > CMakeFiles/joy_serial.dir/src/joy_serial.cpp.i
 
 CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp -o CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/joy_serial.cpp -o CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s
 
 # Object files for target joy_serial
 joy_serial_OBJECTS = \
@@ -98,7 +98,7 @@ joy_serial: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.s
 joy_serial: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 joy_serial: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 joy_serial: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so
-joy_serial: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a
+joy_serial: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a
 joy_serial: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 joy_serial: /opt/ros/jazzy/lib/librcl.so
 joy_serial: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -182,7 +182,7 @@ joy_serial: /opt/ros/jazzy/lib/librcpputils.so
 joy_serial: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 joy_serial: /opt/ros/jazzy/lib/librcutils.so
 joy_serial: CMakeFiles/joy_serial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable joy_serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable joy_serial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/joy_serial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -194,6 +194,6 @@ CMakeFiles/joy_serial.dir/clean:
 .PHONY : CMakeFiles/joy_serial.dir/clean
 
 CMakeFiles/joy_serial.dir/depend:
-	cd /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/joy_serial.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/joy_serial.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/joy_serial.dir/depend
 

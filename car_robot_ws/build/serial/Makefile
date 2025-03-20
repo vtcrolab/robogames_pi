@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/serial
+CMAKE_SOURCE_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial
+CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial/CMakeFiles /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial/CMakeFiles /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
