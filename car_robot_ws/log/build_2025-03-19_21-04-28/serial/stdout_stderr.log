@@ -12,12 +12,18 @@
 -- Detecting CXX compile features - done
 -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
 -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
--- Configuring done (2.1s)
+-- Configuring done (1.9s)
 -- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
 -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial
-[ 16%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
 [ 66%] [32m[1mLinking CXX static library libserial.a[0m
 [ 66%] Built target serial
 [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m

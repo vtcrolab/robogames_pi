@@ -41,13 +41,13 @@
 -- Added test 'uncrustify' to check C / C++ code style
 -- Configured uncrustify additional arguments: 
 -- Added test 'xmllint' to check XML markup files
--- Configuring done (3.3s)
+-- Configuring done (3.4s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
 [ 25%] [32mBuilding CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable joy_serial[0m
-[ 75%] Built target joy_serial
+[ 50%] [32m[1mLinking CXX executable joy_serial[0m
+[ 50%] Built target joy_serial
+[ 75%] [32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o[0m
 [100%] [32m[1mLinking CXX executable depth_to_laserscan[0m
 [100%] Built target depth_to_laserscan
 -- Install configuration: ""

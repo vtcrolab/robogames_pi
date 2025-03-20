@@ -1,0 +1,6 @@
+echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
+echo "export ROS_MASTER_URI=http://100.64.224.202:11311" >> ~/.bashrc
+echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
+echo "export ROS_IP=100.64.224.202" >> ~/.bashrc
+source ~/.bashrc
+
