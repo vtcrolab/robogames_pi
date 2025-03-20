@@ -152,7 +152,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/articubot_one" TYPE FILE FILES "vt-cro/robogames_pi/car_robot_ws/build/articubot_one/ament_cmake_environment_hooks/local_setup.sh")
+=======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/articubot_one" TYPE FILE FILES "/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/ament_cmake_environment_hooks/local_setup.sh")
+>>>>>>> 5040cca21e4b0d9e905b5203751ba11a2b02af38
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

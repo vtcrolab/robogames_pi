@@ -12,15 +12,11 @@
 -- Detecting CXX compile features - done
 -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
 -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
-<<<<<<< HEAD:car_robot_ws/log/build_2025-03-20_18-48-46/serial/stdout_stderr.log
--- Configuring done (0.8s)
-=======
 <<<<<<<< HEAD:car_robot_ws/log/build_2025-03-19_21-04-28/serial/stdout_stderr.log
 -- Configuring done (1.9s)
 ========
 -- Configuring done (0.7s)
 >>>>>>>> 5040cca21e4b0d9e905b5203751ba11a2b02af38:car_robot_ws/log/build_2025-03-19_19-39-14/serial/stdout_stderr.log
->>>>>>> 223c81f7b9701f335ffe23516f97dbe389136262:car_robot_ws/log/build_2025-03-19_19-39-14/serial/stdout_stderr.log
 -- Generating done (0.0s)
 [33mCMake Warning:
   Manually-specified variables were not used by the project:
@@ -35,14 +31,10 @@
 [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
 ========
 -- Build files have been written to: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial
-[ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
 [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
-<<<<<<< HEAD:car_robot_ws/log/build_2025-03-20_18-48-46/serial/stdout_stderr.log
-[ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
-=======
 [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
 >>>>>>>> 5040cca21e4b0d9e905b5203751ba11a2b02af38:car_robot_ws/log/build_2025-03-19_19-39-14/serial/stdout_stderr.log
->>>>>>> 223c81f7b9701f335ffe23516f97dbe389136262:car_robot_ws/log/build_2025-03-19_19-39-14/serial/stdout_stderr.log
 [ 66%] [32m[1mLinking CXX static library libserial.a[0m
 [ 66%] Built target serial
 [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
