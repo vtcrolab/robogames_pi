@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4d57db189317883b13c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "articubot_one",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "articubot_one_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-articubot_one_uninstall-95bcdea66a72742cf696.json",
+					"name" : "articubot_one_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "color_recognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-color_recognition-bc9e560f2136239837b5.json",
+					"name" : "color_recognition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_to_laserscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_to_laserscan-cbec134c1b6ba0d28a2a.json",
+					"name" : "depth_to_laserscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joy_serial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joy_serial-d2251c973e08fdadb92c.json",
+					"name" : "joy_serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-91f85df55b8d69f8464f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one",
+		"source" : "/home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

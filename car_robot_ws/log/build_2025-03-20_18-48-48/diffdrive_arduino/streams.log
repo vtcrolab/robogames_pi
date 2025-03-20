@@ -1,0 +1,41 @@
+[0.013s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino
+[0.069s] -- The CXX compiler identification is GNU 13.3.0
+[0.084s] -- Detecting CXX compiler ABI info
+[0.176s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.187s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.317s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.401s] -- Found hardware_interface: 4.27.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.458s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.763s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.803s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.805s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.824s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.893s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.895s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.913s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.915s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.923s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.186s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.261s] -- Configuring done (1.2s)
+[1.296s] -- Generating done (0.0s)
+[1.300s] -- Build files have been written to: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino
+[1.311s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino
+[1.312s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j16 -l16
+[1.365s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[1.679s] In file included from [01m[K/home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:37[m[K,
+[1.679s]                  from [01m[K/home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[1.679s] [01m[K/home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Klibserial/SerialPort.h: No such file or directory
+[1.679s]     7 | #include [01;31m[K<libserial/SerialPort.h>[m[K
+[1.680s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.680s] compilation terminated.
+[1.682s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[1.683s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[1.683s] gmake: *** [Makefile:146: all] Error 2
+[1.685s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j16 -l16

@@ -1,0 +1,65 @@
+[0.012s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.155s] -- The CXX compiler identification is GNU 13.3.0
+[0.178s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.485s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.658s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.851s] -- Configuring done (0.8s)
+[0.856s] -- Generating done (0.0s)
+[0.857s] [33mCMake Warning:
+[0.857s]   Manually-specified variables were not used by the project:
+[0.857s] 
+[0.857s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.857s] 
+[0.857s] [0m
+[0.858s] -- Build files have been written to: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial
+[0.863s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial
+[0.864s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial -- -j16 -l16
+[0.919s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.919s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.919s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.265s] [ 66%] [32m[1mLinking CXX static library libserial.a[0m
+[1.303s] [ 66%] Built target serial
+[1.326s] [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[1.577s] [100%] [32m[1mLinking CXX executable serial_example[0m
+[1.643s] [100%] Built target serial_example
+[1.655s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial -- -j16 -l16
+[1.667s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial
+[1.675s] -- Install configuration: ""
+[1.675s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a
+[1.675s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/bin/serial_example
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/serial.h
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/v8stdint.h
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/unix.h
+[1.676s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/win.h
+[1.677s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.sh
+[1.677s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[1.677s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.677s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.677s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.sh
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.dsv
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.bash
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.sh
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.zsh
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.dsv
+[1.678s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.dsv
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.679s] -- Installing: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.xml
+[1.681s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/serial

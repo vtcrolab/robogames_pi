@@ -223,6 +223,43 @@ depth_to_laserscan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/build
 .PHONY : depth_to_laserscan/fast
 
+#=============================================================================
+# Target rules for targets named color_recognition
+
+# Build rule for target.
+color_recognition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 color_recognition
+.PHONY : color_recognition
+
+# fast build rule for target.
+color_recognition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_recognition.dir/build.make CMakeFiles/color_recognition.dir/build
+.PHONY : color_recognition/fast
+
+src/color_recognition.o: src/color_recognition.cpp.o
+.PHONY : src/color_recognition.o
+
+# target to build an object file
+src/color_recognition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_recognition.dir/build.make CMakeFiles/color_recognition.dir/src/color_recognition.cpp.o
+.PHONY : src/color_recognition.cpp.o
+
+src/color_recognition.i: src/color_recognition.cpp.i
+.PHONY : src/color_recognition.i
+
+# target to preprocess a source file
+src/color_recognition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_recognition.dir/build.make CMakeFiles/color_recognition.dir/src/color_recognition.cpp.i
+.PHONY : src/color_recognition.cpp.i
+
+src/color_recognition.s: src/color_recognition.cpp.s
+.PHONY : src/color_recognition.s
+
+# target to generate assembly for a file
+src/color_recognition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_recognition.dir/build.make CMakeFiles/color_recognition.dir/src/color_recognition.cpp.s
+.PHONY : src/color_recognition.cpp.s
+
 src/depth_to_laserscan.o: src/depth_to_laserscan.cpp.o
 .PHONY : src/depth_to_laserscan.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... articubot_one_uninstall"
 	@echo "... uninstall"
+	@echo "... color_recognition"
 	@echo "... depth_to_laserscan"
 	@echo "... joy_serial"
+	@echo "... src/color_recognition.o"
+	@echo "... src/color_recognition.i"
+	@echo "... src/color_recognition.s"
 	@echo "... src/depth_to_laserscan.o"
 	@echo "... src/depth_to_laserscan.i"
 	@echo "... src/depth_to_laserscan.s"
