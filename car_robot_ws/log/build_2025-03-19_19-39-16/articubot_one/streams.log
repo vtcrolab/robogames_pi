@@ -1,0 +1,55 @@
+[0.018s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/articubot_one
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.127s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.547s] -- Found serial: 1.2.1 (/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake)
+[0.550s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.584s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.595s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.685s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.687s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.802s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.825s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.887s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.944s] -- Found OpenCV: /usr (found version "4.6.0") 
+[0.945s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.949s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[0.952s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.038s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.041s] -- Configured cppcheck include dirs: 
+[1.041s] -- Configured cppcheck exclude dirs and/or files: 
+[1.043s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.043s] -- Configured cpplint exclude dirs and/or files: 
+[1.043s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.043s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.044s] -- Added test 'lint_cmake' to check CMake code style
+[1.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.047s] -- Added test 'uncrustify' to check C / C++ code style
+[1.047s] -- Configured uncrustify additional arguments: 
+[1.047s] -- Added test 'xmllint' to check XML markup files
+[1.048s] -- Configuring done (1.0s)
+[1.063s] -- Generating done (0.0s)
+[1.067s] -- Build files have been written to: /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
+[1.079s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/houndsito/vt-cro/robogames_pi/car_robot_ws/install/articubot_one
+[1.080s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j16 -l16
+[1.135s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o[0m
+[1.135s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o[0m
+[6.604s] [ 75%] [32m[1mLinking CXX executable joy_serial[0m
+[6.813s] [ 75%] Built target joy_serial
+[11.570s] [100%] [32m[1mLinking CXX executable depth_to_laserscan[0m
+[12.134s] [100%] Built target depth_to_laserscan
