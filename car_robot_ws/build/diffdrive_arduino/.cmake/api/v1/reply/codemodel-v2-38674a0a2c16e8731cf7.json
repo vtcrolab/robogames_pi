@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-de1aa2fe759b64c10946.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "diffdrive_arduino",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "diffdrive_arduino::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diffdrive_arduino-cc3b53151e02e76ca702.json",
+					"name" : "diffdrive_arduino",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diffdrive_arduino_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diffdrive_arduino_uninstall-fcaef576e97afeecdeab.json",
+					"name" : "diffdrive_arduino_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aef05e6bbb00a1de063d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino",
+		"source" : "/home/houndsito/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
