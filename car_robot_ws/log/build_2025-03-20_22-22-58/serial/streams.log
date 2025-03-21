@@ -1,0 +1,65 @@
+[0.038s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.319s] -- The CXX compiler identification is GNU 13.3.0
+[0.359s] -- Detecting C compiler ABI info
+[0.661s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.683s] -- Detecting C compile features - done
+[0.705s] -- Detecting CXX compiler ABI info
+[0.999s] -- Detecting CXX compiler ABI info - done
+[1.019s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.019s] -- Detecting CXX compile features
+[1.020s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.424s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.854s] -- Configuring done (1.8s)
+[1.863s] -- Generating done (0.0s)
+[1.865s] [33mCMake Warning:
+[1.865s]   Manually-specified variables were not used by the project:
+[1.865s] 
+[1.865s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.865s] 
+[1.865s] [0m
+[1.867s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial
+[1.878s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial
+[1.880s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial -- -j4 -l4
+[2.000s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.001s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.001s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[3.618s] [ 66%] [32m[1mLinking CXX static library libserial.a[0m
+[3.783s] [ 66%] Built target serial
+[3.828s] [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[4.498s] [100%] [32m[1mLinking CXX executable serial_example[0m
+[4.708s] [100%] Built target serial_example
+[4.738s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial -- -j4 -l4
+[4.768s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial
+[4.786s] -- Install configuration: ""
+[4.786s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a
+[4.787s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin/serial_example
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/serial.h
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/win.h
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/unix.h
+[4.788s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/v8stdint.h
+[4.789s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.sh
+[4.789s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[4.789s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.789s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.sh
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.dsv
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.bash
+[4.790s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.sh
+[4.791s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.zsh
+[4.791s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.dsv
+[4.791s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.dsv
+[4.791s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.791s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.792s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.792s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.792s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.792s] -- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.xml
+[4.795s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial

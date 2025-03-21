@@ -834,4 +834,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/articubot_one_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/joy_serial.dir/DependInfo.cmake"
   "CMakeFiles/depth_to_laserscan.dir/DependInfo.cmake"
+  "CMakeFiles/color_detection_node.dir/DependInfo.cmake"
+  "CMakeFiles/depth_processing_node.dir/DependInfo.cmake"
   )

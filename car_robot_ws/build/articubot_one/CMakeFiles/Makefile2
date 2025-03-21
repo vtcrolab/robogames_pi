@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articu
 # The main recursive "all" target.
 all: CMakeFiles/joy_serial.dir/all
 all: CMakeFiles/depth_to_laserscan.dir/all
+all: CMakeFiles/color_detection_node.dir/all
+all: CMakeFiles/depth_processing_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/articubot_one_uninstall.dir/clean
 clean: CMakeFiles/joy_serial.dir/clean
 clean: CMakeFiles/depth_to_laserscan.dir/clean
+clean: CMakeFiles/color_detection_node.dir/clean
+clean: CMakeFiles/depth_processing_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +141,7 @@ CMakeFiles/articubot_one_uninstall.dir/clean:
 CMakeFiles/joy_serial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=3,4 "Built target joy_serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=7,8 "Built target joy_serial"
 .PHONY : CMakeFiles/joy_serial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +167,7 @@ CMakeFiles/joy_serial.dir/clean:
 CMakeFiles/depth_to_laserscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=1,2 "Built target depth_to_laserscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=5,6 "Built target depth_to_laserscan"
 .PHONY : CMakeFiles/depth_to_laserscan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ depth_to_laserscan: CMakeFiles/depth_to_laserscan.dir/rule
 CMakeFiles/depth_to_laserscan.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/clean
 .PHONY : CMakeFiles/depth_to_laserscan.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/color_detection_node.dir
+
+# All Build rule for target.
+CMakeFiles/color_detection_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=1,2 "Built target color_detection_node"
+.PHONY : CMakeFiles/color_detection_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/color_detection_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/color_detection_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 0
+.PHONY : CMakeFiles/color_detection_node.dir/rule
+
+# Convenience name for target.
+color_detection_node: CMakeFiles/color_detection_node.dir/rule
+.PHONY : color_detection_node
+
+# clean rule for target.
+CMakeFiles/color_detection_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/clean
+.PHONY : CMakeFiles/color_detection_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/depth_processing_node.dir
+
+# All Build rule for target.
+CMakeFiles/depth_processing_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=3,4 "Built target depth_processing_node"
+.PHONY : CMakeFiles/depth_processing_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/depth_processing_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/depth_processing_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 0
+.PHONY : CMakeFiles/depth_processing_node.dir/rule
+
+# Convenience name for target.
+depth_processing_node: CMakeFiles/depth_processing_node.dir/rule
+.PHONY : depth_processing_node
+
+# clean rule for target.
+CMakeFiles/depth_processing_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/clean
+.PHONY : CMakeFiles/depth_processing_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

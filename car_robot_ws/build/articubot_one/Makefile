@@ -223,6 +223,80 @@ depth_to_laserscan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/build
 .PHONY : depth_to_laserscan/fast
 
+#=============================================================================
+# Target rules for targets named color_detection_node
+
+# Build rule for target.
+color_detection_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 color_detection_node
+.PHONY : color_detection_node
+
+# fast build rule for target.
+color_detection_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/build
+.PHONY : color_detection_node/fast
+
+#=============================================================================
+# Target rules for targets named depth_processing_node
+
+# Build rule for target.
+depth_processing_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depth_processing_node
+.PHONY : depth_processing_node
+
+# fast build rule for target.
+depth_processing_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/build
+.PHONY : depth_processing_node/fast
+
+src/color_detection_node.o: src/color_detection_node.cpp.o
+.PHONY : src/color_detection_node.o
+
+# target to build an object file
+src/color_detection_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.o
+.PHONY : src/color_detection_node.cpp.o
+
+src/color_detection_node.i: src/color_detection_node.cpp.i
+.PHONY : src/color_detection_node.i
+
+# target to preprocess a source file
+src/color_detection_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.i
+.PHONY : src/color_detection_node.cpp.i
+
+src/color_detection_node.s: src/color_detection_node.cpp.s
+.PHONY : src/color_detection_node.s
+
+# target to generate assembly for a file
+src/color_detection_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.s
+.PHONY : src/color_detection_node.cpp.s
+
+src/depth_processing_node.o: src/depth_processing_node.cpp.o
+.PHONY : src/depth_processing_node.o
+
+# target to build an object file
+src/depth_processing_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.o
+.PHONY : src/depth_processing_node.cpp.o
+
+src/depth_processing_node.i: src/depth_processing_node.cpp.i
+.PHONY : src/depth_processing_node.i
+
+# target to preprocess a source file
+src/depth_processing_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.i
+.PHONY : src/depth_processing_node.cpp.i
+
+src/depth_processing_node.s: src/depth_processing_node.cpp.s
+.PHONY : src/depth_processing_node.s
+
+# target to generate assembly for a file
+src/depth_processing_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.s
+.PHONY : src/depth_processing_node.cpp.s
+
 src/depth_to_laserscan.o: src/depth_to_laserscan.cpp.o
 .PHONY : src/depth_to_laserscan.o
 
@@ -286,8 +360,16 @@ help:
 	@echo "... test"
 	@echo "... articubot_one_uninstall"
 	@echo "... uninstall"
+	@echo "... color_detection_node"
+	@echo "... depth_processing_node"
 	@echo "... depth_to_laserscan"
 	@echo "... joy_serial"
+	@echo "... src/color_detection_node.o"
+	@echo "... src/color_detection_node.i"
+	@echo "... src/color_detection_node.s"
+	@echo "... src/depth_processing_node.o"
+	@echo "... src/depth_processing_node.i"
+	@echo "... src/depth_processing_node.s"
 	@echo "... src/depth_to_laserscan.o"
 	@echo "... src/depth_to_laserscan.i"
 	@echo "... src/depth_to_laserscan.s"

@@ -2,6 +2,8 @@
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/articubot_one_uninstall.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/joy_serial.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/depth_to_laserscan.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/color_detection_node.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/depth_processing_node.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/test.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/edit_cache.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/rebuild_cache.dir
