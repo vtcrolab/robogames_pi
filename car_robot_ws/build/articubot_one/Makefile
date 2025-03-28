@@ -249,6 +249,19 @@ depth_processing_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/build
 .PHONY : depth_processing_node/fast
 
+#=============================================================================
+# Target rules for targets named main_bt_node
+
+# Build rule for target.
+main_bt_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_bt_node
+.PHONY : main_bt_node
+
+# fast build rule for target.
+main_bt_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/build
+.PHONY : main_bt_node/fast
+
 src/color_detection_node.o: src/color_detection_node.cpp.o
 .PHONY : src/color_detection_node.o
 
@@ -345,6 +358,30 @@ src/joy_serial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s
 .PHONY : src/joy_serial.cpp.s
 
+src/main_bt_node.o: src/main_bt_node.cpp.o
+.PHONY : src/main_bt_node.o
+
+# target to build an object file
+src/main_bt_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o
+.PHONY : src/main_bt_node.cpp.o
+
+src/main_bt_node.i: src/main_bt_node.cpp.i
+.PHONY : src/main_bt_node.i
+
+# target to preprocess a source file
+src/main_bt_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.i
+.PHONY : src/main_bt_node.cpp.i
+
+src/main_bt_node.s: src/main_bt_node.cpp.s
+.PHONY : src/main_bt_node.s
+
+# target to generate assembly for a file
+src/main_bt_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.s
+.PHONY : src/main_bt_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -364,6 +401,7 @@ help:
 	@echo "... depth_processing_node"
 	@echo "... depth_to_laserscan"
 	@echo "... joy_serial"
+	@echo "... main_bt_node"
 	@echo "... src/color_detection_node.o"
 	@echo "... src/color_detection_node.i"
 	@echo "... src/color_detection_node.s"
@@ -376,6 +414,9 @@ help:
 	@echo "... src/joy_serial.o"
 	@echo "... src/joy_serial.i"
 	@echo "... src/joy_serial.s"
+	@echo "... src/main_bt_node.o"
+	@echo "... src/main_bt_node.i"
+	@echo "... src/main_bt_node.s"
 .PHONY : help
 
 

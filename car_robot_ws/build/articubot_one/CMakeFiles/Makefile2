@@ -67,6 +67,7 @@ all: CMakeFiles/joy_serial.dir/all
 all: CMakeFiles/depth_to_laserscan.dir/all
 all: CMakeFiles/color_detection_node.dir/all
 all: CMakeFiles/depth_processing_node.dir/all
+all: CMakeFiles/main_bt_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/joy_serial.dir/clean
 clean: CMakeFiles/depth_to_laserscan.dir/clean
 clean: CMakeFiles/color_detection_node.dir/clean
 clean: CMakeFiles/depth_processing_node.dir/clean
+clean: CMakeFiles/main_bt_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -237,6 +239,32 @@ depth_processing_node: CMakeFiles/depth_processing_node.dir/rule
 CMakeFiles/depth_processing_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/clean
 .PHONY : CMakeFiles/depth_processing_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_bt_node.dir
+
+# All Build rule for target.
+CMakeFiles/main_bt_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=9,10 "Built target main_bt_node"
+.PHONY : CMakeFiles/main_bt_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_bt_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_bt_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 0
+.PHONY : CMakeFiles/main_bt_node.dir/rule
+
+# Convenience name for target.
+main_bt_node: CMakeFiles/main_bt_node.dir/rule
+.PHONY : main_bt_node
+
+# clean rule for target.
+CMakeFiles/main_bt_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/clean
+.PHONY : CMakeFiles/main_bt_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

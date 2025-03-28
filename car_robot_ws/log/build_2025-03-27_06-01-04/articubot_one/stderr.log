@@ -1,0 +1,90 @@
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:34:28:[m[K [01;31m[Kerror: [m[K‘[01m[KDetectObject[m[K’ was not declared in this scope
+   34 |   factory.registerNodeType<[01;31m[KDetectObject[m[K>("DetectObject");
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:34:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [13])[m[K’
+   34 |   [01;31m[Kfactory.registerNodeType<DetectObject>("DetectObject")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:34:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |   [01;31m[Kfactory.registerNodeType<DetectObject>("DetectObject")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:35:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSpin[m[K’ was not declared in this scope
+   35 |   factory.registerNodeType<[01;31m[KSpin[m[K>("Spin");
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:35:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [5])[m[K’
+   35 |   [01;31m[Kfactory.registerNodeType<Spin>("Spin")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:35:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   [01;31m[Kfactory.registerNodeType<Spin>("Spin")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:36:28:[m[K [01;31m[Kerror: [m[K‘[01m[KNavigateToPose[m[K’ was not declared in this scope
+   36 |   factory.registerNodeType<[01;31m[KNavigateToPose[m[K>("NavigateToPose");
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:36:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [15])[m[K’
+   36 |   [01;31m[Kfactory.registerNodeType<NavigateToPose>("NavigateToPose")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:36:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   [01;31m[Kfactory.registerNodeType<NavigateToPose>("NavigateToPose")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KTurn[m[K’ was not declared in this scope
+   37 |   factory.registerNodeType<[01;31m[KTurn[m[K>("Turn");
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:37:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [5])[m[K’
+   37 |   [01;31m[Kfactory.registerNodeType<Turn>("Turn")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:37:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   [01;31m[Kfactory.registerNodeType<Turn>("Turn")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:40:28:[m[K [01;31m[Kerror: [m[K‘[01m[KRunSystemRecovery[m[K’ was not declared in this scope
+   40 |   factory.registerNodeType<[01;31m[KRunSystemRecovery[m[K>("RunSystemRecovery");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:40:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [18])[m[K’
+   40 |   [01;31m[Kfactory.registerNodeType<RunSystemRecovery>("RunSystemRecovery")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:40:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |   [01;31m[Kfactory.registerNodeType<RunSystemRecovery>("RunSystemRecovery")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/main_bt_node.dir/build.make:76: CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/main_bt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

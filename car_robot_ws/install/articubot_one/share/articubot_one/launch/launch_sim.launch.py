@@ -89,25 +89,22 @@ def generate_launch_description():
         output="screen"
     )
 
-    #bridge_params = os.path.join(get_package_share_directory(package_name),'config','gz_bridge.yaml')
-    # ros_gz_bridge = Node(
-    #     package="ros_gz_bridge",
-    #     executable="parameter_bridge",
-    #     arguments=[
-    #         '--ros-args',
-    #         '-p',
-    #         f'config_file:={bridge_params}',
-    #     ]
-    # )
+    bridge_params = os.path.join(get_package_share_directory(package_name),'config','gz_bridge.yaml')
+    ros_gz_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            '--ros-args',
+            '-p',
+            f'config_file:={bridge_params}',
+        ]
+    )
 
-
-
-
-    # ros_gz_image_bridge = Node(
-    #     package="ros_gz_image",
-    #     executable="image_bridge",
-    #     arguments=["/camera/image_raw"]
-    # )
+    ros_gz_image_bridge = Node(
+        package="ros_gz_image",
+        executable="image_bridge",
+        arguments=["/camera/image_raw"]
+    )
 
 
 
@@ -162,6 +159,13 @@ def generate_launch_description():
         output="screen"
     )
 
+    #     # Include LiDAR launch file
+    # lidar_launch = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource([os.path.join(
+    #         get_package_share_directory('rplidar_ros'), 'launch', 'lidar_launch.py'
+    #     )])
+    # )
+
 
 
     return LaunchDescription([
@@ -179,6 +183,7 @@ def generate_launch_description():
         camera_info_bridge,
         color_detection_node,
         depth_processing_node
+        #lidar_launch
     ])
 
 

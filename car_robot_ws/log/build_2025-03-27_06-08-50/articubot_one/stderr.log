@@ -1,0 +1,66 @@
+In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:17[m[K:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/cone_recovery_node.cpp:46:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+   46 | int [01;31m[Kmain[m[K(int argc, char **argv) {
+      |     [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:16[m[K:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/cone_navigator_node.cpp:68:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+   68 | int [01;36m[Kmain[m[K(int argc, char **argv)
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:21:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+   21 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/cone_navigator_node.cpp:68:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+   68 | int [01;36m[Kmain[m[K(int argc, char **argv)
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:6[m[K:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:368:64:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: accepts only classed derived from either ActionNodeBase, DecoratorNode, ControlNode or ConditionNode
+  366 |     static_assert(std::is_base_of<ActionNodeBase, T>::[01;31m[Kvalue ||[m[K
+      |                                                       [01;31m[K~~~~~~~~[m[K  
+  367 | [01;31m[K                      std::is_base_of<ControlNode, T>::value ||[m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+  368 | [01;31m[K                      std::is_base_of<DecoratorNode, T>::value ||[m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+  369 | [01;31m[K                      std::is_base_of<ConditionNode, T>::value[m[K,
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:368:64:[m[K [01;36m[Knote: [m[K‘[01m[K(((((bool)std::integral_constant<bool, false>::value) || ((bool)std::integral_constant<bool, false>::value)) || ((bool)std::integral_constant<bool, false>::value)) || ((bool)std::integral_constant<bool, false>::value))[m[K’ evaluates to false
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: the registered class must have at least one of these two constructors:   (const std::string&, const NodeConfiguration&) or (const std::string&).
+Check also if the constructor is public!
+  385 |     static_assert([01;31m[Kdefault_constructable || param_constructable[m[K, "[registerNode]: the "
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;36m[Knote: [m[K‘[01m[K(((bool)default_constructable) || ((bool)param_constructable))[m[K’ evaluates to false
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCreateBuilder<ConeNavigator>()[m[K’
+  418 |     registerBuilder(CreateManifest<T>(ID), [01;31m[KCreateBuilder<T>()[m[K);
+      |                                            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value)>::type*)[m[K’
+   43 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value)>::type*) [35m[K[with T = ConeNavigator][m[K[m[K’:
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value)>::type*)[m[K’
+   59 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<!has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value)>::type*) [35m[K[with T = ConeNavigator][m[K[m[K’:
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value))>::type*)[m[K’
+   69 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::[01;32m[KCreateBuilder[m[K(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const NodeConfiguration&>::value))>::type*) [35m[K[with T = ConeNavigator][m[K[m[K’:
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::[01;32m[KregisterNodeType[m[K(const std::string&) [35m[K[with T = ConeNavigator; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:41:42:[m[K   required from here
+[01m[K/opt/ros/jazzy/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+gmake[2]: *** [CMakeFiles/main_bt_node.dir/build.make:76: CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/main_bt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

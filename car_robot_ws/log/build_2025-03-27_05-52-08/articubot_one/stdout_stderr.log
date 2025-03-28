@@ -1,0 +1,56 @@
+[ 20%] Built target depth_to_laserscan
+[ 40%] Built target color_detection_node
+[ 60%] Built target joy_serial
+[ 80%] Built target depth_processing_node
+[ 90%] [32mBuilding CXX object CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o[0m
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kbt[m[K’ does not name a type
+    1 | [01;31m[Kbt[m[K::BehaviorTreeFactory factory;
+      | [01;31m[K^~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    4 | [01;31m[Kfactory[m[K.registerNodeType<DetectObject>("DetectObject");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    5 | [01;31m[Kfactory[m[K.registerNodeType<Spin>("Spin");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    6 | [01;31m[Kfactory[m[K.registerNodeType<NavigateToPose>("NavigateToPose");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    7 | [01;31m[Kfactory[m[K.registerNodeType<Turn>("Turn");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    8 | [01;31m[Kfactory[m[K.registerNodeType<CheckTopicAlive>("CheckTopicAlive");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+    9 | [01;31m[Kfactory[m[K.registerNodeType<CheckControllerAlive>("CheckControllerAlive");
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:13:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   13 | std::[01;31m[Kstring[m[K tree_file;
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+  +++ |+[32m[K#include <string>[m[K
+    1 | bt::BehaviorTreeFactory factory;
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:14:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ does not name a type
+   14 | [01;31m[Knode[m[K->get_parameter("bt_xml_file", tree_file);
+      | [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:15:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ does not name a type
+   15 | [01;31m[Kfactory[m[K.createTreeFromFile(tree_file);
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:20:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree[m[K’ was not declared in this scope
+   20 | auto blackboard = [01;31m[Ktree[m[K.rootBlackboard();
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ does not name a type
+   21 | [01;31m[Kblackboard[m[K->set("node", shared_from_this());  // if inside a ROS node
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:24:1:[m[K [01;31m[Kerror: [m[K‘[01m[KBT[m[K’ does not name a type
+   24 | [01;31m[KBT[m[K::NodeStatus status = BT::NodeStatus::IDLE;
+      | [01;31m[K^~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:25:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   25 | [01;31m[Krclcpp[m[K::Rate rate(10); // 10Hz
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   27 | [01;31m[Kwhile[m[K (rclcpp::ok() && status != BT::NodeStatus::SUCCESS) {
+      | [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_bt_node.dir/build.make:76: CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/main_bt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
