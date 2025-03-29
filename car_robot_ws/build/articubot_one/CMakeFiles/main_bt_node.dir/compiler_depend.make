@@ -7,6 +7,7 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
   /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/cone_navigator_node.hpp \
   /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/cone_recovery_node.hpp \
   /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/detect_cone_bt_node.hpp \
+  /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/run_system_recovery_node.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
@@ -1451,15 +1452,7 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
 
-/opt/ros/jazzy/include/tracetools/tracetools/utils.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp_v3/leaf_node.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+/opt/ros/jazzy/include/tracetools/tracetools/tracetools.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1516,6 +1509,16 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+
+/opt/ros/jazzy/include/behaviortree_cpp_v3/leaf_node.h:
+
+/opt/ros/jazzy/include/tracetools/tracetools/utils.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1809,17 +1812,7 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
 
-/usr/include/stdc-predef.h:
-
-/opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
@@ -1863,11 +1856,27 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp:
 
-/opt/ros/jazzy/include/behaviortree_cpp_v3/controls/reactive_fallback.h:
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
-/usr/include/c++/13/initializer_list:
+/usr/include/aarch64-linux-gnu/bits/timex.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/actions/always_success_node.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
+
+/usr/include/c++/13/thread:
+
+/opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/behaviortree_cpp_v3/decorators/timer_queue.h:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
@@ -1905,23 +1914,21 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/usr/include/stdc-predef.h:
+
+/opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
-
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
 
-/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/timex.h:
-
-/opt/ros/jazzy/include/behaviortree_cpp_v3/actions/always_success_node.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /usr/include/c++/13/system_error:
 
@@ -1953,27 +1960,19 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/macros.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
 
-/opt/ros/jazzy/include/behaviortree_cpp_v3/decorators/timer_queue.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
 
-/usr/include/c++/13/thread:
+/opt/ros/jazzy/include/rcl/rcl/macros.h:
 
-/opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp:
 
@@ -2051,7 +2050,11 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp:
+/opt/ros/jazzy/include/behaviortree_cpp_v3/controls/reactive_fallback.h:
+
+/usr/include/c++/13/initializer_list:
+
+/opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h:
 
 /usr/include/c++/13/tr1/gamma.tcc:
 
@@ -2301,9 +2304,9 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
 
-/opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h:
-
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
@@ -2516,6 +2519,8 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /usr/include/string.h:
+
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/run_system_recovery_node.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
 
@@ -2770,8 +2775,6 @@ CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o: /home/robogames/vt-cro/robog
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
-
-/opt/ros/jazzy/include/tracetools/tracetools/tracetools.h:
 
 /usr/include/c++/13/typeinfo:
 

@@ -1,100 +1,82 @@
 <root main_tree_to_execute="MainTree">
-    <BehaviorTree ID="TopLevelTree">
-
-    <RecoveryNode name="PersistentRecovery" number_of_retries="10">
-
-      <!-- MAIN SYSTEM + BEHAVIOR TREE -->
-      <Sequence name="RunFullBehavior">
-        
-        <!-- SYSTEM CHECK -->
-        <Sequence name="SystemCheckSequence">
-          <RecoveryNode name="LiDARRecovery" number_of_retries="3">
-            <CheckTopicAlive topic="/scan" timeout="2.0"/>
-          </RecoveryNode>
-
-          <RecoveryNode name="CameraRecovery" number_of_retries="3">
-            <CheckTopicAlive topic="/camera/image_raw" timeout="2.0"/>
-          </RecoveryNode>
-
-          <RecoveryNode name="DiffDriveControllerRecovery" number_of_retries="3">
-            <CheckControllerAlive controller_name="diff_cont"/>
-          </RecoveryNode>
-
-          <RecoveryNode name="JointBroadcasterRecovery" number_of_retries="3">
-            <CheckControllerAlive controller_name="joint_broad"/>
-          </RecoveryNode>
-        </Sequence>
-
-        <!-- MAIN TASK BEHAVIOR TREE -->
-        <SubTree ID="MainTree"/>
-        
-      </Sequence>
-
-      <!-- Recovery behavior: try restarting system -->
-      <RunSystemRecovery launch_script="/home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
-    </RecoveryNode>
-
-  </BehaviorTree>
-
   <BehaviorTree ID="MainTree">
+    <Sequence name="MainSequence">
 
-    <!-- Recovery Node: If no cone detected, spin in place -->
-    <RecoveryNode number_of_retries="3" name="RecoveryNode">
-      <ReactiveFallback name="DetectOrRecover">
+      <!-- Retry full system check + mission until successful -->
+      <RetryUntilSuccessful num_attempts="-1">
+        <Sequence name="RunFullBehavior">
+          <Sequence name="SystemCheckSequence">
+            <Fallback name="DiffContFallback">
+              <CheckControllerAlive controller_name="diff_cont"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+            <Fallback name="JointBroadFallback">
+              <CheckControllerAlive controller_name="joint_broad"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+            <Fallback name="LiDARFallback">
+              <CheckTopicAlive topic="/scan" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+            <Fallback name="CameraFallback">
+              <CheckTopicAlive topic="/camera/image_raw" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+          </Sequence>
+
+          <!-- MAIN TASK BEHAVIOR TREE -->
+          <!-- <SubTree ID="ConeTaskTree"/> -->
+        </Sequence>
+      </RetryUntilSuccessful>
+
+      <!-- These two must also be INSIDE the main sequence
+      <Fallback name="ConeDetection">
         <DetectObject object_type="cones_ramp" detected="{object_detected}"/>
-        
         <Sequence name="RotateUntilConeFound">
-          <Spin spin_dist="1.57"/> <!-- Rotate 90 degrees -->
+          <Spin spin_dist="1.57"/>
           <Wait wait_duration="2"/>
         </Sequence>
-      </ReactiveFallback>
-    </RecoveryNode>
+      </Fallback>
 
-    <!-- Decision Tree -->
-    <Switch3 variable="{object_detected}">
-      
-      <!-- Move Toward Yellow Cone and Turn Left -->
-      <Case value="yellow">
-        <Sequence name="TurnLeft">
-          <NavigateToPose goal="{yellow_cone_location}"/>
-          <Wait wait_duration="1"/>
-          <Turn direction="left" angle="90"/>
-        </Sequence>
-      </Case>
-
-      <!-- Move Toward Blue Cone and Turn Right -->
-      <Case value="blue">
-        <Sequence name="TurnRight">
-          <NavigateToPose goal="{blue_cone_location}"/>
-          <Wait wait_duration="1"/>
-          <Turn direction="right" angle="90"/>
-        </Sequence>
-      </Case>
-
-      <!-- If One Red Cone is Detected, Rotate Until Second Red Cone is Found -->
-      <Case value="red">
-        <ReactiveFallback name="FindSecondRed">
-          <DetectObject object_type="red_cone" detected="{second_red_detected}"/>
-          
-          <Sequence name="RotateUntilBothRedFound">
-            <Spin spin_dist="1.57"/>  <!--1.57 = pi/2-->
-            <Wait wait_duration="2"/>
+      <Switch3 variable="{object_detected}">
+        <Case value="yellow">
+          <Sequence name="YellowConeBehavior">
+            <NavigateToPose goal="{yellow_cone_location}"/>
+            <Wait wait_duration="1"/>
+            <Turn direction="left" angle="90"/>
           </Sequence>
-        </ReactiveFallback>
-        
-        <NavigateToPose goal="{middle_of_red_cones}"/>
-      </Case>
+        </Case>
 
-      <!-- Move Towards Ramp and Climb -->
-      <Case value="ramp">
-        <Sequence name="ClimbRamp">
-          <NavigateToPose goal="{ramp_location}"/>
-          <Wait wait_duration="1"/>
-          <NavigateToPose goal="{top_of_ramp}"/>
-        </Sequence>
-      </Case>
-    
-    </Switch3>
-    
+        <Case value="blue">
+          <Sequence name="BlueConeBehavior">
+            <NavigateToPose goal="{blue_cone_location}"/>
+            <Wait wait_duration="1"/>
+            <Turn direction="right" angle="90"/>
+          </Sequence>
+        </Case>
+
+        <Case value="red">
+          <Fallback name="SecondRedConeRecovery">
+            <DetectObject object_type="red_cone" detected="{second_red_detected}"/>
+            <Sequence>
+              <Spin spin_dist="1.57"/>
+              <Wait wait_duration="2"/>
+            </Sequence>
+          </Fallback>
+          <NavigateToPose goal="{middle_of_red_cones}"/>
+        </Case>
+
+        <Case value="ramp">
+          <Sequence name="RampClimb">
+            <NavigateToPose goal="{ramp_location}"/>
+            <Wait wait_duration="1"/>
+            <NavigateToPose goal="{top_of_ramp}"/>
+          </Sequence>
+        </Case>
+      </Switch3> -->
+
+    </Sequence>
   </BehaviorTree>
+
+
 </root>

@@ -1,0 +1,58 @@
+[ 20%] Built target joy_serial
+[ 50%] Built target color_detection_node
+[ 60%] Built target depth_to_laserscan
+[ 80%] Built target depth_processing_node
+[ 90%] [32mBuilding CXX object CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o[0m
+In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:10[m[K:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTIME_TO_WAIT_FOR_SERVICE_SECONDS[m[K’ does not name a type
+    7 | [01;31m[KTIME_TO_WAIT_FOR_SERVICE_SECONDS[m[K = 3;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus CheckControllerAlive::[01;32m[Ktick[m[K()[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:33:57:[m[K [01;31m[Kerror: [m[K‘[01m[KTIME_TO_WAIT_FOR_SERVICE_SECONDS[m[K’ was not declared in this scope
+   33 |     if (!client_->wait_for_service(std::chrono::seconds([01;31m[KTIME_TO_WAIT_FOR_SERVICE_SECONDS[m[K))){
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:4[m[K:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   46 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "ALL CONTROLLERS ACTIVE. ");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "ALL CONTROLLERS ACTIVE. ");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "ALL CONTROLLERS ACTIVE. ");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "ALL CONTROLLERS ACTIVE. ");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   46 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "ALL CONTROLLERS ACTIVE. ");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   46 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "ALL CONTROLLERS ACTIVE. ");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   50 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "CONTROLLERS AREN'T ACTIVE. ");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "CONTROLLERS AREN'T ACTIVE. ");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "CONTROLLERS AREN'T ACTIVE. ");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "CONTROLLERS AREN'T ACTIVE. ");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   50 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "CONTROLLERS AREN'T ACTIVE. ");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/check_controller_alive_node.hpp:50:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CheckControllerAlive[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   50 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "CONTROLLERS AREN'T ACTIVE. ");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_bt_node.dir/build.make:76: CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/main_bt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

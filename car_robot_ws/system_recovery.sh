@@ -5,11 +5,11 @@
 echo "[Recovery] Stopping existing ROS 2 processes..."
 
 # Kill all ROS 2 processes safely
-pkill -f ros2
-pkill -f rviz2
-pkill -f python3
-pkill -f launch.py
-sleep 2
+#pkill -f ros2
+#pkill -f rviz2
+#pkill -f python3
+#pkill -f launch.py
+#sleep 2
 
 echo "[Recovery] All ROS 2 processes killed."
 

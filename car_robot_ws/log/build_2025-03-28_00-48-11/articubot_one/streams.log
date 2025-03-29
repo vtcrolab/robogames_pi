@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[0.213s] [ 20%] Built target color_detection_node
+[0.228s] [ 40%] Built target depth_processing_node
+[0.240s] [ 60%] Built target joy_serial
+[0.250s] [ 80%] Built target depth_to_laserscan
+[0.297s] [ 90%] [32mBuilding CXX object CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o[0m
+[0.740s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/main_bt_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kbehaviortree_cpp_v3/control/recovery_node.h: No such file or directory
+[0.741s]     6 | #include [01;31m[K<behaviortree_cpp_v3/control/recovery_node.h>[m[K
+[0.741s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.741s] compilation terminated.
+[0.749s] gmake[2]: *** [CMakeFiles/main_bt_node.dir/build.make:76: CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o] Error 1
+[0.749s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/main_bt_node.dir/all] Error 2
+[0.750s] gmake: *** [Makefile:146: all] Error 2
+[0.753s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
