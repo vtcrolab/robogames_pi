@@ -1,0 +1,7 @@
+<?xml version="1.0"?> <!-- this will include all urdf files -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mini_car_robot">
+   
+    <xacro:include filename="robot.core.xacro"/>
+    <xacro:include filename="gazebo_control.xacro"/>
+
+</robot>
