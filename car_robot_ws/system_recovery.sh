@@ -16,10 +16,11 @@ echo "[Recovery] All ROS 2 processes killed."
 # Optional: Clear log files or leftover temp data
 # rm -rf ~/.ros/log
 
-echo "[Recovery] Relaunching articubot robot..."
+echo "[Recovery] Relaunching articubot robot controllers..."
+ros2 launch articubot_one controllers.launch.py
 
 # Launch your robot
-ros2 launch articubot_one launch_robot.launch.py
+# ros2 launch articubot_one launch_robot.launch.py
 
 # NOTE: This will block the terminal unless you background it like this:
 # ros2 launch articubot_one launch_robot.launch.py &

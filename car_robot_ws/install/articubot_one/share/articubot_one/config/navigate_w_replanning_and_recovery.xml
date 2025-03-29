@@ -6,6 +6,11 @@
       <RetryUntilSuccessful num_attempts="-1">
         <Sequence name="RunFullBehavior">
           <Sequence name="SystemCheckSequence">
+            <!-- <Fallback name="RSPFallback">
+              <CheckTopicAlive topic="/robot_description" timeout="2.0"/>
+              <CheckTopicAlive topic="/robot_description" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one rsp.launch.py"/>
+            </Fallback> -->
             <Fallback name="DiffContFallback">
               <CheckControllerAlive controller_name="diff_cont"/>
               <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
@@ -16,12 +21,24 @@
             </Fallback>
             <Fallback name="LiDARFallback">
               <CheckTopicAlive topic="/scan" timeout="2.0"/>
-              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one rplidar.launch.py"/>
             </Fallback>
             <Fallback name="CameraFallback">
               <CheckTopicAlive topic="/camera/image_raw" timeout="2.0"/>
-              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one vision.launch.py"/>
             </Fallback>
+            <!-- <Fallback name="JoystickFallback">
+              <CheckTopicAlive topic="/joy" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one joystick.launch.py"/>
+            </Fallback> -->
+            <!-- <Fallback name="TwistMuxFallback">
+              <CheckTopicAlive topic="" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 run twist_mux twist_mux --ros-args --params-file $(ros2 pkg prefix articubot_one)/config/twist_mux.yaml --remap /cmd_vel_out:=/diff_cont/cmd_vel_unstamped"/>
+            </Fallback> -->
+            <!-- <Fallback name="">
+              <CheckTopicAlive topic="" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash "/>
+            </Fallback> -->
           </Sequence>
 
           <!-- MAIN TASK BEHAVIOR TREE -->
