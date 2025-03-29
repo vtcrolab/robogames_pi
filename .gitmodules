@@ -4,3 +4,6 @@
 [submodule "car_robot_ws/src/articubot_one"]
 	path = car_robot_ws/src/articubot_one
 	url = https://github.com/vtcrolab/articubot_one.git
+[submodule "car_robot_ws/src/diffdrive_arduino"]
+	path = car_robot_ws/src/diffdrive_arduino
+	url = https://github.com/vtcrolab/diffdrive_arduino.git
