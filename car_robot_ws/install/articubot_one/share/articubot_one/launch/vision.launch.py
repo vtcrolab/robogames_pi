@@ -75,7 +75,6 @@ def generate_launch_description():
 
     return LaunchDescription([
         depth_cam,
-        color_detection_node
+        color_detection_node,
         object_detection_node,
-
     ])

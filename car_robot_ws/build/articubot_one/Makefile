@@ -224,6 +224,19 @@ depth_to_laserscan/fast:
 .PHONY : depth_to_laserscan/fast
 
 #=============================================================================
+# Target rules for targets named yolo_detector_node
+
+# Build rule for target.
+yolo_detector_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolo_detector_node
+.PHONY : yolo_detector_node
+
+# fast build rule for target.
+yolo_detector_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/build
+.PHONY : yolo_detector_node/fast
+
+#=============================================================================
 # Target rules for targets named color_detection_node
 
 # Build rule for target.
@@ -382,6 +395,30 @@ src/main_bt_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.s
 .PHONY : src/main_bt_node.cpp.s
 
+src/yolo_detector_node.o: src/yolo_detector_node.cpp.o
+.PHONY : src/yolo_detector_node.o
+
+# target to build an object file
+src/yolo_detector_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o
+.PHONY : src/yolo_detector_node.cpp.o
+
+src/yolo_detector_node.i: src/yolo_detector_node.cpp.i
+.PHONY : src/yolo_detector_node.i
+
+# target to preprocess a source file
+src/yolo_detector_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.i
+.PHONY : src/yolo_detector_node.cpp.i
+
+src/yolo_detector_node.s: src/yolo_detector_node.cpp.s
+.PHONY : src/yolo_detector_node.s
+
+# target to generate assembly for a file
+src/yolo_detector_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.s
+.PHONY : src/yolo_detector_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +439,7 @@ help:
 	@echo "... depth_to_laserscan"
 	@echo "... joy_serial"
 	@echo "... main_bt_node"
+	@echo "... yolo_detector_node"
 	@echo "... src/color_detection_node.o"
 	@echo "... src/color_detection_node.i"
 	@echo "... src/color_detection_node.s"
@@ -417,6 +455,9 @@ help:
 	@echo "... src/main_bt_node.o"
 	@echo "... src/main_bt_node.i"
 	@echo "... src/main_bt_node.s"
+	@echo "... src/yolo_detector_node.o"
+	@echo "... src/yolo_detector_node.i"
+	@echo "... src/yolo_detector_node.s"
 .PHONY : help
 
 

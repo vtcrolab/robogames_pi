@@ -1,0 +1,2 @@
+[console_scripts]
+detect_node = opencv_tools.detect_yolo_node:main

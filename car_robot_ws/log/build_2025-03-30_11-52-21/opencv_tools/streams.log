@@ -1,0 +1,21 @@
+[1.926s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[2.423s] running egg_info
+[2.461s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[2.462s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[2.463s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[2.464s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[2.466s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[2.550s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.551s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.552s] running build
+[2.552s] running build_py
+[2.553s] running install
+[2.561s] running install_lib
+[2.607s] running install_data
+[2.608s] running install_egg_info
+[2.649s] removing '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools-0.0.0-py3.12.egg-info' (and everything under it)
+[2.652s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools-0.0.0-py3.12.egg-info
+[2.652s] running install_scripts
+[2.920s] Installing detect_node script to /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/opencv_tools
+[2.920s] writing list of installed files to '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log'
+[3.006s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log --single-version-externally-managed install_data

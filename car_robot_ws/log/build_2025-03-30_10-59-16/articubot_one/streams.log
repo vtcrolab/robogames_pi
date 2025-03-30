@@ -1,0 +1,15 @@
+[0.047s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[0.645s] [  8%] [32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o[0m
+[0.646s] [ 25%] Built target color_detection_node
+[0.646s] [ 41%] Built target joy_serial
+[0.646s] [ 58%] Built target depth_to_laserscan
+[0.646s] [ 75%] Built target depth_processing_node
+[0.646s] [ 91%] Built target main_bt_node
+[1.083s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Konnxruntime/core/providers/shared_ptr.h: No such file or directory
+[1.083s]     5 | #include [01;31m[K<onnxruntime/core/providers/shared_ptr.h>[m[K
+[1.083s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.083s] compilation terminated.
+[1.094s] gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:76: CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o] Error 1
+[1.094s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/yolo_detector_node.dir/all] Error 2
+[1.095s] gmake: *** [Makefile:146: all] Error 2
+[1.098s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4

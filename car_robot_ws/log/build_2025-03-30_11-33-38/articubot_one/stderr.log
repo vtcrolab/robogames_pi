@@ -1,0 +1,54 @@
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:105:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+  105 |         [01;31m[Kcatch[m[K (const std::exception& e)
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:[m[K In constructor ‘[01m[KYoloDetectorNode::[01;32m[KYoloDetectorNode[m[K()[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:19:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolors_model_path_[m[K’ was not declared in this scope
+   19 |         this->get_parameter("colors_model_path", [01;31m[Kcolors_model_path_[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:20:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kbucket_model_path_[m[K’ was not declared in this scope
+   20 |         this->get_parameter("bucket_model_path", [01;31m[Kbucket_model_path_[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:21:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_topic_[m[K’ was not declared in this scope
+   21 |         this->get_parameter("input_topic", [01;31m[Kinput_topic_[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:22:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_topic_[m[K’ was not declared in this scope
+   22 |         this->get_parameter("depth_topic", [01;31m[Kdepth_topic_[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor_net_[m[K’ was not declared in this scope
+   25 |         [01;31m[Kcolor_net_[m[K = cv::dnn::readNetFromONNX(colors_model_path_);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_sub_[m[K’ was not declared in this scope
+   38 |         [01;31m[Kimage_sub_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:[m[K In member function ‘[01m[Kvoid YoloDetectorNode::[01;32m[Kimage_callback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor_net_[m[K’ was not declared in this scope
+   53 |             [01;31m[Kcolor_net_[m[K.setInput(color_blob);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[Kcv[m[K’
+  101 |             [01;31m[Kcv[m[K::imshow("YOLO Detection - Bounding Boxes", frame);
+      |             [01;31m[K^~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kcv[m[K’
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:13:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+  101 |             cv::imshow[01;31m[K([m[K"YOLO Detection - Bounding Boxes", frame);
+      |                       [01;31m[K^[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K([m[K’ token
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  101 |             [01;36m[Kcv[m[K::imshow("YOLO Detection - Bounding Boxes", frame);
+      |             [01;36m[K^~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+  101 |             cv::imshow[01;31m[K([m[K"YOLO Detection - Bounding Boxes", frame);
+      |                       [01;31m[K^[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:101:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+  101 |             cv::imshow("YOLO Detection - Bounding Boxes", [01;31m[Kframe[m[K);
+      |                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:[m[K At global scope:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:111:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+  111 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolo_detector_node.cpp:114:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  114 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:76: CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/yolo_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

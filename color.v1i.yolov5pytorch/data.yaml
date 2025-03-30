@@ -1,0 +1,13 @@
+train: /home/robogames/vt-cro/robogames_pi/color.v1i.yolov5pytorch/train/images
+val: /home/robogames/vt-cro/robogames_pi/color.v1i.yolov5pytorch/valid/images
+test: /home/robogames/vt-cro/robogames_pi/color.v1i.yolov5pytorch/test/images
+
+nc: 5
+names: ['blue_circle', 'cyan_zone', 'pink_zone', 'red_circle', 'yellow_circle']
+
+roboflow:
+  workspace: youssef-i7vm0
+  project: color-c2j0t-ed0ch
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/youssef-i7vm0/color-c2j0t-ed0ch/dataset/1
