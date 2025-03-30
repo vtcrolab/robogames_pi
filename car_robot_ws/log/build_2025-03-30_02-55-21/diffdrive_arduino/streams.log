@@ -1,0 +1,32 @@
+[0.037s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[0.349s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[7.512s] In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[7.513s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:[m[K In constructor ‘[01m[Kdiffdrive_arduino::DiffDriveArduinoHardware::[01;32m[KDiffDriveArduinoHardware[m[K()[m[K’:
+[7.513s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:81:76:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::unique_ptr<tf2_ros::TransformBroadcaster>[m[K’ and ‘[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K’)
+[7.513s]    81 |     tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(node_[01;31m[K)[m[K;
+[7.513s]       |                                                                            [01;31m[K^[m[K
+[7.513s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[7.513s]                  from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:18[m[K:
+[7.514s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:430:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep> typename std::enable_if<std::__and_<std::__and_<std::is_convertible<typename std::unique_ptr<_Up, _Ep>::pointer, typename std::__uniq_ptr_impl<_Tp, _Dp>::pointer>, std::__not_<std::is_array<_Up> > >, std::is_assignable<_T2&, _U2&&> >::value, std::unique_ptr<_Tp, _Dp>&>::type std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Ep = _Up; _Tp = tf2_ros::TransformBroadcaster; _Dp = std::default_delete<tf2_ros::TransformBroadcaster>][m[K[m[K’
+[7.514s]   430 |         [01;36m[Koperator[m[K=(unique_ptr<_Up, _Ep>&& __u) noexcept
+[7.514s]       |         [01;36m[K^~~~~~~~[m[K
+[7.514s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:430:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.514s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:81:76:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[7.515s]    81 |     tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(node_[01;36m[K)[m[K;
+[7.515s]       |                                                                            [01;36m[K^[m[K
+[7.515s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Tp, _Dp>&&) [35m[K[with _Tp = tf2_ros::TransformBroadcaster; _Dp = std::default_delete<tf2_ros::TransformBroadcaster>][m[K[m[K’
+[7.515s]   414 |       unique_ptr& [01;36m[Koperator[m[K=(unique_ptr&&) = default;
+[7.515s]       |                   [01;36m[K^~~~~~~~[m[K
+[7.515s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K’ to ‘[01m[Kstd::unique_ptr<tf2_ros::TransformBroadcaster>&&[m[K’
+[7.516s]   414 |       unique_ptr& operator=([01;36m[Kunique_ptr&&[m[K) = default;
+[7.516s]       |                             [01;36m[K^~~~~~~~~~~~[m[K
+[7.516s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:440:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::[01;32m[Koperator=[m[K(std::nullptr_t) [35m[K[with _Tp = tf2_ros::TransformBroadcaster; _Dp = std::default_delete<tf2_ros::TransformBroadcaster>; std::nullptr_t = std::nullptr_t][m[K[m[K’
+[7.516s]   440 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[7.517s]       |       [01;36m[K^~~~~~~~[m[K
+[7.517s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:440:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[7.517s]   440 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[7.517s]       |                 [01;36m[K^~~~~~~~~[m[K
+[15.837s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[15.837s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[15.838s] gmake: *** [Makefile:146: all] Error 2
+[15.844s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j4 -l4

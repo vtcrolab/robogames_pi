@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:40 (message):
-  LibTorch not found
-
-[0m
-gmake: *** [Makefile:472: cmake_check_build_system] Error 1

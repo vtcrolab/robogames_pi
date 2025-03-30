@@ -21,7 +21,9 @@ def generate_launch_description():
         executable="ros2_control_node",
         output = 'screen',
         parameters=[{'robot_description': robot_description},
-                    controller_params_file]
+                    controller_params_file],
+        remappings=[("/diff_cont/odom", "/odom")]
+
     )
 
     delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
@@ -30,6 +32,7 @@ def generate_launch_description():
         package="controller_manager",
         executable="spawner",
         arguments=["diff_cont"],
+        remappings=[("/diff_cont/odom", "/odom")]
     )
 
     delayed_diff_drive_spawner = RegisterEventHandler(

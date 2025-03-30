@@ -1,0 +1,13 @@
+[0.045s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[0.331s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[7.284s] In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[7.285s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:158:50:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::unique_ptr<tf2_ros::TransformBroadcaster> diffdrive_arduino::DiffDriveArduinoHardware::tf_broadcaster_[m[K’
+[7.285s]   158 |   std::unique_ptr<tf2_ros::TransformBroadcaster> [01;31m[Ktf_broadcaster_[m[K;
+[7.285s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.285s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:153:50:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster> diffdrive_arduino::DiffDriveArduinoHardware::tf_broadcaster_[m[K’
+[7.285s]   153 |   std::shared_ptr<tf2_ros::TransformBroadcaster> [01;36m[Ktf_broadcaster_[m[K;
+[7.285s]       |                                                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[15.367s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[15.369s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[15.369s] gmake: *** [Makefile:146: all] Error 2
+[15.376s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j4 -l4

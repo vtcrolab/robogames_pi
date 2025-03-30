@@ -1,0 +1,745 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000746] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.000774] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000796] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.009727] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.016645] (serial) JobStarted: {'identifier': 'serial'}
+[0.027856] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.028803] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one', '-DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.032554] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.033167] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.038462] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.040466] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.040558] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100590] (-) TimerEvent: {}
+[0.192740] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.201746] (-) TimerEvent: {}
+[0.214081] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.216343] (serial) StdoutLine: {'line': b'[ 66%] Built target serial\n'}
+[0.254484] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.276580] (serial) StdoutLine: {'line': b'[100%] Built target serial_example\n'}
+[0.304445] (-) TimerEvent: {}
+[0.320490] (serial) CommandEnded: {'returncode': 0}
+[0.323469] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.348338] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.362179] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.370191] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.372469] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a\n'}
+[0.372702] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin/serial_example\n'}
+[0.372822] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial\n'}
+[0.372929] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/serial.h\n'}
+[0.373025] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl\n'}
+[0.374987] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/win.h\n'}
+[0.380174] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/unix.h\n'}
+[0.382985] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[0.385916] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[0.388134] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.390681] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.394774] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.395017] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.395130] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.395223] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[0.395388] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[0.395528] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[0.395618] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[0.395704] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[0.395789] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[0.395870] (serial) StdoutLine: {'line': b'-- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.dsv\n'}
+[0.395951] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.396035] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.396114] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.396210] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.396298] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.396528] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.xml\n'}
+[0.396656] (serial) CommandEnded: {'returncode': 0}
+[0.403785] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.404822] (-) TimerEvent: {}
+[0.452165] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.506443] (-) TimerEvent: {}
+[0.522193] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.539265] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.540722] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.542284] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.545553] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.607571] (-) TimerEvent: {}
+[0.632437] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.647433] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.647973] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.648544] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.667361] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.707641] (-) TimerEvent: {}
+[0.808092] (-) TimerEvent: {}
+[0.875936] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.906450] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.908183] (-) TimerEvent: {}
+[0.923299] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.924221] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.925002] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.929669] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.008393] (-) TimerEvent: {}
+[1.100412] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 4.27.0 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[1.108658] (-) TimerEvent: {}
+[1.182531] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.210543] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.210923] (-) TimerEvent: {}
+[1.233571] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.242006] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.276343] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311176] (-) TimerEvent: {}
+[1.411795] (-) TimerEvent: {}
+[1.449264] (articubot_one) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake)\n'}
+[1.454074] (articubot_one) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.511913] (-) TimerEvent: {}
+[1.523194] (articubot_one) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.548199] (articubot_one) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.576119] (articubot_one) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.608061] (articubot_one) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.612006] (-) TimerEvent: {}
+[1.616104] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[1.688919] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.694968] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.712178] (-) TimerEvent: {}
+[1.730665] (articubot_one) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.734491] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[1.735292] (articubot_one) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.812522] (-) TimerEvent: {}
+[1.871663] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.879535] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[1.907989] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.912543] (articubot_one) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.914021] (-) TimerEvent: {}
+[1.915447] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[1.931408] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[1.949683] (articubot_one) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.954135] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.991706] (articubot_one) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.014149] (-) TimerEvent: {}
+[2.105568] (articubot_one) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.114282] (-) TimerEvent: {}
+[2.214743] (-) TimerEvent: {}
+[2.285855] (articubot_one) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.289234] (articubot_one) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.298819] (articubot_one) StdoutLine: {'line': b'-- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)\n'}
+[2.305914] (articubot_one) StdoutLine: {'line': b'-- Found controller_manager_msgs: 4.27.0 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)\n'}
+[2.314809] (-) TimerEvent: {}
+[2.380004] (articubot_one) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[2.414991] (-) TimerEvent: {}
+[2.462377] (articubot_one) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.5 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[2.515114] (-) TimerEvent: {}
+[2.530352] (diffdrive_arduino) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.569284] (diffdrive_arduino) StdoutLine: {'line': b'-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.577385] (diffdrive_arduino) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.615409] (-) TimerEvent: {}
+[2.633640] (articubot_one) StdoutLine: {'line': b'-- Found nav2_util: 1.3.5 (/opt/ros/jazzy/share/nav2_util/cmake)\n'}
+[2.687864] (diffdrive_arduino) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.715506] (-) TimerEvent: {}
+[2.717383] (diffdrive_arduino) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.719548] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.719984] (diffdrive_arduino) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.728612] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[2.758973] (articubot_one) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.762071] (articubot_one) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.762606] (articubot_one) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.815625] (-) TimerEvent: {}
+[2.916124] (-) TimerEvent: {}
+[2.929135] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[2.979438] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.987054] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino\n'}
+[3.016260] (-) TimerEvent: {}
+[3.021130] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[3.022094] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[3.023385] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[3.116406] (-) TimerEvent: {}
+[3.135348] (articubot_one) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.157437] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[3.216612] (-) TimerEvent: {}
+[3.217978] (articubot_one) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.241248] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one\n'}
+[3.276642] (articubot_one) CommandEnded: {'returncode': 0}
+[3.278636] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[3.278799] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 54046 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '99', 'PATH': '/home/robogames/.local/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'SSH_CONNECTION': '100.64.138.187 54046 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[3.316734] (-) TimerEvent: {}
+[3.418928] (-) TimerEvent: {}
+[3.427564] (articubot_one) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o\x1b[0m\n'}
+[3.436531] (articubot_one) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.o\x1b[0m\n'}
+[3.437041] (articubot_one) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.o\x1b[0m\n'}
+[3.459174] (articubot_one) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o\x1b[0m\n'}
+[3.519431] (-) TimerEvent: {}
+[3.620434] (-) TimerEvent: {}
+[3.724430] (-) TimerEvent: {}
+[3.825038] (-) TimerEvent: {}
+[3.909624] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[3.910900] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:45:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_ros/transform_broadcaster.hpp: No such file or directory\n'}
+[3.913486] (diffdrive_arduino) StderrLine: {'line': b'   45 | #include \x1b[01;31m\x1b[K"tf2_ros/transform_broadcaster.hpp"\x1b[m\x1b[K\n'}
+[3.914412] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.915264] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[3.920446] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1\n'}
+[3.921530] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2\n'}
+[3.925896] (-) TimerEvent: {}
+[3.926659] (diffdrive_arduino) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.940923] (diffdrive_arduino) CommandEnded: {'returncode': 2}
+[3.978036] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 2}
+[4.026004] (-) TimerEvent: {}
+[4.126945] (-) TimerEvent: {}
+[4.229431] (-) TimerEvent: {}
+[4.330176] (-) TimerEvent: {}
+[4.431241] (-) TimerEvent: {}
+[4.534481] (-) TimerEvent: {}
+[4.635425] (-) TimerEvent: {}
+[4.736778] (-) TimerEvent: {}
+[4.838647] (-) TimerEvent: {}
+[4.939340] (-) TimerEvent: {}
+[5.041443] (-) TimerEvent: {}
+[5.149420] (-) TimerEvent: {}
+[5.250448] (-) TimerEvent: {}
+[5.353714] (-) TimerEvent: {}
+[5.454613] (-) TimerEvent: {}
+[5.555560] (-) TimerEvent: {}
+[5.657552] (-) TimerEvent: {}
+[5.761660] (-) TimerEvent: {}
+[5.862747] (-) TimerEvent: {}
+[5.963657] (-) TimerEvent: {}
+[6.066665] (-) TimerEvent: {}
+[6.167672] (-) TimerEvent: {}
+[6.273422] (-) TimerEvent: {}
+[6.374611] (-) TimerEvent: {}
+[6.475540] (-) TimerEvent: {}
+[6.576498] (-) TimerEvent: {}
+[6.677582] (-) TimerEvent: {}
+[6.781422] (-) TimerEvent: {}
+[6.882138] (-) TimerEvent: {}
+[6.984641] (-) TimerEvent: {}
+[7.085523] (-) TimerEvent: {}
+[7.188854] (-) TimerEvent: {}
+[7.290297] (-) TimerEvent: {}
+[7.391653] (-) TimerEvent: {}
+[7.494153] (-) TimerEvent: {}
+[7.595163] (-) TimerEvent: {}
+[7.696847] (-) TimerEvent: {}
+[7.800688] (-) TimerEvent: {}
+[7.901942] (-) TimerEvent: {}
+[8.002956] (-) TimerEvent: {}
+[8.104408] (-) TimerEvent: {}
+[8.205189] (-) TimerEvent: {}
+[8.308713] (-) TimerEvent: {}
+[8.409841] (-) TimerEvent: {}
+[8.510567] (-) TimerEvent: {}
+[8.611293] (-) TimerEvent: {}
+[8.713634] (-) TimerEvent: {}
+[8.816433] (-) TimerEvent: {}
+[8.917245] (-) TimerEvent: {}
+[9.018946] (-) TimerEvent: {}
+[9.121058] (-) TimerEvent: {}
+[9.222812] (-) TimerEvent: {}
+[9.326633] (-) TimerEvent: {}
+[9.427287] (-) TimerEvent: {}
+[9.528121] (-) TimerEvent: {}
+[9.629976] (-) TimerEvent: {}
+[9.732419] (-) TimerEvent: {}
+[9.833100] (-) TimerEvent: {}
+[9.935681] (-) TimerEvent: {}
+[10.038519] (-) TimerEvent: {}
+[10.147863] (-) TimerEvent: {}
+[10.250487] (-) TimerEvent: {}
+[10.351225] (-) TimerEvent: {}
+[10.452109] (-) TimerEvent: {}
+[10.558956] (-) TimerEvent: {}
+[10.659617] (-) TimerEvent: {}
+[10.764415] (-) TimerEvent: {}
+[10.865116] (-) TimerEvent: {}
+[10.965951] (-) TimerEvent: {}
+[11.067580] (-) TimerEvent: {}
+[11.169817] (-) TimerEvent: {}
+[11.272628] (-) TimerEvent: {}
+[11.373552] (-) TimerEvent: {}
+[11.475590] (-) TimerEvent: {}
+[11.576667] (-) TimerEvent: {}
+[11.679716] (-) TimerEvent: {}
+[11.783418] (-) TimerEvent: {}
+[11.884114] (-) TimerEvent: {}
+[11.984962] (-) TimerEvent: {}
+[12.085966] (-) TimerEvent: {}
+[12.189783] (-) TimerEvent: {}
+[12.290626] (-) TimerEvent: {}
+[12.392817] (-) TimerEvent: {}
+[12.493727] (-) TimerEvent: {}
+[12.596926] (-) TimerEvent: {}
+[12.699465] (-) TimerEvent: {}
+[12.800505] (-) TimerEvent: {}
+[12.903628] (-) TimerEvent: {}
+[13.004415] (-) TimerEvent: {}
+[13.107852] (-) TimerEvent: {}
+[13.208783] (-) TimerEvent: {}
+[13.309582] (-) TimerEvent: {}
+[13.418485] (-) TimerEvent: {}
+[13.519250] (-) TimerEvent: {}
+[13.619899] (-) TimerEvent: {}
+[13.721796] (-) TimerEvent: {}
+[13.822404] (-) TimerEvent: {}
+[13.926428] (-) TimerEvent: {}
+[14.028435] (-) TimerEvent: {}
+[14.131805] (-) TimerEvent: {}
+[14.232487] (-) TimerEvent: {}
+[14.333173] (-) TimerEvent: {}
+[14.344560] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/depth_to_laserscan.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DepthToScanAndPointCloud::\x1b[01;32m\x1b[Kdepth_callback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.345761] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/depth_to_laserscan.cpp:94:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.347867] (articubot_one) StderrLine: {'line': b'   94 |         double \x1b[01;35m\x1b[Klag\x1b[m\x1b[K = (now - msg_time).seconds();\n'}
+[14.348868] (articubot_one) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.433415] (-) TimerEvent: {}
+[14.537512] (-) TimerEvent: {}
+[14.638436] (-) TimerEvent: {}
+[14.739066] (-) TimerEvent: {}
+[14.839720] (-) TimerEvent: {}
+[14.940389] (-) TimerEvent: {}
+[15.042153] (-) TimerEvent: {}
+[15.148754] (-) TimerEvent: {}
+[15.249408] (-) TimerEvent: {}
+[15.352405] (-) TimerEvent: {}
+[15.453048] (-) TimerEvent: {}
+[15.553796] (-) TimerEvent: {}
+[15.654911] (-) TimerEvent: {}
+[15.755578] (-) TimerEvent: {}
+[15.859616] (-) TimerEvent: {}
+[15.960755] (-) TimerEvent: {}
+[16.062618] (-) TimerEvent: {}
+[16.163329] (-) TimerEvent: {}
+[16.264703] (-) TimerEvent: {}
+[16.366777] (-) TimerEvent: {}
+[16.467413] (-) TimerEvent: {}
+[16.568121] (-) TimerEvent: {}
+[16.669849] (-) TimerEvent: {}
+[16.772551] (-) TimerEvent: {}
+[16.873572] (-) TimerEvent: {}
+[16.974267] (-) TimerEvent: {}
+[17.077419] (-) TimerEvent: {}
+[17.178098] (-) TimerEvent: {}
+[17.278755] (-) TimerEvent: {}
+[17.379455] (-) TimerEvent: {}
+[17.484418] (-) TimerEvent: {}
+[17.585089] (-) TimerEvent: {}
+[17.685760] (-) TimerEvent: {}
+[17.786413] (-) TimerEvent: {}
+[17.887073] (-) TimerEvent: {}
+[17.987802] (-) TimerEvent: {}
+[18.091535] (-) TimerEvent: {}
+[18.192162] (-) TimerEvent: {}
+[18.292824] (-) TimerEvent: {}
+[18.396636] (-) TimerEvent: {}
+[18.498658] (-) TimerEvent: {}
+[18.600018] (-) TimerEvent: {}
+[18.702056] (-) TimerEvent: {}
+[18.802937] (-) TimerEvent: {}
+[18.904614] (-) TimerEvent: {}
+[19.006784] (-) TimerEvent: {}
+[19.107815] (-) TimerEvent: {}
+[19.211559] (-) TimerEvent: {}
+[19.312221] (-) TimerEvent: {}
+[19.412900] (-) TimerEvent: {}
+[19.514790] (-) TimerEvent: {}
+[19.615674] (-) TimerEvent: {}
+[19.718509] (-) TimerEvent: {}
+[19.821685] (-) TimerEvent: {}
+[19.922489] (-) TimerEvent: {}
+[20.024775] (-) TimerEvent: {}
+[20.125433] (-) TimerEvent: {}
+[20.227858] (-) TimerEvent: {}
+[20.330655] (-) TimerEvent: {}
+[20.433683] (-) TimerEvent: {}
+[20.536510] (-) TimerEvent: {}
+[20.637165] (-) TimerEvent: {}
+[20.737914] (-) TimerEvent: {}
+[20.840462] (-) TimerEvent: {}
+[20.941253] (-) TimerEvent: {}
+[21.041956] (-) TimerEvent: {}
+[21.143416] (-) TimerEvent: {}
+[21.244117] (-) TimerEvent: {}
+[21.345922] (-) TimerEvent: {}
+[21.449808] (-) TimerEvent: {}
+[21.550479] (-) TimerEvent: {}
+[21.651154] (-) TimerEvent: {}
+[21.751851] (-) TimerEvent: {}
+[21.852535] (-) TimerEvent: {}
+[21.953754] (-) TimerEvent: {}
+[22.057017] (-) TimerEvent: {}
+[22.157701] (-) TimerEvent: {}
+[22.258550] (-) TimerEvent: {}
+[22.359230] (-) TimerEvent: {}
+[22.462413] (-) TimerEvent: {}
+[22.562976] (-) TimerEvent: {}
+[22.663817] (-) TimerEvent: {}
+[22.764430] (-) TimerEvent: {}
+[22.864920] (-) TimerEvent: {}
+[22.967417] (-) TimerEvent: {}
+[23.067881] (-) TimerEvent: {}
+[23.168368] (-) TimerEvent: {}
+[23.269281] (-) TimerEvent: {}
+[23.372401] (-) TimerEvent: {}
+[23.472833] (-) TimerEvent: {}
+[23.573408] (-) TimerEvent: {}
+[23.673965] (-) TimerEvent: {}
+[23.774561] (-) TimerEvent: {}
+[23.875454] (-) TimerEvent: {}
+[23.978428] (-) TimerEvent: {}
+[24.079584] (-) TimerEvent: {}
+[24.180342] (-) TimerEvent: {}
+[24.282804] (-) TimerEvent: {}
+[24.383497] (-) TimerEvent: {}
+[24.484507] (-) TimerEvent: {}
+[24.588424] (-) TimerEvent: {}
+[24.689051] (-) TimerEvent: {}
+[24.789708] (-) TimerEvent: {}
+[24.890468] (-) TimerEvent: {}
+[24.991283] (-) TimerEvent: {}
+[25.093434] (-) TimerEvent: {}
+[25.095441] (articubot_one) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable joy_serial\x1b[0m\n'}
+[25.195598] (-) TimerEvent: {}
+[25.299451] (-) TimerEvent: {}
+[25.399979] (-) TimerEvent: {}
+[25.501418] (-) TimerEvent: {}
+[25.610481] (-) TimerEvent: {}
+[25.713465] (-) TimerEvent: {}
+[25.816443] (-) TimerEvent: {}
+[25.917463] (-) TimerEvent: {}
+[26.034161] (-) TimerEvent: {}
+[26.134851] (-) TimerEvent: {}
+[26.235407] (-) TimerEvent: {}
+[26.336479] (-) TimerEvent: {}
+[26.437380] (-) TimerEvent: {}
+[26.517747] (articubot_one) StdoutLine: {'line': b'[ 50%] Built target joy_serial\n'}
+[26.537542] (-) TimerEvent: {}
+[26.614083] (articubot_one) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.o\x1b[0m\n'}
+[26.637685] (-) TimerEvent: {}
+[26.738681] (-) TimerEvent: {}
+[26.843453] (-) TimerEvent: {}
+[26.944538] (-) TimerEvent: {}
+[27.046422] (-) TimerEvent: {}
+[27.147909] (-) TimerEvent: {}
+[27.250615] (-) TimerEvent: {}
+[27.351281] (-) TimerEvent: {}
+[27.454888] (-) TimerEvent: {}
+[27.555573] (-) TimerEvent: {}
+[27.656944] (-) TimerEvent: {}
+[27.759648] (-) TimerEvent: {}
+[27.860664] (-) TimerEvent: {}
+[27.962915] (-) TimerEvent: {}
+[28.067827] (-) TimerEvent: {}
+[28.176092] (-) TimerEvent: {}
+[28.276758] (-) TimerEvent: {}
+[28.377418] (-) TimerEvent: {}
+[28.482106] (-) TimerEvent: {}
+[28.591536] (-) TimerEvent: {}
+[28.692794] (-) TimerEvent: {}
+[28.796434] (-) TimerEvent: {}
+[28.898500] (-) TimerEvent: {}
+[29.004411] (-) TimerEvent: {}
+[29.104867] (-) TimerEvent: {}
+[29.205359] (-) TimerEvent: {}
+[29.306820] (-) TimerEvent: {}
+[29.408467] (-) TimerEvent: {}
+[29.511503] (-) TimerEvent: {}
+[29.614421] (-) TimerEvent: {}
+[29.715095] (-) TimerEvent: {}
+[29.815601] (-) TimerEvent: {}
+[29.916407] (-) TimerEvent: {}
+[30.019298] (-) TimerEvent: {}
+[30.128856] (-) TimerEvent: {}
+[30.229612] (-) TimerEvent: {}
+[30.330331] (-) TimerEvent: {}
+[30.434569] (-) TimerEvent: {}
+[30.547516] (-) TimerEvent: {}
+[30.651712] (-) TimerEvent: {}
+[30.760430] (-) TimerEvent: {}
+[30.862742] (-) TimerEvent: {}
+[30.963542] (-) TimerEvent: {}
+[31.064284] (-) TimerEvent: {}
+[31.165415] (-) TimerEvent: {}
+[31.280272] (-) TimerEvent: {}
+[31.381022] (-) TimerEvent: {}
+[31.481725] (-) TimerEvent: {}
+[31.590414] (-) TimerEvent: {}
+[31.692413] (-) TimerEvent: {}
+[31.793120] (-) TimerEvent: {}
+[31.894100] (-) TimerEvent: {}
+[31.995065] (-) TimerEvent: {}
+[32.097844] (-) TimerEvent: {}
+[32.198978] (-) TimerEvent: {}
+[32.301567] (-) TimerEvent: {}
+[32.402514] (-) TimerEvent: {}
+[32.504676] (-) TimerEvent: {}
+[32.608775] (-) TimerEvent: {}
+[32.710177] (-) TimerEvent: {}
+[32.811111] (-) TimerEvent: {}
+[32.913291] (-) TimerEvent: {}
+[33.014266] (-) TimerEvent: {}
+[33.117449] (-) TimerEvent: {}
+[33.218279] (-) TimerEvent: {}
+[33.321438] (-) TimerEvent: {}
+[33.422173] (-) TimerEvent: {}
+[33.523245] (-) TimerEvent: {}
+[33.627419] (-) TimerEvent: {}
+[33.728114] (-) TimerEvent: {}
+[33.828856] (-) TimerEvent: {}
+[33.930005] (-) TimerEvent: {}
+[34.030817] (-) TimerEvent: {}
+[34.131626] (-) TimerEvent: {}
+[34.233881] (-) TimerEvent: {}
+[34.335794] (-) TimerEvent: {}
+[34.438456] (-) TimerEvent: {}
+[34.539037] (-) TimerEvent: {}
+[34.643438] (-) TimerEvent: {}
+[34.744004] (-) TimerEvent: {}
+[34.844493] (-) TimerEvent: {}
+[34.945064] (-) TimerEvent: {}
+[35.047536] (-) TimerEvent: {}
+[35.148019] (-) TimerEvent: {}
+[35.251418] (-) TimerEvent: {}
+[35.351947] (-) TimerEvent: {}
+[35.453060] (-) TimerEvent: {}
+[35.553802] (-) TimerEvent: {}
+[35.654687] (-) TimerEvent: {}
+[35.756427] (-) TimerEvent: {}
+[35.860480] (-) TimerEvent: {}
+[35.961305] (-) TimerEvent: {}
+[36.061847] (-) TimerEvent: {}
+[36.162463] (-) TimerEvent: {}
+[36.264106] (-) TimerEvent: {}
+[36.366437] (-) TimerEvent: {}
+[36.467067] (-) TimerEvent: {}
+[36.568458] (-) TimerEvent: {}
+[36.671453] (-) TimerEvent: {}
+[36.771992] (-) TimerEvent: {}
+[36.872621] (-) TimerEvent: {}
+[36.973104] (-) TimerEvent: {}
+[37.051343] (articubot_one) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable color_detection_node\x1b[0m\n'}
+[37.074420] (-) TimerEvent: {}
+[37.175148] (-) TimerEvent: {}
+[37.277425] (-) TimerEvent: {}
+[37.378443] (-) TimerEvent: {}
+[37.483437] (-) TimerEvent: {}
+[37.584186] (-) TimerEvent: {}
+[37.685362] (-) TimerEvent: {}
+[37.786637] (-) TimerEvent: {}
+[37.890875] (-) TimerEvent: {}
+[37.992591] (-) TimerEvent: {}
+[38.093601] (-) TimerEvent: {}
+[38.194649] (-) TimerEvent: {}
+[38.297620] (-) TimerEvent: {}
+[38.399952] (-) TimerEvent: {}
+[38.502701] (-) TimerEvent: {}
+[38.607562] (-) TimerEvent: {}
+[38.708459] (-) TimerEvent: {}
+[38.810703] (-) TimerEvent: {}
+[38.914524] (-) TimerEvent: {}
+[39.018611] (-) TimerEvent: {}
+[39.120572] (-) TimerEvent: {}
+[39.222439] (-) TimerEvent: {}
+[39.322905] (-) TimerEvent: {}
+[39.429292] (-) TimerEvent: {}
+[39.532872] (-) TimerEvent: {}
+[39.633351] (-) TimerEvent: {}
+[39.734018] (-) TimerEvent: {}
+[39.837428] (-) TimerEvent: {}
+[39.938133] (-) TimerEvent: {}
+[40.042390] (-) TimerEvent: {}
+[40.144418] (-) TimerEvent: {}
+[40.244893] (-) TimerEvent: {}
+[40.345391] (-) TimerEvent: {}
+[40.455716] (-) TimerEvent: {}
+[40.526437] (articubot_one) StdoutLine: {'line': b'[ 70%] Built target color_detection_node\n'}
+[40.557077] (-) TimerEvent: {}
+[40.657957] (-) TimerEvent: {}
+[40.759326] (-) TimerEvent: {}
+[40.859946] (-) TimerEvent: {}
+[40.961904] (-) TimerEvent: {}
+[41.065438] (-) TimerEvent: {}
+[41.166136] (-) TimerEvent: {}
+[41.266812] (-) TimerEvent: {}
+[41.367479] (-) TimerEvent: {}
+[41.468130] (-) TimerEvent: {}
+[41.568883] (-) TimerEvent: {}
+[41.672419] (-) TimerEvent: {}
+[41.773152] (-) TimerEvent: {}
+[41.874410] (-) TimerEvent: {}
+[41.975333] (-) TimerEvent: {}
+[42.076041] (-) TimerEvent: {}
+[42.176771] (-) TimerEvent: {}
+[42.277832] (-) TimerEvent: {}
+[42.378758] (-) TimerEvent: {}
+[42.479229] (-) TimerEvent: {}
+[42.580125] (-) TimerEvent: {}
+[42.681054] (-) TimerEvent: {}
+[42.784523] (-) TimerEvent: {}
+[42.886495] (-) TimerEvent: {}
+[42.987023] (-) TimerEvent: {}
+[43.087673] (-) TimerEvent: {}
+[43.188357] (-) TimerEvent: {}
+[43.290267] (-) TimerEvent: {}
+[43.390694] (-) TimerEvent: {}
+[43.491191] (-) TimerEvent: {}
+[43.591871] (-) TimerEvent: {}
+[43.692285] (-) TimerEvent: {}
+[43.792798] (-) TimerEvent: {}
+[43.893363] (-) TimerEvent: {}
+[43.994417] (-) TimerEvent: {}
+[44.097303] (-) TimerEvent: {}
+[44.201904] (-) TimerEvent: {}
+[44.302388] (-) TimerEvent: {}
+[44.403089] (-) TimerEvent: {}
+[44.503533] (-) TimerEvent: {}
+[44.604179] (-) TimerEvent: {}
+[44.705566] (-) TimerEvent: {}
+[44.808537] (-) TimerEvent: {}
+[44.909026] (-) TimerEvent: {}
+[45.009852] (-) TimerEvent: {}
+[45.110834] (-) TimerEvent: {}
+[45.214475] (-) TimerEvent: {}
+[45.322539] (-) TimerEvent: {}
+[45.428025] (-) TimerEvent: {}
+[45.529611] (-) TimerEvent: {}
+[45.630388] (-) TimerEvent: {}
+[45.732782] (-) TimerEvent: {}
+[45.834970] (-) TimerEvent: {}
+[45.938425] (-) TimerEvent: {}
+[46.038952] (-) TimerEvent: {}
+[46.124145] (articubot_one) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable depth_to_laserscan\x1b[0m\n'}
+[46.139119] (-) TimerEvent: {}
+[46.139660] (articubot_one) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable depth_processing_node\x1b[0m\n'}
+[46.247166] (-) TimerEvent: {}
+[46.356795] (-) TimerEvent: {}
+[46.457657] (-) TimerEvent: {}
+[46.561652] (-) TimerEvent: {}
+[46.663540] (-) TimerEvent: {}
+[46.764943] (-) TimerEvent: {}
+[46.870041] (-) TimerEvent: {}
+[46.972596] (-) TimerEvent: {}
+[47.077545] (-) TimerEvent: {}
+[47.178908] (-) TimerEvent: {}
+[47.280257] (-) TimerEvent: {}
+[47.384295] (-) TimerEvent: {}
+[47.485577] (-) TimerEvent: {}
+[47.591744] (-) TimerEvent: {}
+[47.703732] (-) TimerEvent: {}
+[47.804762] (-) TimerEvent: {}
+[47.907980] (-) TimerEvent: {}
+[48.010600] (-) TimerEvent: {}
+[48.115038] (-) TimerEvent: {}
+[48.216125] (-) TimerEvent: {}
+[48.317997] (-) TimerEvent: {}
+[48.420016] (-) TimerEvent: {}
+[48.524611] (-) TimerEvent: {}
+[48.626151] (-) TimerEvent: {}
+[48.730259] (-) TimerEvent: {}
+[48.831495] (-) TimerEvent: {}
+[48.935158] (-) TimerEvent: {}
+[49.036078] (-) TimerEvent: {}
+[49.137115] (-) TimerEvent: {}
+[49.238014] (-) TimerEvent: {}
+[49.349443] (-) TimerEvent: {}
+[49.452375] (-) TimerEvent: {}
+[49.553435] (-) TimerEvent: {}
+[49.656436] (-) TimerEvent: {}
+[49.757831] (-) TimerEvent: {}
+[49.862670] (-) TimerEvent: {}
+[49.963203] (-) TimerEvent: {}
+[50.063630] (-) TimerEvent: {}
+[50.165024] (-) TimerEvent: {}
+[50.217366] (articubot_one) StdoutLine: {'line': b'[ 90%] Built target depth_to_laserscan\n'}
+[50.258134] (articubot_one) StdoutLine: {'line': b'[ 90%] Built target depth_processing_node\n'}
+[50.265287] (-) TimerEvent: {}
+[50.366076] (-) TimerEvent: {}
+[50.467086] (-) TimerEvent: {}
+[50.567490] (-) TimerEvent: {}
+[50.667874] (-) TimerEvent: {}
+[50.768265] (-) TimerEvent: {}
+[50.868670] (-) TimerEvent: {}
+[50.969178] (-) TimerEvent: {}
+[51.070182] (-) TimerEvent: {}
+[51.170955] (-) TimerEvent: {}
+[51.271362] (-) TimerEvent: {}
+[51.371740] (-) TimerEvent: {}
+[51.472122] (-) TimerEvent: {}
+[51.572542] (-) TimerEvent: {}
+[51.673364] (-) TimerEvent: {}
+[51.774154] (-) TimerEvent: {}
+[51.875050] (-) TimerEvent: {}
+[51.975477] (-) TimerEvent: {}
+[52.075870] (-) TimerEvent: {}
+[52.176263] (-) TimerEvent: {}
+[52.276658] (-) TimerEvent: {}
+[52.377133] (-) TimerEvent: {}
+[52.478140] (-) TimerEvent: {}
+[52.578566] (-) TimerEvent: {}
+[52.678946] (-) TimerEvent: {}
+[52.779340] (-) TimerEvent: {}
+[52.879711] (-) TimerEvent: {}
+[52.980100] (-) TimerEvent: {}
+[53.080627] (-) TimerEvent: {}
+[53.181591] (-) TimerEvent: {}
+[53.282342] (-) TimerEvent: {}
+[53.382726] (-) TimerEvent: {}
+[53.483105] (-) TimerEvent: {}
+[53.583507] (-) TimerEvent: {}
+[53.683890] (-) TimerEvent: {}
+[53.784353] (-) TimerEvent: {}
+[53.885102] (-) TimerEvent: {}
+[53.985566] (-) TimerEvent: {}
+[54.085958] (-) TimerEvent: {}
+[54.186335] (-) TimerEvent: {}
+[54.286706] (-) TimerEvent: {}
+[54.387115] (-) TimerEvent: {}
+[54.487540] (-) TimerEvent: {}
+[54.587999] (-) TimerEvent: {}
+[54.688534] (-) TimerEvent: {}
+[54.788961] (-) TimerEvent: {}
+[54.889349] (-) TimerEvent: {}
+[54.989706] (-) TimerEvent: {}
+[55.090073] (-) TimerEvent: {}
+[55.190471] (-) TimerEvent: {}
+[55.290933] (-) TimerEvent: {}
+[55.391626] (-) TimerEvent: {}
+[55.492033] (-) TimerEvent: {}
+[55.592400] (-) TimerEvent: {}
+[55.692797] (-) TimerEvent: {}
+[55.793196] (-) TimerEvent: {}
+[55.893597] (-) TimerEvent: {}
+[55.994155] (-) TimerEvent: {}
+[56.095032] (-) TimerEvent: {}
+[56.195629] (-) TimerEvent: {}
+[56.296039] (-) TimerEvent: {}
+[56.396563] (-) TimerEvent: {}
+[56.497027] (-) TimerEvent: {}
+[56.597518] (-) TimerEvent: {}
+[56.698057] (-) TimerEvent: {}
+[56.799041] (-) TimerEvent: {}
+[56.899413] (-) TimerEvent: {}
+[56.999833] (-) TimerEvent: {}
+[57.100291] (-) TimerEvent: {}
+[57.200860] (-) TimerEvent: {}
+[57.301304] (-) TimerEvent: {}
+[57.401895] (-) TimerEvent: {}
+[57.502605] (-) TimerEvent: {}
+[57.603046] (-) TimerEvent: {}
+[57.669817] (articubot_one) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main_bt_node\x1b[0m\n'}
+[57.703238] (-) TimerEvent: {}
+[57.803738] (-) TimerEvent: {}
+[57.904225] (-) TimerEvent: {}
+[58.004737] (-) TimerEvent: {}
+[58.105497] (-) TimerEvent: {}
+[58.206422] (-) TimerEvent: {}
+[58.307469] (-) TimerEvent: {}
+[58.408764] (-) TimerEvent: {}
+[58.509762] (-) TimerEvent: {}
+[58.610837] (-) TimerEvent: {}
+[58.711500] (-) TimerEvent: {}
+[58.812470] (-) TimerEvent: {}
+[58.913697] (-) TimerEvent: {}
+[59.014964] (-) TimerEvent: {}
+[59.115965] (-) TimerEvent: {}
+[59.216381] (-) TimerEvent: {}
+[59.316775] (-) TimerEvent: {}
+[59.417266] (-) TimerEvent: {}
+[59.492053] (articubot_one) StdoutLine: {'line': b'[100%] Built target main_bt_node\n'}
+[59.517459] (-) TimerEvent: {}
+[59.518301] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 'SIGINT'}
+[59.529104] (-) EventReactorShutdown: {}
