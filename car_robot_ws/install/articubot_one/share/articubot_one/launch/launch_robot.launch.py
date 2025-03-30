@@ -72,7 +72,7 @@ def generate_launch_description():
         rsp,
         joystick,
         twist_mux,
-        vision,
+        #vision,
         rplidar,
         controllers
     ])

@@ -1,0 +1,46 @@
+[0.039s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[0.504s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.505s] -- Found serial: 1.2.1 (/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake)
+[0.505s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.546s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.928s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.015s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.020s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[1.024s] -- Found controller_manager_msgs: 4.27.0 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[1.087s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.139s] -- Found nav2_msgs: 1.3.5 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[1.285s] -- Found nav2_util: 1.3.5 (/opt/ros/jazzy/share/nav2_util/cmake)
+[1.357s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.359s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.628s] -- Configuring done (1.5s)
+[1.742s] -- Generating done (0.1s)
+[1.779s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
+[1.911s] [  8%] [32mBuilding CXX object CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o[0m
+[1.928s] [ 16%] [32mBuilding CXX object CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.o[0m
+[1.949s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ktorch/script.h: No such file or directory
+[1.949s]     1 | #include [01;31m[K<torch/script.h>[m[K
+[1.949s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.949s] compilation terminated.
+[1.953s] gmake[2]: *** [CMakeFiles/yolov8_detection_node.dir/build.make:76: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o] Error 1
+[1.954s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/yolov8_detection_node.dir/all] Error 2
+[1.954s] gmake[1]: *** Waiting for unfinished jobs....
+[1.961s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o[0m
+[1.965s] [ 33%] [32mBuilding CXX object CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o[0m
+[9.223s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/depth_to_laserscan.cpp:[m[K In member function ‘[01m[Kvoid DepthToScanAndPointCloud::[01;32m[Kdepth_callback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.223s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/depth_to_laserscan.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.223s]    94 |         double [01;35m[Klag[m[K = (now - msg_time).seconds();
+[9.223s]       |                [01;35m[K^~~[m[K
+[17.384s] [ 41%] [32m[1mLinking CXX executable joy_serial[0m
+[18.533s] [ 41%] Built target joy_serial
+[24.269s] [ 50%] [32m[1mLinking CXX executable color_detection_node[0m
+[26.020s] [ 50%] Built target color_detection_node
+[29.696s] [ 58%] [32m[1mLinking CXX executable depth_to_laserscan[0m
+[31.731s] [ 58%] Built target depth_to_laserscan
+[31.735s] gmake: *** [Makefile:146: all] Error 2
+[31.738s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4

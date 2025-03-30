@@ -17,14 +17,13 @@ def generate_launch_description():
         package='realsense2_camera',
         executable='realsense2_camera_node',
         name='realsense_camera',
-        # namespace='camerayuyg',
-        remappings=[
-            ('/camera/realsense_camera/color/image_raw', '/camera/camera/color/image_raw'),
-            ('/camera/realsense_camera/depth/image_rect_raw', '/camera/camera/depth/image_rect_raw'),
-            ('/camera/realsense_camera/infra1/image_rect_raw', '/camera/camera/infra1/image_rect_raw'),
-            ('/camera/realsense_camera/infra2/image_rect_raw', '/camera/camera/infra2/image_rect_raw'),
-            ('/camera/realsense_camera/depth/camera_info', '/camera/camera/depth/camera_info'),
-        ],
+        # remappings=[
+        #     ('/camera/realsense_camera/color/image_raw', '/camera/color/image_raw'),
+        #     ('/camera/realsense_camera/depth/image_rect_raw', '/camera/depth/image_rect_raw'),
+        #     ('/camera/realsense_camera/infra1/image_rect_raw', '/camera/infra1/image_rect_raw'),
+        #     ('/camera/realsense_camera/infra2/image_rect_raw', '/camera/infra2/image_rect_raw'),
+        #     ('/camera/realsense_camera/depth/camera_info', '/camera/depth/camera_info'),
+        # ],
         parameters=[{
             'enable_depth': True,
             'enable_color': True,
@@ -61,7 +60,22 @@ def generate_launch_description():
         output='screen',
         namespace='color_detection',
     )
+
+
+    object_detection_node = Node(
+        package='articubot_one',  # Replace with your actual package name
+        executable='object_detection_node',  # Name of the object detection executable
+        output='screen',
+        namespace='object_detection',
+        parameters=[{
+            'confidence_threshold': 0.5,  # Adjust as needed
+            'visualization': True,  # Enable RViz visualization
+        }]
+    )
+
     return LaunchDescription([
         depth_cam,
         color_detection_node
+        object_detection_node,
+
     ])

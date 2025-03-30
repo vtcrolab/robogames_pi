@@ -1,0 +1,882 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000534] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.000849] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001006] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.009790] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.016792] (serial) JobStarted: {'identifier': 'serial'}
+[0.054321] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.055350] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.056259] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 53798 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/usr/lib/cmake', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'SSH_CONNECTION': '100.64.138.187 53798 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.060210] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.061258] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.062544] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 53798 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/usr/lib/cmake', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'SSH_CONNECTION': '100.64.138.187 53798 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.066928] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.068441] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.069125] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 53798 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/usr/lib/cmake', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'SSH_CONNECTION': '100.64.138.187 53798 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.101200] (-) TimerEvent: {}
+[0.203647] (articubot_one) StdoutLine: {'line': b'[ 16%] Built target joy_serial\n'}
+[0.204214] (-) TimerEvent: {}
+[0.234360] (articubot_one) StdoutLine: {'line': b'[ 50%] Built target depth_to_laserscan\n'}
+[0.235639] (articubot_one) StdoutLine: {'line': b'[ 50%] Built target color_detection_node\n'}
+[0.274481] (serial) StdoutLine: {'line': b'[ 66%] Built target serial\n'}
+[0.286862] (articubot_one) StdoutLine: {'line': b'[ 66%] Built target depth_processing_node\n'}
+[0.294387] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[0.305212] (-) TimerEvent: {}
+[0.313686] (articubot_one) StdoutLine: {'line': b'[ 83%] Built target main_bt_node\n'}
+[0.323049] (serial) StdoutLine: {'line': b'[100%] Built target serial_example\n'}
+[0.334111] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.334717] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[0.355429] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 53798 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/usr/lib/cmake', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'SSH_CONNECTION': '100.64.138.187 53798 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.365329] (serial) CommandEnded: {'returncode': 0}
+[0.365800] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.365834] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '100.64.138.187 53798 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/usr/lib/cmake', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'SSH_CONNECTION': '100.64.138.187 53798 100.64.224.202 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.378621] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.379271] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml\n'}
+[0.379979] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino\n'}
+[0.380368] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino\n'}
+[0.380695] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[0.381216] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[0.381364] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[0.381457] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[0.381974] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[0.382450] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[0.382579] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control\n'}
+[0.382676] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[0.382766] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf\n'}
+[0.382854] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[0.382941] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[0.383045] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[0.384734] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz\n'}
+[0.385131] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[0.385347] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[0.385476] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[0.385580] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[0.385677] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config\n'}
+[0.385809] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[0.385925] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[0.387178] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[0.387374] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[0.387471] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[0.387563] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[0.387649] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[0.388245] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[0.388451] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[0.388592] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[0.389365] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[0.389579] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[0.389964] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[0.390542] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[0.390958] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[0.391811] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[0.392227] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[0.392692] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[0.393392] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[0.393827] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.394613] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.394821] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[0.394928] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[0.397453] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[0.402348] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.405308] (-) TimerEvent: {}
+[0.412163] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.413005] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a\n'}
+[0.413939] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin/serial_example\n'}
+[0.414388] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial\n'}
+[0.414516] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/serial.h\n'}
+[0.414618] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl\n'}
+[0.414708] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/win.h\n'}
+[0.414801] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/unix.h\n'}
+[0.414895] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[0.414984] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[0.415121] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.415224] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.415318] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.415408] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.415500] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.415592] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[0.415679] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[0.415764] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[0.415848] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[0.415990] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[0.416159] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[0.416278] (serial) StdoutLine: {'line': b'-- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.dsv\n'}
+[0.417606] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.417770] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.417867] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.417954] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.418065] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.418159] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.xml\n'}
+[0.451549] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[0.453148] (serial) CommandEnded: {'returncode': 0}
+[0.477019] (articubot_one) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o\x1b[0m\n'}
+[0.489833] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.505419] (-) TimerEvent: {}
+[0.605775] (-) TimerEvent: {}
+[0.706232] (-) TimerEvent: {}
+[0.806683] (-) TimerEvent: {}
+[0.907141] (-) TimerEvent: {}
+[1.007645] (-) TimerEvent: {}
+[1.108190] (-) TimerEvent: {}
+[1.208658] (-) TimerEvent: {}
+[1.309196] (-) TimerEvent: {}
+[1.409836] (-) TimerEvent: {}
+[1.510275] (-) TimerEvent: {}
+[1.610719] (-) TimerEvent: {}
+[1.711282] (-) TimerEvent: {}
+[1.812114] (-) TimerEvent: {}
+[1.912558] (-) TimerEvent: {}
+[2.013087] (-) TimerEvent: {}
+[2.113508] (-) TimerEvent: {}
+[2.213940] (-) TimerEvent: {}
+[2.314373] (-) TimerEvent: {}
+[2.414815] (-) TimerEvent: {}
+[2.515253] (-) TimerEvent: {}
+[2.615694] (-) TimerEvent: {}
+[2.716121] (-) TimerEvent: {}
+[2.816554] (-) TimerEvent: {}
+[2.916990] (-) TimerEvent: {}
+[3.017477] (-) TimerEvent: {}
+[3.117893] (-) TimerEvent: {}
+[3.218351] (-) TimerEvent: {}
+[3.318779] (-) TimerEvent: {}
+[3.419215] (-) TimerEvent: {}
+[3.519633] (-) TimerEvent: {}
+[3.620054] (-) TimerEvent: {}
+[3.720467] (-) TimerEvent: {}
+[3.820889] (-) TimerEvent: {}
+[3.921317] (-) TimerEvent: {}
+[4.021718] (-) TimerEvent: {}
+[4.122143] (-) TimerEvent: {}
+[4.204486] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:13\x1b[m\x1b[K,\n'}
+[4.204871] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/ATen.h:7\x1b[m\x1b[K,\n'}
+[4.205001] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:3\x1b[m\x1b[K,\n'}
+[4.205135] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:3\x1b[m\x1b[K,\n'}
+[4.205242] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.205335] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/CUDAHooksInterface.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool at::CUDAHooksInterface::\x1b[01;32m\x1b[KisPinnedPtr\x1b[m\x1b[K(const void*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.205457] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/CUDAHooksInterface.h:81:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.205555] (articubot_one) StderrLine: {'line': b'   81 |   bool isPinnedPtr(\x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K) const override {\n'}
+[4.205642] (articubot_one) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.209220] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:14\x1b[m\x1b[K:\n'}
+[4.209441] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool at::HIPHooksInterface::\x1b[01;32m\x1b[KisPinnedPtr\x1b[m\x1b[K(const void*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.209628] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:40:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.209739] (articubot_one) StderrLine: {'line': b'   40 |   bool isPinnedPtr(\x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K) const override {\n'}
+[4.209830] (articubot_one) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.210877] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool at::HIPHooksInterface::\x1b[01;32m\x1b[KhasPrimaryContext\x1b[m\x1b[K(c10::DeviceIndex) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.211076] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:52:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdevice_index\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.211200] (articubot_one) StderrLine: {'line': b'   52 |   bool hasPrimaryContext(\x1b[01;35m\x1b[KDeviceIndex device_index\x1b[m\x1b[K) const override {\n'}
+[4.211288] (articubot_one) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.212252] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:16\x1b[m\x1b[K:\n'}
+[4.212450] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/IPUHooksInterface.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool at::IPUHooksInterface::\x1b[01;32m\x1b[KhasPrimaryContext\x1b[m\x1b[K(c10::DeviceIndex) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.212588] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/IPUHooksInterface.h:18:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdevice_index\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.212705] (articubot_one) StderrLine: {'line': b'   18 |   bool hasPrimaryContext(\x1b[01;35m\x1b[KDeviceIndex device_index\x1b[m\x1b[K) const override {\n'}
+[4.212794] (articubot_one) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.214000] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:17\x1b[m\x1b[K:\n'}
+[4.214198] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/MAIAHooksInterface.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool at::MAIAHooksInterface::\x1b[01;32m\x1b[KhasPrimaryContext\x1b[m\x1b[K(c10::DeviceIndex) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.214335] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/MAIAHooksInterface.h:20:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdevice_index\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.214430] (articubot_one) StderrLine: {'line': b'   20 |   bool hasPrimaryContext(\x1b[01;35m\x1b[KDeviceIndex device_index\x1b[m\x1b[K) const override {\n'}
+[4.214514] (articubot_one) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.222218] (-) TimerEvent: {}
+[4.322560] (-) TimerEvent: {}
+[4.422974] (-) TimerEvent: {}
+[4.523416] (-) TimerEvent: {}
+[4.623860] (-) TimerEvent: {}
+[4.724330] (-) TimerEvent: {}
+[4.824741] (-) TimerEvent: {}
+[4.925135] (-) TimerEvent: {}
+[5.025571] (-) TimerEvent: {}
+[5.125994] (-) TimerEvent: {}
+[5.226419] (-) TimerEvent: {}
+[5.326845] (-) TimerEvent: {}
+[5.427297] (-) TimerEvent: {}
+[5.527741] (-) TimerEvent: {}
+[5.586709] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef.h:631\x1b[m\x1b[K,\n'}
+[5.587071] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/DeviceGuard.h:3\x1b[m\x1b[K,\n'}
+[5.587224] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/ATen.h:9\x1b[m\x1b[K:\n'}
+[5.587320] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic c10::detail::IListRefConstRef<at::OptionalTensorRef> c10::detail::IListRefTagImpl<c10::IListRefTag::Boxed, at::OptionalTensorRef>::\x1b[01;32m\x1b[Kiterator_get\x1b[m\x1b[K(const c10::List<std::optional<at::Tensor> >::const_iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.587424] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:171:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossibly dangling reference to a temporary [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-reference\x07-Wdangling-reference\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.587524] (articubot_one) StderrLine: {'line': b'  171 |     const auto& \x1b[01;35m\x1b[Kivalue\x1b[m\x1b[K = (*it).get();\n'}
+[5.587625] (articubot_one) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.587717] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:171:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe temporary was destroyed at the end of the full expression \xe2\x80\x98\x1b[01m\x1b[K(& it)->c10::impl::ListIterator<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::get()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.587840] (articubot_one) StderrLine: {'line': b'  171 |     const auto& ivalue = \x1b[01;36m\x1b[K(*it).get()\x1b[m\x1b[K;\n'}
+[5.587927] (articubot_one) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.627853] (-) TimerEvent: {}
+[5.728303] (-) TimerEvent: {}
+[5.828735] (-) TimerEvent: {}
+[5.929183] (-) TimerEvent: {}
+[6.029597] (-) TimerEvent: {}
+[6.130036] (-) TimerEvent: {}
+[6.230442] (-) TimerEvent: {}
+[6.330879] (-) TimerEvent: {}
+[6.431321] (-) TimerEvent: {}
+[6.531733] (-) TimerEvent: {}
+[6.632117] (-) TimerEvent: {}
+[6.732509] (-) TimerEvent: {}
+[6.832917] (-) TimerEvent: {}
+[6.933330] (-) TimerEvent: {}
+[7.033739] (-) TimerEvent: {}
+[7.134186] (-) TimerEvent: {}
+[7.234607] (-) TimerEvent: {}
+[7.335039] (-) TimerEvent: {}
+[7.435455] (-) TimerEvent: {}
+[7.535885] (-) TimerEvent: {}
+[7.636320] (-) TimerEvent: {}
+[7.736704] (-) TimerEvent: {}
+[7.837115] (-) TimerEvent: {}
+[7.937525] (-) TimerEvent: {}
+[8.037955] (-) TimerEvent: {}
+[8.138382] (-) TimerEvent: {}
+[8.238794] (-) TimerEvent: {}
+[8.339223] (-) TimerEvent: {}
+[8.439646] (-) TimerEvent: {}
+[8.540222] (-) TimerEvent: {}
+[8.640757] (-) TimerEvent: {}
+[8.741207] (-) TimerEvent: {}
+[8.841621] (-) TimerEvent: {}
+[8.942055] (-) TimerEvent: {}
+[8.970134] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/cpp_hook.h:2\x1b[m\x1b[K,\n'}
+[8.970544] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/variable.h:6\x1b[m\x1b[K,\n'}
+[8.970682] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/generated/variable_factories.h:11\x1b[m\x1b[K,\n'}
+[8.970791] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:7\x1b[m\x1b[K:\n'}
+[8.970885] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void torch::autograd::FunctionPreHook::\x1b[01;32m\x1b[Kcompiled_args\x1b[m\x1b[K(torch::dynamo::autograd::CompiledNodeArgs&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.971015] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:24:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.971163] (articubot_one) StderrLine: {'line': b'   24 | irtual void compiled_args(\x1b[01;35m\x1b[Ktorch::dynamo::autograd::CompiledNodeArgs& args\x1b[m\x1b[K) {\n'}
+[8.971262] (articubot_one) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.971367] (articubot_one) StderrLine: {'line': b'\n'}
+[8.972204] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void torch::autograd::FunctionPostHook::\x1b[01;32m\x1b[Kcompiled_args\x1b[m\x1b[K(torch::dynamo::autograd::CompiledNodeArgs&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.972389] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:37:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.972495] (articubot_one) StderrLine: {'line': b'   37 | irtual void compiled_args(\x1b[01;35m\x1b[Ktorch::dynamo::autograd::CompiledNodeArgs& args\x1b[m\x1b[K) {\n'}
+[8.972585] (articubot_one) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.972673] (articubot_one) StderrLine: {'line': b'\n'}
+[8.973261] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void torch::autograd::PostAccumulateGradHook::\x1b[01;32m\x1b[Kcompiled_args\x1b[m\x1b[K(torch::dynamo::autograd::CompiledNodeArgs&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.973399] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:49:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.973501] (articubot_one) StderrLine: {'line': b'   49 | irtual void compiled_args(\x1b[01;35m\x1b[Ktorch::dynamo::autograd::CompiledNodeArgs& args\x1b[m\x1b[K) {\n'}
+[8.973586] (articubot_one) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.973672] (articubot_one) StderrLine: {'line': b'\n'}
+[9.042160] (-) TimerEvent: {}
+[9.142563] (-) TimerEvent: {}
+[9.242978] (-) TimerEvent: {}
+[9.343396] (-) TimerEvent: {}
+[9.412040] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/OperatorEntry.h:11\x1b[m\x1b[K,\n'}
+[9.412398] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/Dispatcher.h:6\x1b[m\x1b[K,\n'}
+[9.412521] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:12\x1b[m\x1b[K:\n'}
+[9.412630] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:\x1b[m\x1b[K In lambda function:\n'}
+[9.412734] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:154:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossibly dangling reference to a temporary [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-reference\x07-Wdangling-reference\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.412837] (articubot_one) StderrLine: {'line': b'  154 |         for (const at::Tensor& \x1b[01;35m\x1b[Ktensor\x1b[m\x1b[K : ivalue.toTensorList()) {\n'}
+[9.412926] (articubot_one) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.413010] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:154:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe temporary was destroyed at the end of the full expression \xe2\x80\x98\x1b[01m\x1b[K__for_begin .c10::impl::ListIterator<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const at::Tensor&, at::Tensor>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.413207] (articubot_one) StderrLine: {'line': b'  154 |         for (const at::Tensor& tensor : ivalue.toTensorList(\x1b[01;36m\x1b[K)\x1b[m\x1b[K) {\n'}
+[9.413306] (articubot_one) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.443496] (-) TimerEvent: {}
+[9.543927] (-) TimerEvent: {}
+[9.644376] (-) TimerEvent: {}
+[9.744825] (-) TimerEvent: {}
+[9.845272] (-) TimerEvent: {}
+[9.944682] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:11\x1b[m\x1b[K,\n'}
+[9.945207] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/custom_function.h:7\x1b[m\x1b[K,\n'}
+[9.945343] (-) TimerEvent: {}
+[9.945471] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:5\x1b[m\x1b[K:\n'}
+[9.945581] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid torch::CountTensors::\x1b[01;32m\x1b[Koperator()\x1b[m\x1b[K(const at::Tensor&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.945708] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:16:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.945824] (articubot_one) StderrLine: {'line': b'   16 |   void operator()(\x1b[01;35m\x1b[Kconst at::Tensor& x\x1b[m\x1b[K) {\n'}
+[9.945912] (articubot_one) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[9.947196] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid torch::CountVariables::\x1b[01;32m\x1b[Koperator()\x1b[m\x1b[K(const torch::autograd::Variable&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.947380] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:34:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.947486] (articubot_one) StderrLine: {'line': b'   34 |   void operator()(\x1b[01;35m\x1b[Kconst autograd::Variable& x\x1b[m\x1b[K) {\n'}
+[9.947579] (articubot_one) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[9.992017] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint32_t torch::autograd::Node::\x1b[01;32m\x1b[Kadd_input_metadata\x1b[m\x1b[K(undefined_input)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.992377] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:214:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ku\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.992533] (articubot_one) StderrLine: {'line': b'  214 |   uint32_t add_input_metadata(\x1b[01;35m\x1b[Kundefined_input u\x1b[m\x1b[K) noexcept {\n'}
+[9.992627] (articubot_one) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.022883] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void torch::autograd::Node::\x1b[01;32m\x1b[Kcompiled_args\x1b[m\x1b[K(torch::dynamo::autograd::CompiledNodeArgs&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.023217] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:592:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.023351] (articubot_one) StderrLine: {'line': b'  592 |   virtual void compiled_args(\x1b[01;35m\x1b[KCompiledNodeArgs& args\x1b[m\x1b[K) {\n'}
+[10.023448] (articubot_one) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.024336] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::autograd::variable_list torch::autograd::Node::\x1b[01;32m\x1b[Kapply_with_saved\x1b[m\x1b[K(const torch::autograd::variable_list&, torch::dynamo::autograd::SwapSavedVariables&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.024571] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:601:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinputs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.024692] (articubot_one) StderrLine: {'line': b'  601 |       \x1b[01;35m\x1b[Kconst variable_list& inputs\x1b[m\x1b[K,\n'}
+[10.024789] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.024879] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:602:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksaved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.024972] (articubot_one) StderrLine: {'line': b'  602 |       \x1b[01;35m\x1b[KSwapSavedVariables& saved\x1b[m\x1b[K) {\n'}
+[10.025088] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[10.045456] (-) TimerEvent: {}
+[10.145823] (-) TimerEvent: {}
+[10.246256] (-) TimerEvent: {}
+[10.331370] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/custom_operator.h:5\x1b[m\x1b[K,\n'}
+[10.331876] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:8\x1b[m\x1b[K:\n'}
+[10.332076] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:\x1b[m\x1b[K In lambda function:\n'}
+[10.332194] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:154:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kop\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.332316] (articubot_one) StderrLine: {'line': b'  154 |             [](\x1b[01;35m\x1b[Kconst JitOnlyOperator& op\x1b[m\x1b[K) {\n'}
+[10.332410] (articubot_one) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[10.336232] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:\x1b[m\x1b[K In lambda function:\n'}
+[10.336618] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:193:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kop\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.336741] (articubot_one) StderrLine: {'line': b'  193 |             [](\x1b[01;35m\x1b[Kconst JitOnlyOperator& op\x1b[m\x1b[K) {\n'}
+[10.336836] (articubot_one) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[10.346349] (-) TimerEvent: {}
+[10.446705] (-) TimerEvent: {}
+[10.547104] (-) TimerEvent: {}
+[10.647504] (-) TimerEvent: {}
+[10.747902] (-) TimerEvent: {}
+[10.848322] (-) TimerEvent: {}
+[10.948727] (-) TimerEvent: {}
+[10.966760] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:9\x1b[m\x1b[K,\n'}
+[10.967088] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/function_impl.h:5\x1b[m\x1b[K,\n'}
+[10.967228] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/method.h:7\x1b[m\x1b[K,\n'}
+[10.967334] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/object.h:5\x1b[m\x1b[K,\n'}
+[10.967429] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:4\x1b[m\x1b[K,\n'}
+[10.967521] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/import.h:5\x1b[m\x1b[K,\n'}
+[10.967611] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:9\x1b[m\x1b[K:\n'}
+[10.967698] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ktorch::jit::InterpreterContinuation::\x1b[01;32m\x1b[KInterpreterContinuation\x1b[m\x1b[K(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.967801] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:128:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdist_autograd_context_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.967934] (articubot_one) StderrLine: {'line': b'  128 |       \x1b[01;35m\x1b[Kint64_t dist_autograd_context_id = 0\x1b[m\x1b[K,\n'}
+[10.968039] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.048844] (-) TimerEvent: {}
+[11.078342] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:13\x1b[m\x1b[K:\n'}
+[11.078856] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid torch::jit::CompilationUnit::\x1b[01;32m\x1b[Kset_optimized\x1b[m\x1b[K(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.078995] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:73:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ko\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.079142] (articubot_one) StderrLine: {'line': b'   73 |   void set_optimized(\x1b[01;35m\x1b[Kbool o\x1b[m\x1b[K) {\n'}
+[11.079249] (articubot_one) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~^\x1b[m\x1b[K\n'}
+[11.137862] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid torch::jit::Module::\x1b[01;32m\x1b[Kset_optimized\x1b[m\x1b[K(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.138233] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:102:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ko\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.138400] (articubot_one) StderrLine: {'line': b'  102 |   void set_optimized(\x1b[01;35m\x1b[Kbool o\x1b[m\x1b[K) {\n'}
+[11.138499] (articubot_one) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~^\x1b[m\x1b[K\n'}
+[11.148933] (-) TimerEvent: {}
+[11.157901] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::\x1b[01;32m\x1b[Kcreate\x1b[m\x1b[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.158419] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:585:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcursors\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.158565] (articubot_one) StderrLine: {'line': b'  585 |       \x1b[01;35m\x1b[Kconst std::vector<detail::SlotCursor>& cursors\x1b[m\x1b[K,\n'}
+[11.158673] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.158799] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool torch::jit::detail::ModulePolicy::\x1b[01;32m\x1b[Kvalid\x1b[m\x1b[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.158905] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:591:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.159112] (articubot_one) StderrLine: {'line': b'  591 |   static bool valid(const ClassTypePtr& typ, size_t i, \x1b[01;35m\x1b[Kconst IValue& v\x1b[m\x1b[K) {\n'}
+[11.159238] (articubot_one) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.159328] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::\x1b[01;32m\x1b[Kcreate\x1b[m\x1b[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.159429] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:602:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcursors\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.159605] (articubot_one) StderrLine: {'line': b'  602 |       \x1b[01;35m\x1b[Kconst std::vector<detail::SlotCursor>& cursors\x1b[m\x1b[K,\n'}
+[11.159720] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.159806] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::\x1b[01;32m\x1b[Kcreate\x1b[m\x1b[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.159903] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:615:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcursors\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.159999] (articubot_one) StderrLine: {'line': b'  615 |       \x1b[01;35m\x1b[Kconst std::vector<detail::SlotCursor>& cursors\x1b[m\x1b[K,\n'}
+[11.160113] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.160205] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool torch::jit::detail::BufferPolicy::\x1b[01;32m\x1b[Kvalid\x1b[m\x1b[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.160378] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:619:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.160503] (articubot_one) StderrLine: {'line': b'  619 |   static bool valid(const ClassTypePtr& typ, size_t i, \x1b[01;35m\x1b[Kconst IValue& v\x1b[m\x1b[K) {\n'}
+[11.160606] (articubot_one) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.160693] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::\x1b[01;32m\x1b[Kcreate\x1b[m\x1b[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.160782] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:629:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcursors\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.160872] (articubot_one) StderrLine: {'line': b'  629 |       \x1b[01;35m\x1b[Kconst std::vector<detail::SlotCursor>& cursors\x1b[m\x1b[K,\n'}
+[11.160954] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.161156] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool torch::jit::detail::AttributePolicy::\x1b[01;32m\x1b[Kvalid\x1b[m\x1b[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.161282] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktyp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.161375] (articubot_one) StderrLine: {'line': b'  633 |   static bool valid(\x1b[01;35m\x1b[Kconst ClassTypePtr& typ\x1b[m\x1b[K, size_t i, const IValue& v) {\n'}
+[11.161460] (articubot_one) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.161549] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.161655] (articubot_one) StderrLine: {'line': b'  633 |   static bool valid(const ClassTypePtr& typ, \x1b[01;35m\x1b[Ksize_t i\x1b[m\x1b[K, const IValue& v) {\n'}
+[11.161747] (articubot_one) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[11.161831] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.161928] (articubot_one) StderrLine: {'line': b'  633 |   static bool valid(const ClassTypePtr& typ, size_t i, \x1b[01;35m\x1b[Kconst IValue& v\x1b[m\x1b[K) {\n'}
+[11.162011] (articubot_one) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.249064] (-) TimerEvent: {}
+[11.349475] (-) TimerEvent: {}
+[11.352887] (articubot_one) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:5\x1b[m\x1b[K,\n'}
+[11.353194] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/script_type_parser.h:4\x1b[m\x1b[K,\n'}
+[11.353311] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/unpickler.h:7\x1b[m\x1b[K,\n'}
+[11.353405] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/pickle.h:8\x1b[m\x1b[K,\n'}
+[11.353495] (articubot_one) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:10\x1b[m\x1b[K:\n'}
+[11.353588] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::Value* torch::jit::SugaredValue::\x1b[01;32m\x1b[KasValue\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.353682] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:34:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.353804] (articubot_one) StderrLine: {'line': b'   34 |   virtual Value* asValue(const SourceRange& loc, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) {\n'}
+[11.353909] (articubot_one) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.355745] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::\x1b[01;32m\x1b[Kattr\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.356019] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:41:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.356160] (articubot_one) StderrLine: {'line': b'   41 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.356292] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.356406] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:42:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfield\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.356545] (articubot_one) StderrLine: {'line': b'   42 |       \x1b[01;35m\x1b[Kconst std::string& field\x1b[m\x1b[K) {\n'}
+[11.356641] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.356815] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool torch::jit::SugaredValue::\x1b[01;32m\x1b[KhasAttr\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.357073] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:48:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.357197] (articubot_one) StderrLine: {'line': b'   48 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.357285] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.357365] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:49:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfield\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.357451] (articubot_one) StderrLine: {'line': b'   49 |       \x1b[01;35m\x1b[Kconst std::string& field\x1b[m\x1b[K) {\n'}
+[11.357530] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.357614] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void torch::jit::SugaredValue::\x1b[01;32m\x1b[KsetAttr\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&, torch::jit::Value*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.357701] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:56:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.357786] (articubot_one) StderrLine: {'line': b'   56 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.357867] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.357948] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:57:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfield\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.358042] (articubot_one) StderrLine: {'line': b'   57 |       \x1b[01;35m\x1b[Kconst std::string& field\x1b[m\x1b[K,\n'}
+[11.358154] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.358236] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:58:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KnewValue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.358335] (articubot_one) StderrLine: {'line': b'   58 |       \x1b[01;35m\x1b[KValue* newValue\x1b[m\x1b[K) {\n'}
+[11.358433] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[11.361457] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::\x1b[01;32m\x1b[KasTuple\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.361605] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:68:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.361710] (articubot_one) StderrLine: {'line': b'   68 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.361807] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.361965] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:69:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize_hint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.362158] (articubot_one) StderrLine: {'line': b'   69 |       \x1b[01;35m\x1b[Kconst std::optional<size_t>& size_hint = {}\x1b[m\x1b[K) {\n'}
+[11.362264] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.362355] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::SugaredValuePtr torch::jit::SugaredValue::\x1b[01;32m\x1b[KasTupleValue\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.362471] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:76:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.362561] (articubot_one) StderrLine: {'line': b'   76 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) {\n'}
+[11.362741] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.362839] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::\x1b[01;32m\x1b[KasType\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::Method&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.362959] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:82:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.363066] (articubot_one) StderrLine: {'line': b'   82 |       \x1b[01;35m\x1b[KMethod& m\x1b[m\x1b[K) {\n'}
+[11.363320] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.363425] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::\x1b[01;32m\x1b[Kcall\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.363520] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:89:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.363611] (articubot_one) StderrLine: {'line': b'   89 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.363778] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.363867] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:91:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.363979] (articubot_one) StderrLine: {'line': b'   91 |       \x1b[01;35m\x1b[Kat::ArrayRef<NamedValue> args\x1b[m\x1b[K,\n'}
+[11.364094] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.364222] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:92:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkwargs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.364313] (articubot_one) StderrLine: {'line': b'   92 |       \x1b[01;35m\x1b[Kat::ArrayRef<NamedValue> kwargs\x1b[m\x1b[K,\n'}
+[11.364396] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[11.364476] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:93:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_binders\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.364593] (articubot_one) StderrLine: {'line': b'   93 |       \x1b[01;35m\x1b[Ksize_t n_binders\x1b[m\x1b[K) {\n'}
+[11.364680] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.364763] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::\x1b[01;32m\x1b[Kiter\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.364860] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:115:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.364964] (articubot_one) StderrLine: {'line': b'  115 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) {\n'}
+[11.365080] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.365423] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::Value* torch::jit::SugaredValue::\x1b[01;32m\x1b[Klen\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.365569] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:137:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.365673] (articubot_one) StderrLine: {'line': b'  137 |   virtual Value* len(const SourceRange& loc, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) {\n'}
+[11.365767] (articubot_one) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.366126] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::\x1b[01;32m\x1b[Kgetitem\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.366259] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:146:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.366349] (articubot_one) StderrLine: {'line': b'  146 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.366433] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.366581] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:147:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kidx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.366703] (articubot_one) StderrLine: {'line': b'  147 |       \x1b[01;35m\x1b[KValue* idx\x1b[m\x1b[K,\n'}
+[11.366800] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.366890] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:148:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktype_hint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.366997] (articubot_one) StderrLine: {'line': b'  148 |       \x1b[01;35m\x1b[KTypePtr type_hint = nullptr\x1b[m\x1b[K) {\n'}
+[11.367145] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.368571] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::Value* torch::jit::SimpleValue::\x1b[01;32m\x1b[KasValue\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.368719] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:167:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krange\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.368813] (articubot_one) StderrLine: {'line': b'  167 |   Value* asValue(\x1b[01;35m\x1b[Kconst SourceRange& range\x1b[m\x1b[K, GraphFunction& m) override {\n'}
+[11.368901] (articubot_one) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.369072] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:167:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.369223] (articubot_one) StderrLine: {'line': b'  167 |   Value* asValue(const SourceRange& range, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) override {\n'}
+[11.369320] (articubot_one) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.371372] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredTupleValue::\x1b[01;32m\x1b[KasTuple\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.371532] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:248:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.371626] (articubot_one) StderrLine: {'line': b'  248 |       \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K,\n'}
+[11.371712] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.371893] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:249:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.372005] (articubot_one) StderrLine: {'line': b'  249 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.372108] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.372193] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:250:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize_hint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.372282] (articubot_one) StderrLine: {'line': b'  250 |       \x1b[01;35m\x1b[Kconst std::optional<size_t>& size_hint = {}\x1b[m\x1b[K) override {\n'}
+[11.372365] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.377650] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::SugaredValuePtr torch::jit::SugaredTupleValue::\x1b[01;32m\x1b[Kgetitem\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.378042] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:270:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.378216] (articubot_one) StderrLine: {'line': b'  270 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.378321] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.378417] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:272:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktype_hint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.378536] (articubot_one) StderrLine: {'line': b'  272 |       \x1b[01;35m\x1b[KTypePtr type_hint = nullptr\x1b[m\x1b[K) override {\n'}
+[11.378625] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.378712] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredTupleValue::\x1b[01;32m\x1b[Kiter\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.378805] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:295:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.378918] (articubot_one) StderrLine: {'line': b'  295 |   std::shared_ptr<SugaredValue> iter(\x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K, GraphFunction& m)\n'}
+[11.379014] (articubot_one) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.379124] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:295:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.379217] (articubot_one) StderrLine: {'line': b'  295 | std::shared_ptr<SugaredValue> iter(const SourceRange& loc, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K)\n'}
+[11.379302] (articubot_one) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.379394] (articubot_one) StderrLine: {'line': b'\n'}
+[11.387802] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::BuiltinModule::\x1b[01;32m\x1b[Kattr\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.388191] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:318:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.388338] (articubot_one) StderrLine: {'line': b'  318 |       \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K,\n'}
+[11.388435] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.388534] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:319:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.388624] (articubot_one) StderrLine: {'line': b'  319 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.388709] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.411808] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::FunctionValue::\x1b[01;32m\x1b[Kcall\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.412215] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:403:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_binders\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.412382] (articubot_one) StderrLine: {'line': b'  403 |       \x1b[01;35m\x1b[Ksize_t n_binders\x1b[m\x1b[K) override {\n'}
+[11.412495] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.413377] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual torch::jit::Value* torch::jit::ClosureValue::\x1b[01;32m\x1b[KasValue\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.413595] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:440:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krange\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.413725] (articubot_one) StderrLine: {'line': b'  440 |   Value* asValue(\x1b[01;35m\x1b[Kconst SourceRange& range\x1b[m\x1b[K, GraphFunction& m) override {\n'}
+[11.413831] (articubot_one) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.413924] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:440:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.414051] (articubot_one) StderrLine: {'line': b'  440 |   Value* asValue(const SourceRange& range, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K) override {\n'}
+[11.414160] (articubot_one) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.423578] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::MethodValue::\x1b[01;32m\x1b[Kcall\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.423835] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:462:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_binders\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.423967] (articubot_one) StderrLine: {'line': b'  462 |       \x1b[01;35m\x1b[Ksize_t n_binders\x1b[m\x1b[K) override {\n'}
+[11.424090] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.434484] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::TensorCastValue::\x1b[01;32m\x1b[Kcall\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.434782] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:558:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_binders\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.434922] (articubot_one) StderrLine: {'line': b'  558 |       \x1b[01;35m\x1b[Ksize_t n_binders\x1b[m\x1b[K) override {\n'}
+[11.435039] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.444741] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::IterableTree::\x1b[01;32m\x1b[Kiter\x1b[m\x1b[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.445032] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:704:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.445173] (articubot_one) StderrLine: {'line': b'  704 |   std::shared_ptr<SugaredValue> iter(\x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K, GraphFunction& m)\n'}
+[11.445282] (articubot_one) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.445381] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:704:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.445498] (articubot_one) StderrLine: {'line': b'  704 | std::shared_ptr<SugaredValue> iter(const SourceRange& loc, \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K)\n'}
+[11.445596] (articubot_one) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.445690] (articubot_one) StderrLine: {'line': b'\n'}
+[11.449558] (-) TimerEvent: {}
+[11.454760] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::Resolver::\x1b[01;32m\x1b[KresolveValue\x1b[m\x1b[K(const std::string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.455115] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:33:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.455295] (articubot_one) StderrLine: {'line': b'   33 |       \x1b[01;35m\x1b[Kconst std::string& name\x1b[m\x1b[K,\n'}
+[11.455401] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.455493] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:34:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.455608] (articubot_one) StderrLine: {'line': b'   34 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.455704] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.455800] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:35:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.455893] (articubot_one) StderrLine: {'line': b'   35 |       \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K) {\n'}
+[11.455974] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.456085] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual c10::TypePtr torch::jit::Resolver::\x1b[01;32m\x1b[KresolveType\x1b[m\x1b[K(const std::string&, const torch::jit::SourceRange&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.456181] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:40:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.456267] (articubot_one) StderrLine: {'line': b'   40 |   virtual TypePtr resolveType(\x1b[01;35m\x1b[Kconst std::string& name\x1b[m\x1b[K, const SourceRange& loc) {\n'}
+[11.456349] (articubot_one) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.456432] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:40:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.456517] (articubot_one) StderrLine: {'line': b'   40 | rtual TypePtr resolveType(const std::string& name, \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K) {\n'}
+[11.456600] (articubot_one) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.456680] (articubot_one) StderrLine: {'line': b'\n'}
+[11.458200] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::NativeResolver::\x1b[01;32m\x1b[KresolveValue\x1b[m\x1b[K(const std::string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.458389] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:49:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.458513] (articubot_one) StderrLine: {'line': b'   49 |       \x1b[01;35m\x1b[KGraphFunction& m\x1b[m\x1b[K,\n'}
+[11.458599] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.458682] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:50:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.458788] (articubot_one) StderrLine: {'line': b'   50 |       \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K) override {\n'}
+[11.458881] (articubot_one) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.458981] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual c10::TypePtr torch::jit::NativeResolver::\x1b[01;32m\x1b[KresolveType\x1b[m\x1b[K(const std::string&, const torch::jit::SourceRange&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.459104] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:57:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.459202] (articubot_one) StderrLine: {'line': b'   57 |   TypePtr resolveType(\x1b[01;35m\x1b[Kconst std::string& name\x1b[m\x1b[K, const SourceRange& loc)\n'}
+[11.459284] (articubot_one) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.459368] (articubot_one) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:57:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kloc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.459467] (articubot_one) StderrLine: {'line': b'   57 |   TypePtr resolveType(const std::string& name, \x1b[01;35m\x1b[Kconst SourceRange& loc\x1b[m\x1b[K)\n'}
+[11.459555] (articubot_one) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.549680] (-) TimerEvent: {}
+[11.650101] (-) TimerEvent: {}
+[11.750506] (-) TimerEvent: {}
+[11.850900] (-) TimerEvent: {}
+[11.951336] (-) TimerEvent: {}
+[12.051735] (-) TimerEvent: {}
+[12.152141] (-) TimerEvent: {}
+[12.252542] (-) TimerEvent: {}
+[12.352957] (-) TimerEvent: {}
+[12.453428] (-) TimerEvent: {}
+[12.553829] (-) TimerEvent: {}
+[12.654259] (-) TimerEvent: {}
+[12.754651] (-) TimerEvent: {}
+[12.855070] (-) TimerEvent: {}
+[12.955476] (-) TimerEvent: {}
+[13.055879] (-) TimerEvent: {}
+[13.156313] (-) TimerEvent: {}
+[13.256699] (-) TimerEvent: {}
+[13.357110] (-) TimerEvent: {}
+[13.457542] (-) TimerEvent: {}
+[13.557954] (-) TimerEvent: {}
+[13.658382] (-) TimerEvent: {}
+[13.758804] (-) TimerEvent: {}
+[13.859248] (-) TimerEvent: {}
+[13.959657] (-) TimerEvent: {}
+[14.060283] (-) TimerEvent: {}
+[14.160752] (-) TimerEvent: {}
+[14.261207] (-) TimerEvent: {}
+[14.361625] (-) TimerEvent: {}
+[14.462073] (-) TimerEvent: {}
+[14.562481] (-) TimerEvent: {}
+[14.662883] (-) TimerEvent: {}
+[14.763306] (-) TimerEvent: {}
+[14.863719] (-) TimerEvent: {}
+[14.964122] (-) TimerEvent: {}
+[15.064524] (-) TimerEvent: {}
+[15.164947] (-) TimerEvent: {}
+[15.265349] (-) TimerEvent: {}
+[15.365741] (-) TimerEvent: {}
+[15.466137] (-) TimerEvent: {}
+[15.566544] (-) TimerEvent: {}
+[15.666947] (-) TimerEvent: {}
+[15.767360] (-) TimerEvent: {}
+[15.867805] (-) TimerEvent: {}
+[15.968221] (-) TimerEvent: {}
+[16.068622] (-) TimerEvent: {}
+[16.169048] (-) TimerEvent: {}
+[16.269444] (-) TimerEvent: {}
+[16.369879] (-) TimerEvent: {}
+[16.470304] (-) TimerEvent: {}
+[16.570706] (-) TimerEvent: {}
+[16.671112] (-) TimerEvent: {}
+[16.771506] (-) TimerEvent: {}
+[16.871905] (-) TimerEvent: {}
+[16.972335] (-) TimerEvent: {}
+[17.072735] (-) TimerEvent: {}
+[17.173142] (-) TimerEvent: {}
+[17.273533] (-) TimerEvent: {}
+[17.373926] (-) TimerEvent: {}
+[17.474360] (-) TimerEvent: {}
+[17.574760] (-) TimerEvent: {}
+[17.675178] (-) TimerEvent: {}
+[17.775594] (-) TimerEvent: {}
+[17.875985] (-) TimerEvent: {}
+[17.976387] (-) TimerEvent: {}
+[18.076785] (-) TimerEvent: {}
+[18.177174] (-) TimerEvent: {}
+[18.277557] (-) TimerEvent: {}
+[18.377945] (-) TimerEvent: {}
+[18.478347] (-) TimerEvent: {}
+[18.578720] (-) TimerEvent: {}
+[18.679094] (-) TimerEvent: {}
+[18.779487] (-) TimerEvent: {}
+[18.879890] (-) TimerEvent: {}
+[18.980292] (-) TimerEvent: {}
+[19.080679] (-) TimerEvent: {}
+[19.181099] (-) TimerEvent: {}
+[19.281847] (-) TimerEvent: {}
+[19.382261] (-) TimerEvent: {}
+[19.482664] (-) TimerEvent: {}
+[19.583077] (-) TimerEvent: {}
+[19.683463] (-) TimerEvent: {}
+[19.783851] (-) TimerEvent: {}
+[19.884251] (-) TimerEvent: {}
+[19.984637] (-) TimerEvent: {}
+[20.085035] (-) TimerEvent: {}
+[20.185422] (-) TimerEvent: {}
+[20.285816] (-) TimerEvent: {}
+[20.386243] (-) TimerEvent: {}
+[20.486632] (-) TimerEvent: {}
+[20.587041] (-) TimerEvent: {}
+[20.687424] (-) TimerEvent: {}
+[20.787827] (-) TimerEvent: {}
+[20.888262] (-) TimerEvent: {}
+[20.988657] (-) TimerEvent: {}
+[21.089053] (-) TimerEvent: {}
+[21.189462] (-) TimerEvent: {}
+[21.289845] (-) TimerEvent: {}
+[21.390275] (-) TimerEvent: {}
+[21.490679] (-) TimerEvent: {}
+[21.591081] (-) TimerEvent: {}
+[21.691451] (-) TimerEvent: {}
+[21.791817] (-) TimerEvent: {}
+[21.892215] (-) TimerEvent: {}
+[21.992596] (-) TimerEvent: {}
+[22.093009] (-) TimerEvent: {}
+[22.193500] (-) TimerEvent: {}
+[22.293886] (-) TimerEvent: {}
+[22.394297] (-) TimerEvent: {}
+[22.494680] (-) TimerEvent: {}
+[22.595069] (-) TimerEvent: {}
+[22.695451] (-) TimerEvent: {}
+[22.795841] (-) TimerEvent: {}
+[22.896251] (-) TimerEvent: {}
+[22.996634] (-) TimerEvent: {}
+[23.097014] (-) TimerEvent: {}
+[23.197411] (-) TimerEvent: {}
+[23.297803] (-) TimerEvent: {}
+[23.398213] (-) TimerEvent: {}
+[23.498611] (-) TimerEvent: {}
+[23.599000] (-) TimerEvent: {}
+[23.699412] (-) TimerEvent: {}
+[23.799794] (-) TimerEvent: {}
+[23.900211] (-) TimerEvent: {}
+[24.000637] (-) TimerEvent: {}
+[24.101051] (-) TimerEvent: {}
+[24.201458] (-) TimerEvent: {}
+[24.301846] (-) TimerEvent: {}
+[24.402267] (-) TimerEvent: {}
+[24.502661] (-) TimerEvent: {}
+[24.603100] (-) TimerEvent: {}
+[24.703515] (-) TimerEvent: {}
+[24.803910] (-) TimerEvent: {}
+[24.904322] (-) TimerEvent: {}
+[25.004720] (-) TimerEvent: {}
+[25.105122] (-) TimerEvent: {}
+[25.205605] (-) TimerEvent: {}
+[25.306112] (-) TimerEvent: {}
+[25.406506] (-) TimerEvent: {}
+[25.506902] (-) TimerEvent: {}
+[25.607295] (-) TimerEvent: {}
+[25.707676] (-) TimerEvent: {}
+[25.808081] (-) TimerEvent: {}
+[25.908453] (-) TimerEvent: {}
+[26.008835] (-) TimerEvent: {}
+[26.109218] (-) TimerEvent: {}
+[26.209600] (-) TimerEvent: {}
+[26.309989] (-) TimerEvent: {}
+[26.410394] (-) TimerEvent: {}
+[26.510779] (-) TimerEvent: {}
+[26.611183] (-) TimerEvent: {}
+[26.711563] (-) TimerEvent: {}
+[26.811974] (-) TimerEvent: {}
+[26.912382] (-) TimerEvent: {}
+[27.012771] (-) TimerEvent: {}
+[27.113168] (-) TimerEvent: {}
+[27.213550] (-) TimerEvent: {}
+[27.313947] (-) TimerEvent: {}
+[27.414362] (-) TimerEvent: {}
+[27.514783] (-) TimerEvent: {}
+[27.615157] (-) TimerEvent: {}
+[27.715541] (-) TimerEvent: {}
+[27.815917] (-) TimerEvent: {}
+[27.916342] (-) TimerEvent: {}
+[28.016726] (-) TimerEvent: {}
+[28.117110] (-) TimerEvent: {}
+[28.217490] (-) TimerEvent: {}
+[28.317886] (-) TimerEvent: {}
+[28.418324] (-) TimerEvent: {}
+[28.518745] (-) TimerEvent: {}
+[28.619134] (-) TimerEvent: {}
+[28.719523] (-) TimerEvent: {}
+[28.819912] (-) TimerEvent: {}
+[28.920302] (-) TimerEvent: {}
+[29.020683] (-) TimerEvent: {}
+[29.121088] (-) TimerEvent: {}
+[29.221478] (-) TimerEvent: {}
+[29.321870] (-) TimerEvent: {}
+[29.422284] (-) TimerEvent: {}
+[29.522696] (-) TimerEvent: {}
+[29.623101] (-) TimerEvent: {}
+[29.723520] (-) TimerEvent: {}
+[29.823917] (-) TimerEvent: {}
+[29.924339] (-) TimerEvent: {}
+[30.024762] (-) TimerEvent: {}
+[30.125202] (-) TimerEvent: {}
+[30.225636] (-) TimerEvent: {}
+[30.326072] (-) TimerEvent: {}
+[30.426603] (-) TimerEvent: {}
+[30.527064] (-) TimerEvent: {}
+[30.627501] (-) TimerEvent: {}
+[30.728011] (-) TimerEvent: {}
+[30.828542] (-) TimerEvent: {}
+[30.929094] (-) TimerEvent: {}
+[31.029591] (-) TimerEvent: {}
+[31.130099] (-) TimerEvent: {}
+[31.230678] (-) TimerEvent: {}
+[31.331614] (-) TimerEvent: {}
+[31.432181] (-) TimerEvent: {}
+[31.532784] (-) TimerEvent: {}
+[31.633242] (-) TimerEvent: {}
+[31.670443] (articubot_one) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yolov8_detection_node\x1b[0m\n'}
+[31.733362] (-) TimerEvent: {}
+[31.833917] (-) TimerEvent: {}
+[31.934871] (-) TimerEvent: {}
+[32.035745] (-) TimerEvent: {}
+[32.136516] (-) TimerEvent: {}
+[32.237358] (-) TimerEvent: {}
+[32.338353] (-) TimerEvent: {}
+[32.439390] (-) TimerEvent: {}
+[32.539949] (-) TimerEvent: {}
+[32.640430] (-) TimerEvent: {}
+[32.740912] (-) TimerEvent: {}
+[32.841411] (-) TimerEvent: {}
+[32.942051] (-) TimerEvent: {}
+[33.042465] (-) TimerEvent: {}
+[33.068550] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, c10::detail::CompileTimeEmptyString)':\n"}
+[33.069242] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c106detail23torchInternalAssertFailEPKcS2_jS2_NS0_22CompileTimeEmptyStringE[_ZN3c106detail23torchInternalAssertFailEPKcS2_jS2_NS0_22CompileTimeEmptyStringE]+0x2c): undefined reference to `c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)'\n"}
+[33.070504] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr_target::~intrusive_ptr_target()':\n"}
+[33.070868] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1020intrusive_ptr_targetD2Ev[_ZN3c1020intrusive_ptr_targetD5Ev]+0x2bc): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.071647] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN3c1020intrusive_ptr_targetD2Ev[_ZN3c1020intrusive_ptr_targetD5Ev]+0x630): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.073235] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::Device::validate()':\n"}
+[33.073551] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c106Device8validateEv[_ZN3c106Device8validateEv]+0xb4): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.074251] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN3c106Device8validateEv[_ZN3c106Device8validateEv]+0x184): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.075811] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKey)':\n"}
+[33.076072] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c104impl23ExcludeDispatchKeyGuardC2ENS_11DispatchKeyE[_ZN3c104impl23ExcludeDispatchKeyGuardC5ENS_11DispatchKeyE]+0x3c): undefined reference to `c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)'\n"}
+[33.077422] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `caffe2::TypeMeta::fromScalarType(c10::ScalarType)':\n"}
+[33.077959] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN6caffe28TypeMeta14fromScalarTypeEN3c1010ScalarTypeE[_ZN6caffe28TypeMeta14fromScalarTypeEN3c1010ScalarTypeE]+0xb0): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.079194] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `caffe2::TypeMeta::toScalarType()':\n"}
+[33.079483] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN6caffe28TypeMeta12toScalarTypeEv[_ZN6caffe28TypeMeta12toScalarTypeEv]+0x4c): undefined reference to `caffe2::TypeMeta::error_unsupported_typemeta(caffe2::TypeMeta)'\n"}
+[33.080645] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::SymInt::SymInt(long)':\n"}
+[33.081182] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c106SymIntC2El[_ZN3c106SymIntC5El]+0x4c): undefined reference to `c10::SymInt::promote_to_negative()'\n"}
+[33.082624] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::AutoDispatchBelowAutograd::AutoDispatchBelowAutograd()':\n"}
+[33.083015] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN2at25AutoDispatchBelowAutogradC2Ev[_ZN2at25AutoDispatchBelowAutogradC5Ev]+0x14): undefined reference to `c10::impl::ExcludeDispatchKeyGuard::ExcludeDispatchKeyGuard(c10::DispatchKeySet)'\n"}
+[33.084445] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::SymFloat::SymFloat(c10::intrusive_ptr<c10::SymNodeImpl, c10::detail::intrusive_target_default_null_type<c10::SymNodeImpl> >)':\n"}
+[33.085100] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c108SymFloatC2ENS_13intrusive_ptrINS_11SymNodeImplENS_6detail34intrusive_target_default_null_typeIS2_EEEE[_ZN3c108SymFloatC5ENS_13intrusive_ptrINS_11SymNodeImplENS_6detail34intrusive_target_default_null_typeIS2_EEEE]+0xa4): undefined reference to `c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)'\n"}
+[33.086162] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::UndefinedTensorImpl::singleton()':\n"}
+[33.086557] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1019UndefinedTensorImpl9singletonEv[_ZN3c1019UndefinedTensorImpl9singletonEv]+0x0): undefined reference to `c10::UndefinedTensorImpl::_singleton'\n"}
+[33.087184] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN3c1019UndefinedTensorImpl9singletonEv[_ZN3c1019UndefinedTensorImpl9singletonEv]+0x4): undefined reference to `c10::UndefinedTensorImpl::_singleton'\n"}
+[33.088744] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::Tensor::div(c10::Scalar const&) const':\n"}
+[33.088987] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK2at6Tensor3divERKN3c106ScalarE[_ZNK2at6Tensor3divERKN3c106ScalarE]+0x3c): undefined reference to `at::_ops::div_Scalar::call(at::Tensor const&, c10::Scalar const&)'\n"}
+[33.090204] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::Tensor::permute(c10::ArrayRef<long>) const':\n"}
+[33.090488] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK2at6Tensor7permuteEN3c108ArrayRefIlEE[_ZNK2at6Tensor7permuteEN3c108ArrayRefIlEE]+0x3c): undefined reference to `at::_ops::permute::call(at::Tensor const&, c10::ArrayRef<long>)'\n"}
+[33.091628] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::Tensor::to(c10::ScalarType, bool, bool, std::optional<c10::MemoryFormat>) const':\n"}
+[33.091835] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK2at6Tensor2toEN3c1010ScalarTypeEbbSt8optionalINS1_12MemoryFormatEE[_ZNK2at6Tensor2toEN3c1010ScalarTypeEbbSt8optionalINS1_12MemoryFormatEE]+0x54): undefined reference to `at::_ops::to_dtype::call(at::Tensor const&, c10::ScalarType, bool, bool, std::optional<c10::MemoryFormat>)'\n"}
+[33.093265] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toDouble() const':\n"}
+[33.093554] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK3c106IValue8toDoubleEv[_ZNK3c106IValue8toDoubleEv]+0x8c): undefined reference to `c10::SymFloat::guard_float(char const*, long) const'\n"}
+[33.094507] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZNK3c106IValue8toDoubleEv[_ZNK3c106IValue8toDoubleEv]+0xf4): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.095916] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toInt() const':\n"}
+[33.096239] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK3c106IValue5toIntEv[_ZNK3c106IValue5toIntEv]+0x88): undefined reference to `c10::SymInt::guard_int(char const*, long) const'\n"}
+[33.096924] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZNK3c106IValue5toIntEv[_ZNK3c106IValue5toIntEv]+0xf0): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.098546] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::isIntrusivePtr() const':\n"}
+[33.098736] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK3c106IValue14isIntrusivePtrEv[_ZNK3c106IValue14isIntrusivePtrEv]+0xb4): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.100220] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toComplexDouble() const':\n"}
+[33.100470] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK3c106IValue15toComplexDoubleEv[_ZNK3c106IValue15toComplexDoubleEv]+0xcc): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.101728] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toTensor() &&':\n"}
+[33.101999] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNO3c106IValue8toTensorEv[_ZNO3c106IValue8toTensorEv]+0x48): undefined reference to `c10::IValue::reportToTensorTypeError() const'\n"}
+[33.103265] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toTensor() const &':\n"}
+[33.103518] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNKR3c106IValue8toTensorEv[_ZNKR3c106IValue8toTensorEv]+0x40): undefined reference to `c10::IValue::reportToTensorTypeError() const'\n"}
+[33.104742] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toSymInt() const &':\n"}
+[33.104962] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNKR3c106IValue8toSymIntEv[_ZNKR3c106IValue8toSymIntEv]+0x108): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.105727] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZNKR3c106IValue8toSymIntEv[_ZNKR3c106IValue8toSymIntEv]+0x140): undefined reference to `c10::SymInt::SymInt(c10::intrusive_ptr<c10::SymNodeImpl, c10::detail::intrusive_target_default_null_type<c10::SymNodeImpl> >)'\n"}
+[33.107269] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::IValue::toSymFloat() const &':\n"}
+[33.107469] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNKR3c106IValue10toSymFloatEv[_ZNKR3c106IValue10toSymFloatEv]+0x108): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.108825] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::operator<<(std::ostream&, at::Tensor const&)':\n"}
+[33.109065] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN2atlsERSoRKNS_6TensorE[_ZN2atlsERSoRKNS_6TensorE]+0x1c): undefined reference to `at::print(std::ostream&, at::Tensor const&, long)'\n"}
+[33.110678] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::from_blob(void*, c10::ArrayRef<long>, c10::TensorOptions const&)':\n"}
+[33.111208] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN2at9from_blobEPvN3c108ArrayRefIlEERKNS1_13TensorOptionsE[_ZN2at9from_blobEPvN3c108ArrayRefIlEERKNS1_13TensorOptionsE]+0x60): undefined reference to `at::TensorMaker::make_tensor()'\n"}
+[33.112488] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::AutoDispatchBelowAutograd::~AutoDispatchBelowAutograd()':\n"}
+[33.112896] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN2at25AutoDispatchBelowAutogradD2Ev[_ZN2at25AutoDispatchBelowAutogradD5Ev]+0x10): undefined reference to `c10::impl::ExcludeDispatchKeyGuard::~ExcludeDispatchKeyGuard()'\n"}
+[33.114119] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::autograd::AutogradMeta::set_requires_grad(bool, c10::TensorImpl*)':\n"}
+[33.114427] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch8autograd12AutogradMeta17set_requires_gradEbPN3c1010TensorImplE[_ZN5torch8autograd12AutogradMeta17set_requires_gradEbPN3c1010TensorImplE]+0xa0): undefined reference to `c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)'\n"}
+[33.115550] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::AutogradMetaInterface::AutogradMetaInterface()':\n"}
+[33.115821] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1021AutogradMetaInterfaceC2Ev[_ZN3c1021AutogradMetaInterfaceC5Ev]+0x8): undefined reference to `vtable for c10::AutogradMetaInterface'\n"}
+[33.116560] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN3c1021AutogradMetaInterfaceC2Ev[_ZN3c1021AutogradMetaInterfaceC5Ev]+0xc): undefined reference to `vtable for c10::AutogradMetaInterface'\n"}
+[33.118027] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::autograd::AutogradMeta::AutogradMeta(c10::TensorImpl*, bool, torch::autograd::Edge)':\n"}
+[33.118297] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch8autograd12AutogradMetaC2EPN3c1010TensorImplEbNS0_4EdgeE[_ZN5torch8autograd12AutogradMetaC5EPN3c1010TensorImplEbNS0_4EdgeE]+0x24): undefined reference to `vtable for torch::autograd::AutogradMeta'\n"}
+[33.119018] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd12AutogradMetaC2EPN3c1010TensorImplEbNS0_4EdgeE[_ZN5torch8autograd12AutogradMetaC5EPN3c1010TensorImplEbNS0_4EdgeE]+0x28): undefined reference to `vtable for torch::autograd::AutogradMeta'\n"}
+[33.120002] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd12AutogradMetaC2EPN3c1010TensorImplEbNS0_4EdgeE[_ZN5torch8autograd12AutogradMetaC5EPN3c1010TensorImplEbNS0_4EdgeE]+0x1c8): undefined reference to `c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*)'\n"}
+[33.120933] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd12AutogradMetaC2EPN3c1010TensorImplEbNS0_4EdgeE[_ZN5torch8autograd12AutogradMetaC5EPN3c1010TensorImplEbNS0_4EdgeE]+0x234): undefined reference to `c10::AutogradMetaInterface::~AutogradMetaInterface()'\n"}
+[33.122417] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::autograd::make_variable(at::Tensor, bool, bool)':\n"}
+[33.122687] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch8autograd13make_variableEN2at6TensorEbb[_ZN5torch8autograd13make_variableEN2at6TensorEbb]+0x110): undefined reference to `c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)'\n"}
+[33.123433] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd13make_variableEN2at6TensorEbb[_ZN5torch8autograd13make_variableEN2at6TensorEbb]+0x14c): undefined reference to `c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)'\n"}
+[33.124407] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd13make_variableEN2at6TensorEbb[_ZN5torch8autograd13make_variableEN2at6TensorEbb]+0x230): undefined reference to `c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)'\n"}
+[33.125427] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch8autograd13make_variableEN2at6TensorEbb[_ZN5torch8autograd13make_variableEN2at6TensorEbb]+0x26c): undefined reference to `c10::TensorImpl::set_autograd_meta(std::unique_ptr<c10::AutogradMetaInterface, std::default_delete<c10::AutogradMetaInterface> >)'\n"}
+[33.127072] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `at::tracer::impl::NoTracerDispatchMode::~NoTracerDispatchMode()':\n"}
+[33.127822] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN2at6tracer4impl20NoTracerDispatchModeD2Ev[_ZN2at6tracer4impl20NoTracerDispatchModeD5Ev]+0x10): undefined reference to `c10::impl::ExcludeDispatchKeyGuard::~ExcludeDispatchKeyGuard()'\n"}
+[33.128901] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::jit::SourceRange::SourceRange(std::shared_ptr<torch::jit::Source>, unsigned long, unsigned long)':\n"}
+[33.129458] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch3jit11SourceRangeC2ESt10shared_ptrINS0_6SourceEEmm[_ZN5torch3jit11SourceRangeC5ESt10shared_ptrINS0_6SourceEEmm]+0xb0): undefined reference to `torch::jit::StringCordView::iter_for_pos(unsigned long) const'\n"}
+[33.130606] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::jit::Method::Method(torch::jit::Method const&)':\n"}
+[33.130883] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch3jit6MethodC2ERKS1_[_ZN5torch3jit6MethodC5ERKS1_]+0x20): undefined reference to `vtable for torch::jit::Method'\n"}
+[33.131604] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch3jit6MethodC2ERKS1_[_ZN5torch3jit6MethodC5ERKS1_]+0x24): undefined reference to `vtable for torch::jit::Method'\n"}
+[33.133085] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::jit::Method::~Method()':\n"}
+[33.133352] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch3jit6MethodD2Ev[_ZN5torch3jit6MethodD5Ev]+0xc): undefined reference to `vtable for torch::jit::Method'\n"}
+[33.134107] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZN5torch3jit6MethodD2Ev[_ZN5torch3jit6MethodD5Ev]+0x10): undefined reference to `vtable for torch::jit::Method'\n"}
+[33.135615] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::jit::Object::get_method(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const':\n"}
+[33.135909] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZNK5torch3jit6Object10get_methodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZNK5torch3jit6Object10get_methodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x40): undefined reference to `torch::jit::Object::find_method(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const'\n"}
+[33.136633] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: yolov8_detection_node.cpp:(.text._ZNK5torch3jit6Object10get_methodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZNK5torch3jit6Object10get_methodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0xf4): undefined reference to `c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[33.138514] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `torch::jit::Module::forward(std::vector<c10::IValue, std::allocator<c10::IValue> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10::IValue, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, c10::IValue> > > const&)':\n"}
+[33.138711] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN5torch3jit6Module7forwardESt6vectorIN3c106IValueESaIS4_EERKSt13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_St4hashISD_ESt8equal_toISD_ESaISt4pairIKSD_S4_EEE[_ZN5torch3jit6Module7forwardESt6vectorIN3c106IValueESaIS4_EERKSt13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_St4hashISD_ESt8equal_toISD_ESaISt4pairIKSD_S4_EEE]+0xa0): undefined reference to `torch::jit::Method::operator()(std::vector<c10::IValue, std::allocator<c10::IValue> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10::IValue, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, c10::IValue> > > const&) const'\n"}
+[33.141223] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `YOLOv8DetectionNode::YOLOv8DetectionNode()':\n"}
+[33.141415] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN19YOLOv8DetectionNodeC2Ev[_ZN19YOLOv8DetectionNodeC5Ev]+0x134): undefined reference to `torch::jit::load(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::optional<c10::Device>, bool)'\n"}
+[33.142541] (-) TimerEvent: {}
+[33.143018] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr<c10::intrusive_ptr_target, c10::detail::intrusive_target_default_null_type<c10::intrusive_ptr_target> >::reclaim(c10::intrusive_ptr_target*)':\n"}
+[33.143298] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_20intrusive_ptr_targetENS_6detail34intrusive_target_default_null_typeIS1_EEE7reclaimEPS1_[_ZN3c1013intrusive_ptrINS_20intrusive_ptr_targetENS_6detail34intrusive_target_default_null_typeIS1_EEE7reclaimEPS1_]+0x204): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.144679] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr<c10::SymNodeImpl, c10::detail::intrusive_target_default_null_type<c10::SymNodeImpl> >::reclaim(c10::SymNodeImpl*)':\n"}
+[33.144861] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_11SymNodeImplENS_6detail34intrusive_target_default_null_typeIS1_EEE7reclaimEPS1_[_ZN3c1013intrusive_ptrINS_11SymNodeImplENS_6detail34intrusive_target_default_null_typeIS1_EEE7reclaimEPS1_]+0x204): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.146539] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr<c10::intrusive_ptr_target, c10::UndefinedTensorImpl>::reclaim(c10::intrusive_ptr_target*)':\n"}
+[33.146719] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_20intrusive_ptr_targetENS_19UndefinedTensorImplEE7reclaimEPS1_[_ZN3c1013intrusive_ptrINS_20intrusive_ptr_targetENS_19UndefinedTensorImplEE7reclaimEPS1_]+0x204): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.150614] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr<c10::TensorImpl, c10::UndefinedTensorImpl>::retain_()':\n"}
+[33.150815] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_10TensorImplENS_19UndefinedTensorImplEE7retain_Ev[_ZN3c1013intrusive_ptrINS_10TensorImplENS_19UndefinedTensorImplEE7retain_Ev]+0x90): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.152346] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::intrusive_ptr<c10::ivalue::ComplexHolder, c10::detail::intrusive_target_default_null_type<c10::ivalue::ComplexHolder> >::reclaim(c10::ivalue::ComplexHolder*)':\n"}
+[33.152559] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_6ivalue13ComplexHolderENS_6detail34intrusive_target_default_null_typeIS2_EEE7reclaimEPS2_[_ZN3c1013intrusive_ptrINS_6ivalue13ComplexHolderENS_6detail34intrusive_target_default_null_typeIS2_EEE7reclaimEPS2_]+0x204): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)'\n"}
+[33.154569] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o:yolov8_detection_node.cpp:(.text._ZN3c1013intrusive_ptrINS_6ivalue6ObjectENS_6detail34intrusive_target_default_null_typeIS2_EEE7retain_Ev[_ZN3c1013intrusive_ptrINS_6ivalue6ObjectENS_6detail34intrusive_target_default_null_typeIS2_EEE7retain_Ev]+0x90): more undefined references to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, char const*)' follow\n"}
+[33.159258] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o: in function `c10::SmallVectorTemplateCommon<long, void>::grow_pod(unsigned long, unsigned long)':\n"}
+[33.159459] (articubot_one) StderrLine: {'line': b"yolov8_detection_node.cpp:(.text._ZN3c1025SmallVectorTemplateCommonIlvE8grow_podEmm[_ZN3c1025SmallVectorTemplateCommonIlvE8grow_podEmm]+0x34): undefined reference to `c10::SmallVectorBase<unsigned int>::grow_pod(void const*, unsigned long, unsigned long)'\n"}
+[33.208056] (articubot_one) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o:(.data.rel.local.DW.ref._ZTIN3c105ErrorE[DW.ref._ZTIN3c105ErrorE]+0x0): undefined reference to `typeinfo for c10::Error'\n"}
+[33.242671] (-) TimerEvent: {}
+[33.299586] (articubot_one) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[33.302740] (articubot_one) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolov8_detection_node.dir/build.make:242: yolov8_detection_node] Error 1\n'}
+[33.303539] (articubot_one) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/yolov8_detection_node.dir/all] Error 2\n'}
+[33.303869] (articubot_one) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[33.307480] (articubot_one) CommandEnded: {'returncode': 2}
+[33.318954] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 2}
+[33.329867] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+[1.910s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/env_name/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(env_name) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env_name) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/install.log --single-version-externally-managed
+[2.338s] running egg_info
+[2.339s] creating ../../../../../../../../build/my-test-package/my_test_package.egg-info
+[2.376s] writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[2.377s] writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[2.377s] writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[2.377s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.416s] reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.417s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.417s] running build
+[2.417s] running install
+[2.426s] running install_egg_info
+[2.505s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages/my_test_package-1.0-py3.12.egg-info
+[2.506s] running install_scripts
+[2.758s] writing list of installed files to '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/install.log'
+[2.837s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/env_name/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(env_name) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env_name) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/my-test-package/install.log --single-version-externally-managed

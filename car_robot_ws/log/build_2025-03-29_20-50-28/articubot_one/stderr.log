@@ -1,0 +1,7 @@
+[33mCMake Warning at /home/robogames/torch_py_env/lib/python3.12/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:22 (message):
+  static library kineto_LIBRARY-NOTFOUND not found.
+Call Stack (most recent call first):
+  /home/robogames/torch_py_env/lib/python3.12/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:121 (append_torchlib_if_found)
+  CMakeLists.txt:43 (find_package)
+
+[0m

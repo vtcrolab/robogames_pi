@@ -1,0 +1,388 @@
+[0.057s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[0.198s] [  8%] [32mBuilding CXX object CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o[0m
+[0.217s] [ 25%] Built target color_detection_node
+[0.234s] [ 41%] Built target joy_serial
+[0.235s] [ 58%] Built target depth_to_laserscan
+[0.316s] [ 75%] Built target depth_processing_node
+[0.327s] [ 91%] Built target main_bt_node
+[3.880s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:13[m[K,
+[3.880s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/ATen.h:7[m[K,
+[3.880s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:3[m[K,
+[3.880s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:3[m[K,
+[3.880s]                  from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:1[m[K:
+[3.880s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/CUDAHooksInterface.h:[m[K In member function ‘[01m[Kvirtual bool at::CUDAHooksInterface::[01;32m[KisPinnedPtr[m[K(const void*) const[m[K’:
+[3.881s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/CUDAHooksInterface.h:81:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.881s]    81 |   bool isPinnedPtr([01;35m[Kconst void* data[m[K) const override {
+[3.881s]       |                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.884s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:14[m[K:
+[3.885s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:[m[K In member function ‘[01m[Kvirtual bool at::HIPHooksInterface::[01;32m[KisPinnedPtr[m[K(const void*) const[m[K’:
+[3.885s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:40:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.885s]    40 |   bool isPinnedPtr([01;35m[Kconst void* data[m[K) const override {
+[3.885s]       |                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.885s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:[m[K In member function ‘[01m[Kvirtual bool at::HIPHooksInterface::[01;32m[KhasPrimaryContext[m[K(c10::DeviceIndex) const[m[K’:
+[3.885s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/HIPHooksInterface.h:52:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.885s]    52 |   bool hasPrimaryContext([01;35m[KDeviceIndex device_index[m[K) const override {
+[3.885s]       |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.887s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:16[m[K:
+[3.888s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/IPUHooksInterface.h:[m[K In member function ‘[01m[Kvirtual bool at::IPUHooksInterface::[01;32m[KhasPrimaryContext[m[K(c10::DeviceIndex) const[m[K’:
+[3.888s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/IPUHooksInterface.h:18:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.888s]    18 |   bool hasPrimaryContext([01;35m[KDeviceIndex device_index[m[K) const override {
+[3.888s]       |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.889s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:17[m[K:
+[3.889s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/MAIAHooksInterface.h:[m[K In member function ‘[01m[Kvirtual bool at::MAIAHooksInterface::[01;32m[KhasPrimaryContext[m[K(c10::DeviceIndex) const[m[K’:
+[3.889s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/detail/MAIAHooksInterface.h:20:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.890s]    20 |   bool hasPrimaryContext([01;35m[KDeviceIndex device_index[m[K) const override {
+[3.890s]       |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.233s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef.h:631[m[K,
+[5.233s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/DeviceGuard.h:3[m[K,
+[5.233s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/ATen.h:9[m[K:
+[5.233s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:[m[K In static member function ‘[01m[Kstatic c10::detail::IListRefConstRef<at::OptionalTensorRef> c10::detail::IListRefTagImpl<c10::IListRefTag::Boxed, at::OptionalTensorRef>::[01;32m[Kiterator_get[m[K(const c10::List<std::optional<at::Tensor> >::const_iterator&)[m[K’:
+[5.233s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:171:17:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-reference-Wdangling-reference]8;;[m[K]
+[5.234s]   171 |     const auto& [01;35m[Kivalue[m[K = (*it).get();
+[5.234s]       |                 [01;35m[K^~~~~~[m[K
+[5.234s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/IListRef_inl.h:171:35:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[K(& it)->c10::impl::ListIterator<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::get()[m[K’
+[5.234s]   171 |     const auto& ivalue = [01;36m[K(*it).get()[m[K;
+[5.234s]       |                          [01;36m[K~~~~~~~~~^~[m[K
+[8.622s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/cpp_hook.h:2[m[K,
+[8.623s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/variable.h:6[m[K,
+[8.623s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/generated/variable_factories.h:11[m[K,
+[8.623s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:7[m[K:
+[8.623s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:[m[K In member function ‘[01m[Kvirtual void torch::autograd::FunctionPreHook::[01;32m[Kcompiled_args[m[K(torch::dynamo::autograd::CompiledNodeArgs&)[m[K’:
+[8.623s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:24:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.623s]    24 |   virtual void compiled_args([01;35m[Ktorch::dynamo::autograd::CompiledNodeArgs& args[m[K) {
+[8.623s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.625s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:[m[K In member function ‘[01m[Kvirtual void torch::autograd::FunctionPostHook::[01;32m[Kcompiled_args[m[K(torch::dynamo::autograd::CompiledNodeArgs&)[m[K’:
+[8.625s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:37:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.625s]    37 |   virtual void compiled_args([01;35m[Ktorch::dynamo::autograd::CompiledNodeArgs& args[m[K) {
+[8.625s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.626s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:[m[K In member function ‘[01m[Kvirtual void torch::autograd::PostAccumulateGradHook::[01;32m[Kcompiled_args[m[K(torch::dynamo::autograd::CompiledNodeArgs&)[m[K’:
+[8.626s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function_hook.h:49:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.626s]    49 |   virtual void compiled_args([01;35m[Ktorch::dynamo::autograd::CompiledNodeArgs& args[m[K) {
+[8.626s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[9.060s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/OperatorEntry.h:11[m[K,
+[9.060s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/Dispatcher.h:6[m[K,
+[9.060s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch/types.h:12[m[K:
+[9.060s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:[m[K In lambda function:
+[9.060s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:154:32:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-reference-Wdangling-reference]8;;[m[K]
+[9.060s]   154 |         for (const at::Tensor& [01;35m[Ktensor[m[K : ivalue.toTensorList()) {
+[9.060s]       |                                [01;35m[K^~~~~~[m[K
+[9.060s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:154:61:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[K__for_begin .c10::impl::ListIterator<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const at::Tensor&, at::Tensor>()[m[K’
+[9.061s]   154 |         for (const at::Tensor& tensor : ivalue.toTensorList([01;36m[K)[m[K) {
+[9.061s]       |                                                             [01;36m[K^[m[K
+[9.590s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:11[m[K,
+[9.590s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/custom_function.h:7[m[K,
+[9.590s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:5[m[K:
+[9.590s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:[m[K In member function ‘[01m[Kvoid torch::CountTensors::[01;32m[Koperator()[m[K(const at::Tensor&)[m[K’:
+[9.590s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:16:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.590s]    16 |   void operator()([01;35m[Kconst at::Tensor& x[m[K) {
+[9.590s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[9.592s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:[m[K In member function ‘[01m[Kvoid torch::CountVariables::[01;32m[Koperator()[m[K(const torch::autograd::Variable&)[m[K’:
+[9.592s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/utils/variadic.h:34:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.592s]    34 |   void operator()([01;35m[Kconst autograd::Variable& x[m[K) {
+[9.592s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[9.635s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:[m[K In member function ‘[01m[Kuint32_t torch::autograd::Node::[01;32m[Kadd_input_metadata[m[K(undefined_input)[m[K’:
+[9.635s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:214:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.635s]   214 |   uint32_t add_input_metadata([01;35m[Kundefined_input u[m[K) noexcept {
+[9.635s]       |                               [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[9.666s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:[m[K In member function ‘[01m[Kvirtual void torch::autograd::Node::[01;32m[Kcompiled_args[m[K(torch::dynamo::autograd::CompiledNodeArgs&)[m[K’:
+[9.666s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:592:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.666s]   592 |   virtual void compiled_args([01;35m[KCompiledNodeArgs& args[m[K) {
+[9.666s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[9.667s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:[m[K In member function ‘[01m[Kvirtual torch::autograd::variable_list torch::autograd::Node::[01;32m[Kapply_with_saved[m[K(const torch::autograd::variable_list&, torch::dynamo::autograd::SwapSavedVariables&)[m[K’:
+[9.667s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:601:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinputs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.667s]   601 |       [01;35m[Kconst variable_list& inputs[m[K,
+[9.668s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.668s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/autograd/function.h:602:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksaved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.668s]   602 |       [01;35m[KSwapSavedVariables& saved[m[K) {
+[9.668s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[9.963s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/custom_operator.h:5[m[K,
+[9.963s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:8[m[K:
+[9.963s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:[m[K In lambda function:
+[9.963s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:154:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.963s]   154 |             []([01;35m[Kconst JitOnlyOperator& op[m[K) {
+[9.963s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.968s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:[m[K In lambda function:
+[9.968s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:193:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.968s]   193 |             []([01;35m[Kconst JitOnlyOperator& op[m[K) {
+[9.969s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.585s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:9[m[K,
+[10.585s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/function_impl.h:5[m[K,
+[10.585s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/method.h:7[m[K,
+[10.585s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/object.h:5[m[K,
+[10.586s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:4[m[K,
+[10.586s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/import.h:5[m[K,
+[10.586s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:9[m[K:
+[10.586s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:[m[K In constructor ‘[01m[Ktorch::jit::InterpreterContinuation::[01;32m[KInterpreterContinuation[m[K(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)[m[K’:
+[10.586s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:128:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_autograd_context_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.586s]   128 |       [01;35m[Kint64_t dist_autograd_context_id = 0[m[K,
+[10.586s]       |       [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.690s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:13[m[K:
+[10.690s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:[m[K In member function ‘[01m[Kvoid torch::jit::CompilationUnit::[01;32m[Kset_optimized[m[K(bool)[m[K’:
+[10.690s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:73:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.690s]    73 |   void set_optimized([01;35m[Kbool o[m[K) {
+[10.690s]       |                      [01;35m[K~~~~~^[m[K
+[10.745s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In member function ‘[01m[Kvoid torch::jit::Module::[01;32m[Kset_optimized[m[K(bool)[m[K’:
+[10.745s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:102:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.746s]   102 |   void set_optimized([01;35m[Kbool o[m[K) {
+[10.746s]       |                      [01;35m[K~~~~~^[m[K
+[10.764s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::[01;32m[Kcreate[m[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)[m[K’:
+[10.765s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:585:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcursors[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.765s]   585 |       [01;35m[Kconst std::vector<detail::SlotCursor>& cursors[m[K,
+[10.765s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[10.765s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic bool torch::jit::detail::ModulePolicy::[01;32m[Kvalid[m[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)[m[K’:
+[10.765s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:591:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.765s]   591 |   static bool valid(const ClassTypePtr& typ, size_t i, [01;35m[Kconst IValue& v[m[K) {
+[10.765s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^[m[K
+[10.765s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::[01;32m[Kcreate[m[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)[m[K’:
+[10.765s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:602:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcursors[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.766s]   602 |       [01;35m[Kconst std::vector<detail::SlotCursor>& cursors[m[K,
+[10.766s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[10.767s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::[01;32m[Kcreate[m[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)[m[K’:
+[10.768s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:615:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcursors[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.768s]   615 |       [01;35m[Kconst std::vector<detail::SlotCursor>& cursors[m[K,
+[10.768s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[10.768s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic bool torch::jit::detail::BufferPolicy::[01;32m[Kvalid[m[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)[m[K’:
+[10.768s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:619:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.768s]   619 |   static bool valid(const ClassTypePtr& typ, size_t i, [01;35m[Kconst IValue& v[m[K) {
+[10.768s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^[m[K
+[10.768s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::[01;32m[Kcreate[m[K(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)[m[K’:
+[10.768s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:629:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcursors[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.768s]   629 |       [01;35m[Kconst std::vector<detail::SlotCursor>& cursors[m[K,
+[10.769s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[10.769s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:[m[K In static member function ‘[01m[Kstatic bool torch::jit::detail::AttributePolicy::[01;32m[Kvalid[m[K(const c10::ClassTypePtr&, size_t, const c10::IValue&)[m[K’:
+[10.769s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktyp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.769s]   633 |   static bool valid([01;35m[Kconst ClassTypePtr& typ[m[K, size_t i, const IValue& v) {
+[10.769s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.769s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.769s]   633 |   static bool valid(const ClassTypePtr& typ, [01;35m[Ksize_t i[m[K, const IValue& v) {
+[10.769s]       |                                              [01;35m[K~~~~~~~^[m[K
+[10.769s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/api/module.h:633:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.769s]   633 |   static bool valid(const ClassTypePtr& typ, size_t i, [01;35m[Kconst IValue& v[m[K) {
+[10.769s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^[m[K
+[10.950s] In file included from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:5[m[K,
+[10.950s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/script_type_parser.h:4[m[K,
+[10.950s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/unpickler.h:7[m[K,
+[10.950s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/serialization/pickle.h:8[m[K,
+[10.950s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/script.h:10[m[K:
+[10.950s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::Value* torch::jit::SugaredValue::[01;32m[KasValue[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.950s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:34:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.950s]    34 |   virtual Value* asValue(const SourceRange& loc, [01;35m[KGraphFunction& m[m[K) {
+[10.951s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.952s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::[01;32m[Kattr[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)[m[K’:
+[10.952s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:41:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.952s]    41 |       [01;35m[KGraphFunction& m[m[K,
+[10.953s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.953s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:42:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfield[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.953s]    42 |       [01;35m[Kconst std::string& field[m[K) {
+[10.953s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[10.953s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual bool torch::jit::SugaredValue::[01;32m[KhasAttr[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)[m[K’:
+[10.953s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:48:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.953s]    48 |       [01;35m[KGraphFunction& m[m[K,
+[10.954s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.954s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:49:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfield[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.954s]    49 |       [01;35m[Kconst std::string& field[m[K) {
+[10.954s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[10.954s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual void torch::jit::SugaredValue::[01;32m[KsetAttr[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&, torch::jit::Value*)[m[K’:
+[10.954s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:56:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.954s]    56 |       [01;35m[KGraphFunction& m[m[K,
+[10.954s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.954s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:57:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfield[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.954s]    57 |       [01;35m[Kconst std::string& field[m[K,
+[10.954s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[10.955s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:58:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.955s]    58 |       [01;35m[KValue* newValue[m[K) {
+[10.955s]       |       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[10.958s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::[01;32m[KasTuple[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)[m[K’:
+[10.958s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:68:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.958s]    68 |       [01;35m[KGraphFunction& m[m[K,
+[10.958s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.958s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:69:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize_hint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.958s]    69 |       [01;35m[Kconst std::optional<size_t>& size_hint = {}[m[K) {
+[10.958s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.959s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::SugaredValuePtr torch::jit::SugaredValue::[01;32m[KasTupleValue[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.959s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:76:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.959s]    76 |       [01;35m[KGraphFunction& m[m[K) {
+[10.959s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.959s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::[01;32m[KasType[m[K(const torch::jit::SourceRange&, torch::jit::Method&)[m[K’:
+[10.959s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:82:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.959s]    82 |       [01;35m[KMethod& m[m[K) {
+[10.960s]       |       [01;35m[K~~~~~~~~^[m[K
+[10.960s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::[01;32m[Kcall[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)[m[K’:
+[10.960s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:89:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.960s]    89 |       [01;35m[KGraphFunction& m[m[K,
+[10.960s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.960s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:91:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.960s]    91 |       [01;35m[Kat::ArrayRef<NamedValue> args[m[K,
+[10.960s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.960s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:92:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkwargs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.960s]    92 |       [01;35m[Kat::ArrayRef<NamedValue> kwargs[m[K,
+[10.960s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[10.961s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:93:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_binders[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.961s]    93 |       [01;35m[Ksize_t n_binders[m[K) {
+[10.961s]       |       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[10.961s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::[01;32m[Kiter[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.961s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:115:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.961s]   115 |       [01;35m[KGraphFunction& m[m[K) {
+[10.961s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.961s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::Value* torch::jit::SugaredValue::[01;32m[Klen[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.962s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:137:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.962s]   137 |   virtual Value* len(const SourceRange& loc, [01;35m[KGraphFunction& m[m[K) {
+[10.962s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.962s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::[01;32m[Kgetitem[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)[m[K’:
+[10.962s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:146:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.962s]   146 |       [01;35m[KGraphFunction& m[m[K,
+[10.962s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.962s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:147:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kidx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.962s]   147 |       [01;35m[KValue* idx[m[K,
+[10.962s]       |       [01;35m[K~~~~~~~^~~[m[K
+[10.963s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:148:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype_hint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.963s]   148 |       [01;35m[KTypePtr type_hint = nullptr[m[K) {
+[10.963s]       |       [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[10.964s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::Value* torch::jit::SimpleValue::[01;32m[KasValue[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.964s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:167:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.964s]   167 |   Value* asValue([01;35m[Kconst SourceRange& range[m[K, GraphFunction& m) override {
+[10.965s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[10.965s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:167:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.965s]   167 |   Value* asValue(const SourceRange& range, [01;35m[KGraphFunction& m[m[K) override {
+[10.965s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.967s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredTupleValue::[01;32m[KasTuple[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)[m[K’:
+[10.967s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:248:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.967s]   248 |       [01;35m[Kconst SourceRange& loc[m[K,
+[10.967s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.967s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:249:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.967s]   249 |       [01;35m[KGraphFunction& m[m[K,
+[10.968s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.968s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:250:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize_hint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.968s]   250 |       [01;35m[Kconst std::optional<size_t>& size_hint = {}[m[K) override {
+[10.968s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.972s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::SugaredValuePtr torch::jit::SugaredTupleValue::[01;32m[Kgetitem[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)[m[K’:
+[10.973s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:270:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.973s]   270 |       [01;35m[KGraphFunction& m[m[K,
+[10.973s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.973s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:272:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype_hint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.973s]   272 |       [01;35m[KTypePtr type_hint = nullptr[m[K) override {
+[10.973s]       |       [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[10.973s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredTupleValue::[01;32m[Kiter[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[10.973s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:295:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.973s]   295 |   std::shared_ptr<SugaredValue> iter([01;35m[Kconst SourceRange& loc[m[K, GraphFunction& m)
+[10.973s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.974s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:295:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.974s]   295 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, [01;35m[KGraphFunction& m[m[K)
+[10.974s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[10.981s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::BuiltinModule::[01;32m[Kattr[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::string&)[m[K’:
+[10.982s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:318:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.982s]   318 |       [01;35m[Kconst SourceRange& loc[m[K,
+[10.982s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.982s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:319:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.982s]   319 |       [01;35m[KGraphFunction& m[m[K,
+[10.982s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[11.003s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::FunctionValue::[01;32m[Kcall[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)[m[K’:
+[11.003s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:403:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_binders[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.004s]   403 |       [01;35m[Ksize_t n_binders[m[K) override {
+[11.004s]       |       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[11.005s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual torch::jit::Value* torch::jit::ClosureValue::[01;32m[KasValue[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[11.005s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:440:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.005s]   440 |   Value* asValue([01;35m[Kconst SourceRange& range[m[K, GraphFunction& m) override {
+[11.005s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[11.005s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:440:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.005s]   440 |   Value* asValue(const SourceRange& range, [01;35m[KGraphFunction& m[m[K) override {
+[11.005s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[11.014s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::MethodValue::[01;32m[Kcall[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)[m[K’:
+[11.015s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:462:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_binders[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.015s]   462 |       [01;35m[Ksize_t n_binders[m[K) override {
+[11.015s]       |       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[11.025s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::TensorCastValue::[01;32m[Kcall[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)[m[K’:
+[11.025s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:558:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_binders[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.025s]   558 |       [01;35m[Ksize_t n_binders[m[K) override {
+[11.025s]       |       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[11.035s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::IterableTree::[01;32m[Kiter[m[K(const torch::jit::SourceRange&, torch::jit::GraphFunction&)[m[K’:
+[11.035s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:704:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.035s]   704 |   std::shared_ptr<SugaredValue> iter([01;35m[Kconst SourceRange& loc[m[K, GraphFunction& m)
+[11.035s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.035s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:704:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.035s]   704 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, [01;35m[KGraphFunction& m[m[K)
+[11.036s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[11.044s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::Resolver::[01;32m[KresolveValue[m[K(const std::string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)[m[K’:
+[11.045s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:33:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.045s]    33 |       [01;35m[Kconst std::string& name[m[K,
+[11.045s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[11.045s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:34:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.045s]    34 |       [01;35m[KGraphFunction& m[m[K,
+[11.045s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[11.045s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:35:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.045s]    35 |       [01;35m[Kconst SourceRange& loc[m[K) {
+[11.045s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.046s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:[m[K In member function ‘[01m[Kvirtual c10::TypePtr torch::jit::Resolver::[01;32m[KresolveType[m[K(const std::string&, const torch::jit::SourceRange&)[m[K’:
+[11.046s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:40:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.046s]    40 |   virtual TypePtr resolveType([01;35m[Kconst std::string& name[m[K, const SourceRange& loc) {
+[11.046s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[11.046s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:40:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.046s]    40 |   virtual TypePtr resolveType(const std::string& name, [01;35m[Kconst SourceRange& loc[m[K) {
+[11.046s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.046s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:[m[K In member function ‘[01m[Kvirtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::NativeResolver::[01;32m[KresolveValue[m[K(const std::string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)[m[K’:
+[11.046s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:49:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.047s]    49 |       [01;35m[KGraphFunction& m[m[K,
+[11.047s]       |       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[11.047s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:50:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.047s]    50 |       [01;35m[Kconst SourceRange& loc[m[K) override {
+[11.047s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.047s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:[m[K In member function ‘[01m[Kvirtual c10::TypePtr torch::jit::NativeResolver::[01;32m[KresolveType[m[K(const std::string&, const torch::jit::SourceRange&)[m[K’:
+[11.047s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:57:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.047s]    57 |   TypePtr resolveType([01;35m[Kconst std::string& name[m[K, const SourceRange& loc)
+[11.047s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[11.047s] [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:57:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.048s]    57 |   TypePtr resolveType(const std::string& name, [01;35m[Kconst SourceRange& loc[m[K)
+[11.048s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.304s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:[m[K In constructor ‘[01m[KYOLOv8DetectionNode::[01;32m[KYOLOv8DetectionNode[m[K()[m[K’:
+[15.304s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:14:109:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::shared_ptr<torch::jit::Module>[m[K’ and ‘[01m[Ktorch::jit::Module[m[K’)
+[15.304s]    14 |             model_ = torch::jit::load("/home/robogames/vt-cro/robogames_pi/car_robot_ws/yolov8n.torchscript"[01;31m[K)[m[K;  // Replace with actual path
+[15.304s]       |                                                                                                             [01;31m[K^[m[K
+[15.305s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[15.305s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/c10/util/Backtrace.h:5[m[K,
+[15.305s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/c10/util/Exception.h:6[m[K,
+[15.305s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/BlasBackend.h:3[m[K,
+[15.305s]                  from [01m[K/home/robogames/torch_py_env/lib/python3.12/site-packages/torch/include/ATen/Context.h:3[m[K:
+[15.305s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = torch::jit::Module][m[K[m[K’
+[15.305s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[15.305s]       |         [01;36m[K^~~~~~~~[m[K
+[15.305s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.305s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:14:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktorch::jit::Module[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[15.305s]    14 |             model_ = torch::jit::load("/home/robogames/vt-cro/robogames_pi/car_robot_ws/yolov8n.torchscript"[01;36m[K)[m[K;  // Replace with actual path
+[15.306s]       |                                                                                                             [01;36m[K^[m[K
+[15.306s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = torch::jit::Module][m[K[m[K’
+[15.306s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[15.306s]       |         [01;36m[K^~~~~~~~[m[K
+[15.306s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.306s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:14:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktorch::jit::Module[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[15.306s]    14 |             model_ = torch::jit::load("/home/robogames/vt-cro/robogames_pi/car_robot_ws/yolov8n.torchscript"[01;36m[K)[m[K;  // Replace with actual path
+[15.306s]       |                                                                                                             [01;36m[K^[m[K
+[15.306s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = torch::jit::Module][m[K[m[K’
+[15.306s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[15.306s]       |         [01;36m[K^~~~~~~~[m[K
+[15.307s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.307s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:14:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktorch::jit::Module[m[K’ is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+[15.307s]    14 |             model_ = torch::jit::load("/home/robogames/vt-cro/robogames_pi/car_robot_ws/yolov8n.torchscript"[01;36m[K)[m[K;  // Replace with actual path
+[15.307s]       |                                                                                                             [01;36m[K^[m[K
+[15.307s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = torch::jit::Module][m[K[m[K’
+[15.307s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[15.307s]       |         [01;36m[K^~~~~~~~[m[K
+[15.307s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.307s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/yolov8_detection_node.cpp:14:109:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktorch::jit::Module[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[15.307s]    14 |             model_ = torch::jit::load("/home/robogames/vt-cro/robogames_pi/car_robot_ws/yolov8n.torchscript"[01;36m[K)[m[K;  // Replace with actual path
+[15.308s]       |                                                                                                             [01;36m[K^[m[K
+[15.308s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = torch::jit::Module][m[K[m[K’
+[15.308s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[15.308s]       |                   [01;36m[K^~~~~~~~[m[K
+[15.308s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktorch::jit::Module[m[K’ to ‘[01m[Kconst std::shared_ptr<torch::jit::Module>&[m[K’
+[15.308s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[15.308s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.308s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = torch::jit::Module][m[K[m[K’
+[15.308s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[15.308s]       |       [01;36m[K^~~~~~~~[m[K
+[15.309s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktorch::jit::Module[m[K’ to ‘[01m[Kstd::shared_ptr<torch::jit::Module>&&[m[K’
+[15.309s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[15.309s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[23.709s] gmake[2]: *** [CMakeFiles/yolov8_detection_node.dir/build.make:76: CMakeFiles/yolov8_detection_node.dir/src/yolov8_detection_node.cpp.o] Error 1
+[23.709s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/yolov8_detection_node.dir/all] Error 2
+[23.709s] gmake: *** [Makefile:146: all] Error 2
+[23.713s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4

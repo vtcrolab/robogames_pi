@@ -1,0 +1,4 @@
+[0.493s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(env_name) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(env_name) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial -- -j4 -l4
+[0.592s] gmake[2]: *** [CMakeFiles/serial.dir/build.make:141: CMakeFiles/serial.dir/depend] Interrupt
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/serial.dir/all] Interrupt
+[0.593s] gmake: *** [Makefile:146: all] Interrupt
