@@ -1,0 +1,7 @@
+[ 20%] Built target navigate_red_buckets
+[ 40%] Built target navigate_ramp
+[ 50%] [32m[1mLinking CXX executable filter_scan[0m
+[ 70%] Built target main_bt_node
+[ 80%] [32mBuilding CXX object CMakeFiles/navigate_yellow_buckets.dir/src/navigate_yellow_buckets.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable navigate_yellow_buckets[0m
+[ 90%] Built target navigate_yellow_buckets

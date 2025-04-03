@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/build/yolov8_msgs/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp

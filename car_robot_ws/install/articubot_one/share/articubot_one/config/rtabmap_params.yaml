@@ -1,16 +1,1 @@
-# rtabmap_params.yaml
-rtabmap:
-  ros__parameters:
-    subscribe_depth: true
-    subscribe_rgbd: false
-    approx_sync: true
-    RGBD/OptimizeMaxError: 8.0
-    Mem/InitWMWithAllNodes: false
-    frame_id: camera_link
-    use_sim_time: false
-
-rgbd_odometry:
-  ros__parameters:
-    approx_sync: true
-    approx_sync_max_interval: 0.02
-    use_sim_time: false
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/config/rtabmap_params.yaml

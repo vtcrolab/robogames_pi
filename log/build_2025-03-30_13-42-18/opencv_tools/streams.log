@@ -1,0 +1,41 @@
+[2.295s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/build/opencv_tools/install.log --single-version-externally-managed install_data
+[3.173s] running egg_info
+[3.175s] creating ../../../build/opencv_tools/opencv_tools.egg-info
+[3.354s] writing ../../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[3.358s] writing dependency_links to ../../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[3.360s] writing entry points to ../../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[3.360s] writing requirements to ../../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[3.362s] writing top-level names to ../../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[3.368s] writing manifest file '../../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[3.735s] reading manifest file '../../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[3.737s] writing manifest file '../../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[3.738s] running build
+[3.738s] running build_py
+[3.739s] creating /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build
+[3.741s] creating /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib
+[3.744s] creating /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools
+[3.744s] copying opencv_tools/__init__.py -> /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools
+[3.744s] copying opencv_tools/detect_object_node.py -> /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools
+[3.746s] copying opencv_tools/detect_yolo_node.py -> /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools
+[3.746s] running install
+[3.760s] running install_lib
+[3.839s] creating /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[3.839s] copying /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[3.839s] copying /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools/detect_object_node.py -> /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[3.839s] copying /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build/lib/opencv_tools/detect_yolo_node.py -> /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[3.839s] byte-compiling /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/__init__.py to __init__.cpython-312.pyc
+[3.840s] byte-compiling /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/detect_object_node.py to detect_object_node.cpython-312.pyc
+[3.841s] byte-compiling /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/detect_yolo_node.py to detect_yolo_node.cpython-312.pyc
+[3.843s] running install_data
+[3.843s] creating /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/ament_index
+[3.844s] creating /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/ament_index/resource_index
+[3.844s] creating /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/ament_index/resource_index/packages
+[3.844s] copying resource/opencv_tools -> /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/ament_index/resource_index/packages
+[3.845s] copying package.xml -> /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools
+[3.845s] creating /home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/models
+[3.845s] running install_egg_info
+[3.923s] Copying ../../../build/opencv_tools/opencv_tools.egg-info to /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages/opencv_tools-0.0.0-py3.12.egg-info
+[3.929s] running install_scripts
+[4.421s] Installing detect_node script to /home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/opencv_tools
+[4.422s] writing list of installed files to '/home/robogames/vt-cro/robogames_pi/build/opencv_tools/install.log'
+[4.577s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/build/opencv_tools/install.log --single-version-externally-managed install_data

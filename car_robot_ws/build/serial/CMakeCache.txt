@@ -40,6 +40,9 @@ BUILD_TESTING:BOOL=ON
 //No help, variable specified on the command line.
 CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
 
+//No help, variable specified on the command line.
+CATKIN_SYMLINK_INSTALL:UNINITIALIZED=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -455,7 +458,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/robogames/ros2_python_venv/bin/python3][cfound components: Interpreter ][v3.12.3()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
@@ -463,10 +466,10 @@ _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
-_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/robogames/ros2_python_venv/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-aarch64-linux-gnu;abi3;/usr/lib/python3.12;/usr/lib/python3.12;/usr/local/lib/python3.12/dist-packages;/usr/local/lib/python3.12/dist-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-aarch64-linux-gnu;abi3;/usr/lib/python3.12;/home/robogames/ros2_python_venv/lib/python3.12;/home/robogames/ros2_python_venv/lib/python3.12/site-packages;/home/robogames/ros2_python_venv/lib/python3.12/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=48439065e732f4faa04a3a7798e0d05f
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

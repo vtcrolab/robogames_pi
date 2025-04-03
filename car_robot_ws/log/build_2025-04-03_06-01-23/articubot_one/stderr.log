@@ -1,0 +1,4 @@
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:[m[K In member function ‘[01m[Kvoid FilteredScanPublisher::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kclosest_index[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   33 |         int [01;35m[Kclosest_index[m[K = -1;
+      |             [01;35m[K^~~~~~~~~~~~~[m[K

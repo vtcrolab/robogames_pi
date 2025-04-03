@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/build/yolov8_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

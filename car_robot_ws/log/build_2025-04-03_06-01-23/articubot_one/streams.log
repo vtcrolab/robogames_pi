@@ -1,0 +1,84 @@
+[0.100s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[0.305s] [ 20%] Built target main_bt_node
+[0.309s] [ 30%] [32mBuilding CXX object CMakeFiles/filter_scan.dir/src/filter_scan.cpp.o[0m
+[0.323s] [ 50%] Built target navigate_ramp
+[0.353s] [ 70%] Built target navigate_red_buckets
+[0.474s] [ 90%] Built target navigate_yellow_buckets
+[4.727s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:[m[K In member function ‘[01m[Kvoid FilteredScanPublisher::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.727s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kclosest_index[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.727s]    33 |         int [01;35m[Kclosest_index[m[K = -1;
+[4.727s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[15.525s] [100%] [32m[1mLinking CXX executable filter_scan[0m
+[16.540s] [100%] Built target filter_scan
+[16.566s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j4 -l4
+[16.569s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one
+[16.585s] -- Install configuration: ""
+[16.586s] -- Execute custom install script
+[16.587s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[16.606s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[16.625s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[16.646s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[16.668s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[16.687s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/gz_bridge.yaml
+[16.705s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[16.724s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/keepout_nav2_params.yaml
+[16.743s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/keepout_params.yaml
+[16.766s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[16.785s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[16.804s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[16.823s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[16.842s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[16.865s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/navigate_w_replanning_and_recovery.xml
+[16.883s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/nrc_bt.xml
+[16.902s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/rtabmap_params.yaml
+[16.922s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/speedlimit_nav2_params.yaml
+[16.942s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/speedlimit_params.yaml
+[16.965s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[16.985s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[17.007s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[17.033s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[17.060s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[17.079s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[17.098s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[17.117s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[17.137s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[17.162s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[17.182s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[17.201s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/__pycache__/launch_robot.launch.cpython-312.pyc
+[17.220s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[17.239s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/controllers.launch.py
+[17.262s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[17.281s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[17.300s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[17.319s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[17.338s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[17.362s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[17.381s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/robot_master.launch.py
+[17.400s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[17.419s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rs_pointcloud_launch.py
+[17.438s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[17.462s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rtabmap.launch.py
+[17.480s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/vision.launch.py
+[17.500s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[17.520s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[17.540s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/main_bt_node
+[17.562s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/filter_scan
+[17.582s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_ramp
+[17.601s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_red_buckets
+[17.622s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_yellow_buckets
+[17.641s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[17.663s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[17.682s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[17.701s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[17.719s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[17.739s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[17.762s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[17.781s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[17.800s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[17.819s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[17.838s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/package.dsv
+[17.861s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[17.880s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[17.899s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[17.918s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/package.xml
+[17.941s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one

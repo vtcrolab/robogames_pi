@@ -198,45 +198,6 @@ articubot_one_uninstall/fast:
 .PHONY : articubot_one_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named joy_serial
-
-# Build rule for target.
-joy_serial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joy_serial
-.PHONY : joy_serial
-
-# fast build rule for target.
-joy_serial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/build
-.PHONY : joy_serial/fast
-
-#=============================================================================
-# Target rules for targets named depth_to_laserscan
-
-# Build rule for target.
-depth_to_laserscan: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depth_to_laserscan
-.PHONY : depth_to_laserscan
-
-# fast build rule for target.
-depth_to_laserscan/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/build
-.PHONY : depth_to_laserscan/fast
-
-#=============================================================================
-# Target rules for targets named yolo_detector_node
-
-# Build rule for target.
-yolo_detector_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolo_detector_node
-.PHONY : yolo_detector_node
-
-# fast build rule for target.
-yolo_detector_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/build
-.PHONY : yolo_detector_node/fast
-
-#=============================================================================
 # Target rules for targets named color_detection_node
 
 # Build rule for target.
@@ -250,19 +211,6 @@ color_detection_node/fast:
 .PHONY : color_detection_node/fast
 
 #=============================================================================
-# Target rules for targets named depth_processing_node
-
-# Build rule for target.
-depth_processing_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depth_processing_node
-.PHONY : depth_processing_node
-
-# fast build rule for target.
-depth_processing_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/build
-.PHONY : depth_processing_node/fast
-
-#=============================================================================
 # Target rules for targets named main_bt_node
 
 # Build rule for target.
@@ -274,6 +222,71 @@ main_bt_node: cmake_check_build_system
 main_bt_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/build
 .PHONY : main_bt_node/fast
+
+#=============================================================================
+# Target rules for targets named filter_scan
+
+# Build rule for target.
+filter_scan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filter_scan
+.PHONY : filter_scan
+
+# fast build rule for target.
+filter_scan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_scan.dir/build.make CMakeFiles/filter_scan.dir/build
+.PHONY : filter_scan/fast
+
+#=============================================================================
+# Target rules for targets named navigate_ramp
+
+# Build rule for target.
+navigate_ramp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigate_ramp
+.PHONY : navigate_ramp
+
+# fast build rule for target.
+navigate_ramp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_ramp.dir/build.make CMakeFiles/navigate_ramp.dir/build
+.PHONY : navigate_ramp/fast
+
+#=============================================================================
+# Target rules for targets named navigate_red_buckets
+
+# Build rule for target.
+navigate_red_buckets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigate_red_buckets
+.PHONY : navigate_red_buckets
+
+# fast build rule for target.
+navigate_red_buckets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_red_buckets.dir/build.make CMakeFiles/navigate_red_buckets.dir/build
+.PHONY : navigate_red_buckets/fast
+
+#=============================================================================
+# Target rules for targets named navigate_yellow_buckets
+
+# Build rule for target.
+navigate_yellow_buckets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigate_yellow_buckets
+.PHONY : navigate_yellow_buckets
+
+# fast build rule for target.
+navigate_yellow_buckets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_yellow_buckets.dir/build.make CMakeFiles/navigate_yellow_buckets.dir/build
+.PHONY : navigate_yellow_buckets/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_approach_node
+
+# Build rule for target.
+obstacle_approach_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_approach_node
+.PHONY : obstacle_approach_node
+
+# fast build rule for target.
+obstacle_approach_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_approach_node.dir/build.make CMakeFiles/obstacle_approach_node.dir/build
+.PHONY : obstacle_approach_node/fast
 
 src/color_detection_node.o: src/color_detection_node.cpp.o
 .PHONY : src/color_detection_node.o
@@ -299,77 +312,29 @@ src/color_detection_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/color_detection_node.dir/build.make CMakeFiles/color_detection_node.dir/src/color_detection_node.cpp.s
 .PHONY : src/color_detection_node.cpp.s
 
-src/depth_processing_node.o: src/depth_processing_node.cpp.o
-.PHONY : src/depth_processing_node.o
+src/filter_scan.o: src/filter_scan.cpp.o
+.PHONY : src/filter_scan.o
 
 # target to build an object file
-src/depth_processing_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.o
-.PHONY : src/depth_processing_node.cpp.o
+src/filter_scan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_scan.dir/build.make CMakeFiles/filter_scan.dir/src/filter_scan.cpp.o
+.PHONY : src/filter_scan.cpp.o
 
-src/depth_processing_node.i: src/depth_processing_node.cpp.i
-.PHONY : src/depth_processing_node.i
-
-# target to preprocess a source file
-src/depth_processing_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.i
-.PHONY : src/depth_processing_node.cpp.i
-
-src/depth_processing_node.s: src/depth_processing_node.cpp.s
-.PHONY : src/depth_processing_node.s
-
-# target to generate assembly for a file
-src/depth_processing_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_processing_node.dir/build.make CMakeFiles/depth_processing_node.dir/src/depth_processing_node.cpp.s
-.PHONY : src/depth_processing_node.cpp.s
-
-src/depth_to_laserscan.o: src/depth_to_laserscan.cpp.o
-.PHONY : src/depth_to_laserscan.o
-
-# target to build an object file
-src/depth_to_laserscan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.o
-.PHONY : src/depth_to_laserscan.cpp.o
-
-src/depth_to_laserscan.i: src/depth_to_laserscan.cpp.i
-.PHONY : src/depth_to_laserscan.i
+src/filter_scan.i: src/filter_scan.cpp.i
+.PHONY : src/filter_scan.i
 
 # target to preprocess a source file
-src/depth_to_laserscan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.i
-.PHONY : src/depth_to_laserscan.cpp.i
+src/filter_scan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_scan.dir/build.make CMakeFiles/filter_scan.dir/src/filter_scan.cpp.i
+.PHONY : src/filter_scan.cpp.i
 
-src/depth_to_laserscan.s: src/depth_to_laserscan.cpp.s
-.PHONY : src/depth_to_laserscan.s
-
-# target to generate assembly for a file
-src/depth_to_laserscan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/src/depth_to_laserscan.cpp.s
-.PHONY : src/depth_to_laserscan.cpp.s
-
-src/joy_serial.o: src/joy_serial.cpp.o
-.PHONY : src/joy_serial.o
-
-# target to build an object file
-src/joy_serial.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/src/joy_serial.cpp.o
-.PHONY : src/joy_serial.cpp.o
-
-src/joy_serial.i: src/joy_serial.cpp.i
-.PHONY : src/joy_serial.i
-
-# target to preprocess a source file
-src/joy_serial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/src/joy_serial.cpp.i
-.PHONY : src/joy_serial.cpp.i
-
-src/joy_serial.s: src/joy_serial.cpp.s
-.PHONY : src/joy_serial.s
+src/filter_scan.s: src/filter_scan.cpp.s
+.PHONY : src/filter_scan.s
 
 # target to generate assembly for a file
-src/joy_serial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_serial.dir/build.make CMakeFiles/joy_serial.dir/src/joy_serial.cpp.s
-.PHONY : src/joy_serial.cpp.s
+src/filter_scan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_scan.dir/build.make CMakeFiles/filter_scan.dir/src/filter_scan.cpp.s
+.PHONY : src/filter_scan.cpp.s
 
 src/main_bt_node.o: src/main_bt_node.cpp.o
 .PHONY : src/main_bt_node.o
@@ -395,29 +360,101 @@ src/main_bt_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_bt_node.dir/build.make CMakeFiles/main_bt_node.dir/src/main_bt_node.cpp.s
 .PHONY : src/main_bt_node.cpp.s
 
-src/yolo_detector_node.o: src/yolo_detector_node.cpp.o
-.PHONY : src/yolo_detector_node.o
+src/navigate_ramp.o: src/navigate_ramp.cpp.o
+.PHONY : src/navigate_ramp.o
 
 # target to build an object file
-src/yolo_detector_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o
-.PHONY : src/yolo_detector_node.cpp.o
+src/navigate_ramp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_ramp.dir/build.make CMakeFiles/navigate_ramp.dir/src/navigate_ramp.cpp.o
+.PHONY : src/navigate_ramp.cpp.o
 
-src/yolo_detector_node.i: src/yolo_detector_node.cpp.i
-.PHONY : src/yolo_detector_node.i
+src/navigate_ramp.i: src/navigate_ramp.cpp.i
+.PHONY : src/navigate_ramp.i
 
 # target to preprocess a source file
-src/yolo_detector_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.i
-.PHONY : src/yolo_detector_node.cpp.i
+src/navigate_ramp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_ramp.dir/build.make CMakeFiles/navigate_ramp.dir/src/navigate_ramp.cpp.i
+.PHONY : src/navigate_ramp.cpp.i
 
-src/yolo_detector_node.s: src/yolo_detector_node.cpp.s
-.PHONY : src/yolo_detector_node.s
+src/navigate_ramp.s: src/navigate_ramp.cpp.s
+.PHONY : src/navigate_ramp.s
 
 # target to generate assembly for a file
-src/yolo_detector_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.s
-.PHONY : src/yolo_detector_node.cpp.s
+src/navigate_ramp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_ramp.dir/build.make CMakeFiles/navigate_ramp.dir/src/navigate_ramp.cpp.s
+.PHONY : src/navigate_ramp.cpp.s
+
+src/navigate_red_buckets.o: src/navigate_red_buckets.cpp.o
+.PHONY : src/navigate_red_buckets.o
+
+# target to build an object file
+src/navigate_red_buckets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_red_buckets.dir/build.make CMakeFiles/navigate_red_buckets.dir/src/navigate_red_buckets.cpp.o
+.PHONY : src/navigate_red_buckets.cpp.o
+
+src/navigate_red_buckets.i: src/navigate_red_buckets.cpp.i
+.PHONY : src/navigate_red_buckets.i
+
+# target to preprocess a source file
+src/navigate_red_buckets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_red_buckets.dir/build.make CMakeFiles/navigate_red_buckets.dir/src/navigate_red_buckets.cpp.i
+.PHONY : src/navigate_red_buckets.cpp.i
+
+src/navigate_red_buckets.s: src/navigate_red_buckets.cpp.s
+.PHONY : src/navigate_red_buckets.s
+
+# target to generate assembly for a file
+src/navigate_red_buckets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_red_buckets.dir/build.make CMakeFiles/navigate_red_buckets.dir/src/navigate_red_buckets.cpp.s
+.PHONY : src/navigate_red_buckets.cpp.s
+
+src/navigate_yellow_buckets.o: src/navigate_yellow_buckets.cpp.o
+.PHONY : src/navigate_yellow_buckets.o
+
+# target to build an object file
+src/navigate_yellow_buckets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_yellow_buckets.dir/build.make CMakeFiles/navigate_yellow_buckets.dir/src/navigate_yellow_buckets.cpp.o
+.PHONY : src/navigate_yellow_buckets.cpp.o
+
+src/navigate_yellow_buckets.i: src/navigate_yellow_buckets.cpp.i
+.PHONY : src/navigate_yellow_buckets.i
+
+# target to preprocess a source file
+src/navigate_yellow_buckets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_yellow_buckets.dir/build.make CMakeFiles/navigate_yellow_buckets.dir/src/navigate_yellow_buckets.cpp.i
+.PHONY : src/navigate_yellow_buckets.cpp.i
+
+src/navigate_yellow_buckets.s: src/navigate_yellow_buckets.cpp.s
+.PHONY : src/navigate_yellow_buckets.s
+
+# target to generate assembly for a file
+src/navigate_yellow_buckets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_yellow_buckets.dir/build.make CMakeFiles/navigate_yellow_buckets.dir/src/navigate_yellow_buckets.cpp.s
+.PHONY : src/navigate_yellow_buckets.cpp.s
+
+src/obstacle_approach_node.o: src/obstacle_approach_node.cpp.o
+.PHONY : src/obstacle_approach_node.o
+
+# target to build an object file
+src/obstacle_approach_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_approach_node.dir/build.make CMakeFiles/obstacle_approach_node.dir/src/obstacle_approach_node.cpp.o
+.PHONY : src/obstacle_approach_node.cpp.o
+
+src/obstacle_approach_node.i: src/obstacle_approach_node.cpp.i
+.PHONY : src/obstacle_approach_node.i
+
+# target to preprocess a source file
+src/obstacle_approach_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_approach_node.dir/build.make CMakeFiles/obstacle_approach_node.dir/src/obstacle_approach_node.cpp.i
+.PHONY : src/obstacle_approach_node.cpp.i
+
+src/obstacle_approach_node.s: src/obstacle_approach_node.cpp.s
+.PHONY : src/obstacle_approach_node.s
+
+# target to generate assembly for a file
+src/obstacle_approach_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_approach_node.dir/build.make CMakeFiles/obstacle_approach_node.dir/src/obstacle_approach_node.cpp.s
+.PHONY : src/obstacle_approach_node.cpp.s
 
 # Help Target
 help:
@@ -435,29 +472,33 @@ help:
 	@echo "... articubot_one_uninstall"
 	@echo "... uninstall"
 	@echo "... color_detection_node"
-	@echo "... depth_processing_node"
-	@echo "... depth_to_laserscan"
-	@echo "... joy_serial"
+	@echo "... filter_scan"
 	@echo "... main_bt_node"
-	@echo "... yolo_detector_node"
+	@echo "... navigate_ramp"
+	@echo "... navigate_red_buckets"
+	@echo "... navigate_yellow_buckets"
+	@echo "... obstacle_approach_node"
 	@echo "... src/color_detection_node.o"
 	@echo "... src/color_detection_node.i"
 	@echo "... src/color_detection_node.s"
-	@echo "... src/depth_processing_node.o"
-	@echo "... src/depth_processing_node.i"
-	@echo "... src/depth_processing_node.s"
-	@echo "... src/depth_to_laserscan.o"
-	@echo "... src/depth_to_laserscan.i"
-	@echo "... src/depth_to_laserscan.s"
-	@echo "... src/joy_serial.o"
-	@echo "... src/joy_serial.i"
-	@echo "... src/joy_serial.s"
+	@echo "... src/filter_scan.o"
+	@echo "... src/filter_scan.i"
+	@echo "... src/filter_scan.s"
 	@echo "... src/main_bt_node.o"
 	@echo "... src/main_bt_node.i"
 	@echo "... src/main_bt_node.s"
-	@echo "... src/yolo_detector_node.o"
-	@echo "... src/yolo_detector_node.i"
-	@echo "... src/yolo_detector_node.s"
+	@echo "... src/navigate_ramp.o"
+	@echo "... src/navigate_ramp.i"
+	@echo "... src/navigate_ramp.s"
+	@echo "... src/navigate_red_buckets.o"
+	@echo "... src/navigate_red_buckets.i"
+	@echo "... src/navigate_red_buckets.s"
+	@echo "... src/navigate_yellow_buckets.o"
+	@echo "... src/navigate_yellow_buckets.i"
+	@echo "... src/navigate_yellow_buckets.s"
+	@echo "... src/obstacle_approach_node.o"
+	@echo "... src/obstacle_approach_node.i"
+	@echo "... src/obstacle_approach_node.s"
 .PHONY : help
 
 

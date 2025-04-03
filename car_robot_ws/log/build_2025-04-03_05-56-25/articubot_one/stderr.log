@@ -1,0 +1,16 @@
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/navigate_red_buckets.cpp:[m[K In member function ‘[01m[Kvoid NavigateRedBuckets::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/navigate_red_buckets.cpp:25:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KDISTANCE_FROM_YELLOW_BUCKET[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |         const double [01;35m[KDISTANCE_FROM_YELLOW_BUCKET[m[K = 30.0; // Distance from yellow bucket to red columns (feet)
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:[m[K In member function ‘[01m[Kvoid FilteredScanPublisher::[01;32m[KscanCallback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/filter_scan.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kclosest_index[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   33 |         int [01;35m[Kclosest_index[m[K = -1;
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1c): undefined reference to `main'
+/usr/bin/ld: (.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/filter_scan.dir/build.make:239: filter_scan] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/filter_scan.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

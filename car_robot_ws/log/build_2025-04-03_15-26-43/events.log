@@ -1,0 +1,787 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000620] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.001109] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001314] (yolobot_recognition) JobQueued: {'identifier': 'yolobot_recognition', 'dependencies': OrderedDict()}
+[0.001620] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.001684] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.010450] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.017193] (serial) JobStarted: {'identifier': 'serial'}
+[0.024184] (yolobot_recognition) JobStarted: {'identifier': 'yolobot_recognition'}
+[0.033381] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.034484] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.035411] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.039297] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.040605] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.041810] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.044503] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.045379] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.047262] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.060442] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'cmake'}
+[0.061149] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'build'}
+[0.062664] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100648] (-) TimerEvent: {}
+[0.178766] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[0.179288] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'install'}
+[0.205871] (-) TimerEvent: {}
+[0.212197] (articubot_one) StdoutLine: {'line': b'[ 14%] Built target filter_scan\n'}
+[0.228013] (serial) StdoutLine: {'line': b'[ 66%] Built target serial\n'}
+[0.228502] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolobot_recognition', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.230794] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[0.237540] (articubot_one) StdoutLine: {'line': b'[ 35%] Built target main_bt_node\n'}
+[0.238026] (articubot_one) StdoutLine: {'line': b'[ 50%] Built target navigate_ramp\n'}
+[0.238165] (articubot_one) StdoutLine: {'line': b'[ 57%] Built target color_detection_node\n'}
+[0.258888] (yolobot_recognition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.259230] (yolobot_recognition) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.259354] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore\n'}
+[0.259455] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes\n'}
+[0.259546] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore\n'}
+[0.259670] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/bucket_tracker.py\n'}
+[0.259767] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/color_detector.py\n'}
+[0.259869] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/object_tracker.py\n'}
+[0.259969] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt.py\n'}
+[0.260061] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_subscriber.py\n'}
+[0.260153] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8n.pt\n'}
+[0.260241] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py\n'}
+[0.263719] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_pt.py\n'}
+[0.264881] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_subscriber.py\n'}
+[0.265087] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/lib/yolobot_recognition/color_detector.py\n'}
+[0.265202] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/lib/yolobot_recognition/object_tracker.py\n'}
+[0.265296] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/lib/yolobot_recognition/launch_yolov8.launch.py\n'}
+[0.265395] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition\n'}
+[0.265507] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition\n'}
+[0.265716] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh\n'}
+[0.265842] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv\n'}
+[0.265966] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh\n'}
+[0.266077] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv\n'}
+[0.266168] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash\n'}
+[0.266259] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh\n'}
+[0.266350] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh\n'}
+[0.266461] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv\n'}
+[0.266574] (yolobot_recognition) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv\n'}
+[0.294066] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition\n'}
+[0.295094] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake\n'}
+[0.295254] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake\n'}
+[0.295368] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml\n'}
+[0.298184] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[0.304640] (serial) StdoutLine: {'line': b'[100%] Built target serial_example\n'}
+[0.305976] (-) TimerEvent: {}
+[0.341441] (articubot_one) StdoutLine: {'line': b'[ 71%] Built target navigate_yellow_buckets\n'}
+[0.351938] (articubot_one) StdoutLine: {'line': b'[ 85%] Built target navigate_red_buckets\n'}
+[0.368497] (articubot_one) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_approach_node.dir/src/obstacle_approach_node.cpp.o\x1b[0m\n'}
+[0.383779] (yolobot_recognition) JobEnded: {'identifier': 'yolobot_recognition', 'rc': 0}
+[0.388968] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.389595] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[0.389651] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.390275] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.407297] (-) TimerEvent: {}
+[0.418798] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[0.420938] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[0.421956] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs', '--', '-j4', '-l4'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.428734] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.429015] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.429157] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[0.429310] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[0.429490] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[0.429658] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[0.432698] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[0.437272] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[0.437851] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[0.438234] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[0.438519] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[0.438866] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[0.439145] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[0.439374] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[0.446753] (serial) CommandEnded: {'returncode': 0}
+[0.447425] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.447962] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/serial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.449401] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[0.449637] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[0.449802] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[0.449921] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[0.455082] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[0.455580] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[0.457266] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[0.458487] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[0.459909] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[0.460784] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[0.461744] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[0.462784] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[0.465702] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[0.466041] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[0.466471] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[0.504588] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.505053] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/libserial.a\n'}
+[0.507982] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin/serial_example\n'}
+[0.508280] (-) TimerEvent: {}
+[0.508502] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial\n'}
+[0.509501] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/serial.h\n'}
+[0.509723] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl\n'}
+[0.509867] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/win.h\n'}
+[0.510010] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/impl/unix.h\n'}
+[0.510143] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[0.510251] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[0.510435] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.513888] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.514040] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.514160] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.514253] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.514338] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[0.514422] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[0.514505] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[0.516227] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[0.516505] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[0.516659] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[0.516761] (serial) StdoutLine: {'line': b'-- Installing: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.dsv\n'}
+[0.516853] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.516939] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.517056] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.517150] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.517235] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[0.517341] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[0.517444] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.517535] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.520383] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share/serial/package.xml\n'}
+[0.520524] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.521417] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[0.521537] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[0.523878] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[0.524030] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[0.524126] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[0.524218] (serial) CommandEnded: {'returncode': 0}
+[0.525217] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[0.560151] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.564737] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[0.593061] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target yolov8_msgs__rosidl_generator_type_description\n'}
+[0.611665] (-) TimerEvent: {}
+[0.627768] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_yolov8_msgs\n'}
+[0.635623] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[0.655153] (yolov8_msgs) StdoutLine: {'line': b'[  3%] Built target yolov8_msgs__cpp\n'}
+[0.656224] (yolov8_msgs) StdoutLine: {'line': b'[ 24%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[0.713707] (-) TimerEvent: {}
+[0.715647] (yolov8_msgs) StdoutLine: {'line': b'[ 40%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.717629] (yolov8_msgs) StdoutLine: {'line': b'[ 42%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.728866] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[0.771499] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[0.793719] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.804227] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[0.813996] (-) TimerEvent: {}
+[0.849367] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] Built target yolov8_msgs\n'}
+[0.916696] (-) TimerEvent: {}
+[0.923138] (yolov8_msgs) StdoutLine: {'line': b'[ 81%] Built target yolov8_msgs__py\n'}
+[1.010878] (yolov8_msgs) StdoutLine: {'line': b'[ 88%] Built target yolov8_msgs__rosidl_generator_py\n'}
+[1.016813] (-) TimerEvent: {}
+[1.117355] (-) TimerEvent: {}
+[1.144415] (yolov8_msgs) StdoutLine: {'line': b'[ 92%] Built target yolov8_msgs_s__rosidl_typesupport_introspection_c\n'}
+[1.165046] (yolov8_msgs) StdoutLine: {'line': b'[ 96%] Built target yolov8_msgs_s__rosidl_typesupport_c\n'}
+[1.165386] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[1.217489] (-) TimerEvent: {}
+[1.319842] (-) TimerEvent: {}
+[1.380160] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.419979] (-) TimerEvent: {}
+[1.458099] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[1.460284] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[1.461236] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[1.520183] (-) TimerEvent: {}
+[1.620649] (-) TimerEvent: {}
+[1.643921] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[1.644368] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[1.720791] (-) TimerEvent: {}
+[1.761008] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_yolov8_msgs_egg\n'}
+[1.792013] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[1.793213] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[1.793827] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.814192] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.816474] (yolov8_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.817778] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[1.817927] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.json\n'}
+[1.822785] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.json\n'}
+[1.823073] (-) TimerEvent: {}
+[1.823227] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.json\n'}
+[1.829988] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/color_detection.h\n'}
+[1.830244] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__functions.h\n'}
+[1.830373] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__struct.h\n'}
+[1.830500] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__type_support.h\n'}
+[1.835480] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h\n'}
+[1.835674] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h\n'}
+[1.835774] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h\n'}
+[1.835864] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h\n'}
+[1.835956] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h\n'}
+[1.836041] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h\n'}
+[1.836132] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h\n'}
+[1.836238] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.836326] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h\n'}
+[1.836411] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[1.836523] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[1.841073] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[1.845266] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[1.846441] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[1.846567] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.846677] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/color_detection.hpp\n'}
+[1.846784] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__builder.hpp\n'}
+[1.846895] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__struct.hpp\n'}
+[1.847029] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__traits.hpp\n'}
+[1.847135] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__type_support.hpp\n'}
+[1.847241] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp\n'}
+[1.847351] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp\n'}
+[1.847460] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp\n'}
+[1.849594] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp\n'}
+[1.849845] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp\n'}
+[1.849950] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp\n'}
+[1.850042] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp\n'}
+[1.850133] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp\n'}
+[1.850224] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp\n'}
+[1.850308] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.850415] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp\n'}
+[1.850504] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.850615] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.850717] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.850801] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.850910] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_introspection_c.h\n'}
+[1.851007] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[1.851093] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[1.851180] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.851262] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.851346] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.851431] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.851512] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[1.851646] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[1.851755] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.851846] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.851932] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.852019] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.852123] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/__init__.py\n'}
+[1.852214] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.852307] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.852410] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.852510] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/__init__.py\n'}
+[1.852641] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_color_detection.py\n'}
+[1.852738] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_color_detection_s.c\n'}
+[1.852834] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result.py\n'}
+[1.852919] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result_s.c\n'}
+[1.853004] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference.py\n'}
+[1.853087] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c\n'}
+[1.853194] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so\n'}
+[1.853281] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.853365] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[1.853447] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.853529] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[1.853643] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so\n'}
+[1.853738] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl\n'}
+[1.853824] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl\n'}
+[1.853910] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.idl\n'}
+[1.854022] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg\n'}
+[1.854115] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg\n'}
+[1.854210] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.msg\n'}
+[1.854313] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[1.854402] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[1.854492] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[1.854642] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[1.854741] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[1.854827] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[1.854909] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[1.855014] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[1.855102] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[1.855185] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[1.855268] (yolov8_msgs) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[1.868887] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[1.869724] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.869894] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.870337] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.870849] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.871291] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.871396] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.871484] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.872175] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[1.872280] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[1.872366] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[1.872961] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[1.873120] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.873257] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.873350] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.874142] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[1.874254] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.876835] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[1.923200] (-) TimerEvent: {}
+[1.942885] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs'...\n"}
+[1.943232] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg'...\n"}
+[1.959088] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so\n'}
+[1.961992] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[1.962267] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.962414] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.962523] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.962679] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.962809] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.962908] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.963039] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.963139] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.963238] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.967133] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.967391] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.967531] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.967684] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.967801] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.967916] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.968018] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.968125] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[2.023324] (-) TimerEvent: {}
+[2.123759] (-) TimerEvent: {}
+[2.166258] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[2.223879] (-) TimerEvent: {}
+[2.324266] (-) TimerEvent: {}
+[2.425664] (-) TimerEvent: {}
+[2.526065] (-) TimerEvent: {}
+[2.627124] (-) TimerEvent: {}
+[2.728720] (-) TimerEvent: {}
+[2.830696] (-) TimerEvent: {}
+[2.931181] (-) TimerEvent: {}
+[3.031561] (-) TimerEvent: {}
+[3.131935] (-) TimerEvent: {}
+[3.233260] (-) TimerEvent: {}
+[3.335865] (-) TimerEvent: {}
+[3.440790] (-) TimerEvent: {}
+[3.550681] (-) TimerEvent: {}
+[3.651092] (-) TimerEvent: {}
+[3.751481] (-) TimerEvent: {}
+[3.851902] (-) TimerEvent: {}
+[3.953824] (-) TimerEvent: {}
+[4.054251] (-) TimerEvent: {}
+[4.154649] (-) TimerEvent: {}
+[4.255034] (-) TimerEvent: {}
+[4.355405] (-) TimerEvent: {}
+[4.455828] (-) TimerEvent: {}
+[4.556332] (-) TimerEvent: {}
+[4.656754] (-) TimerEvent: {}
+[4.757155] (-) TimerEvent: {}
+[4.857571] (-) TimerEvent: {}
+[4.957962] (-) TimerEvent: {}
+[5.058346] (-) TimerEvent: {}
+[5.158758] (-) TimerEvent: {}
+[5.259124] (-) TimerEvent: {}
+[5.359491] (-) TimerEvent: {}
+[5.459899] (-) TimerEvent: {}
+[5.560265] (-) TimerEvent: {}
+[5.662870] (-) TimerEvent: {}
+[5.764856] (-) TimerEvent: {}
+[5.865297] (-) TimerEvent: {}
+[5.969224] (-) TimerEvent: {}
+[6.070639] (-) TimerEvent: {}
+[6.171078] (-) TimerEvent: {}
+[6.273116] (-) TimerEvent: {}
+[6.384418] (-) TimerEvent: {}
+[6.488836] (-) TimerEvent: {}
+[6.589433] (-) TimerEvent: {}
+[6.690656] (-) TimerEvent: {}
+[6.791243] (-) TimerEvent: {}
+[6.891663] (-) TimerEvent: {}
+[6.992092] (-) TimerEvent: {}
+[7.092709] (-) TimerEvent: {}
+[7.194372] (-) TimerEvent: {}
+[7.295139] (-) TimerEvent: {}
+[7.395703] (-) TimerEvent: {}
+[7.500650] (-) TimerEvent: {}
+[7.602207] (-) TimerEvent: {}
+[7.702711] (-) TimerEvent: {}
+[7.804962] (-) TimerEvent: {}
+[7.906499] (-) TimerEvent: {}
+[8.006974] (-) TimerEvent: {}
+[8.108571] (-) TimerEvent: {}
+[8.214683] (-) TimerEvent: {}
+[8.318156] (-) TimerEvent: {}
+[8.420028] (-) TimerEvent: {}
+[8.522820] (-) TimerEvent: {}
+[8.624187] (-) TimerEvent: {}
+[8.724988] (-) TimerEvent: {}
+[8.826724] (-) TimerEvent: {}
+[8.927319] (-) TimerEvent: {}
+[9.028381] (-) TimerEvent: {}
+[9.129660] (-) TimerEvent: {}
+[9.230082] (-) TimerEvent: {}
+[9.330500] (-) TimerEvent: {}
+[9.430932] (-) TimerEvent: {}
+[9.538277] (-) TimerEvent: {}
+[9.643494] (-) TimerEvent: {}
+[9.773207] (-) TimerEvent: {}
+[9.940649] (-) TimerEvent: {}
+[10.093641] (-) TimerEvent: {}
+[10.229675] (-) TimerEvent: {}
+[10.346685] (-) TimerEvent: {}
+[10.466741] (-) TimerEvent: {}
+[10.577670] (-) TimerEvent: {}
+[10.695698] (-) TimerEvent: {}
+[10.806026] (-) TimerEvent: {}
+[10.919899] (-) TimerEvent: {}
+[11.076983] (-) TimerEvent: {}
+[11.179656] (-) TimerEvent: {}
+[11.282026] (-) TimerEvent: {}
+[11.385734] (-) TimerEvent: {}
+[11.494320] (-) TimerEvent: {}
+[11.604665] (-) TimerEvent: {}
+[11.707644] (-) TimerEvent: {}
+[11.812637] (-) TimerEvent: {}
+[11.913072] (-) TimerEvent: {}
+[12.015816] (-) TimerEvent: {}
+[12.116250] (-) TimerEvent: {}
+[12.217364] (-) TimerEvent: {}
+[12.318333] (-) TimerEvent: {}
+[12.424922] (-) TimerEvent: {}
+[12.531376] (-) TimerEvent: {}
+[12.636435] (-) TimerEvent: {}
+[12.743624] (-) TimerEvent: {}
+[12.847245] (-) TimerEvent: {}
+[12.951822] (-) TimerEvent: {}
+[13.056010] (-) TimerEvent: {}
+[13.159798] (-) TimerEvent: {}
+[13.262826] (-) TimerEvent: {}
+[13.369938] (-) TimerEvent: {}
+[13.475055] (-) TimerEvent: {}
+[13.580646] (-) TimerEvent: {}
+[13.689288] (-) TimerEvent: {}
+[13.793164] (-) TimerEvent: {}
+[13.900976] (-) TimerEvent: {}
+[14.004847] (-) TimerEvent: {}
+[14.108378] (-) TimerEvent: {}
+[14.209955] (-) TimerEvent: {}
+[14.313167] (-) TimerEvent: {}
+[14.419646] (-) TimerEvent: {}
+[14.530068] (-) TimerEvent: {}
+[14.634831] (-) TimerEvent: {}
+[14.741067] (-) TimerEvent: {}
+[14.847956] (-) TimerEvent: {}
+[14.952215] (-) TimerEvent: {}
+[15.053974] (-) TimerEvent: {}
+[15.159092] (-) TimerEvent: {}
+[15.264270] (-) TimerEvent: {}
+[15.368120] (-) TimerEvent: {}
+[15.476219] (-) TimerEvent: {}
+[15.585234] (-) TimerEvent: {}
+[15.689743] (-) TimerEvent: {}
+[15.800906] (-) TimerEvent: {}
+[15.903743] (-) TimerEvent: {}
+[16.013177] (-) TimerEvent: {}
+[16.123108] (-) TimerEvent: {}
+[16.230749] (-) TimerEvent: {}
+[16.335910] (-) TimerEvent: {}
+[16.438040] (-) TimerEvent: {}
+[16.541650] (-) TimerEvent: {}
+[16.646650] (-) TimerEvent: {}
+[16.756678] (-) TimerEvent: {}
+[16.865228] (-) TimerEvent: {}
+[16.966726] (-) TimerEvent: {}
+[17.071719] (-) TimerEvent: {}
+[17.176857] (-) TimerEvent: {}
+[17.280747] (-) TimerEvent: {}
+[17.390464] (-) TimerEvent: {}
+[17.491972] (-) TimerEvent: {}
+[17.599992] (-) TimerEvent: {}
+[17.705036] (-) TimerEvent: {}
+[17.809775] (-) TimerEvent: {}
+[17.911873] (-) TimerEvent: {}
+[18.013812] (-) TimerEvent: {}
+[18.118060] (-) TimerEvent: {}
+[18.223275] (-) TimerEvent: {}
+[18.326674] (-) TimerEvent: {}
+[18.442150] (-) TimerEvent: {}
+[18.545171] (-) TimerEvent: {}
+[18.648765] (-) TimerEvent: {}
+[18.751027] (-) TimerEvent: {}
+[18.852119] (-) TimerEvent: {}
+[18.955212] (-) TimerEvent: {}
+[19.057079] (-) TimerEvent: {}
+[19.158356] (-) TimerEvent: {}
+[19.259410] (-) TimerEvent: {}
+[19.360528] (-) TimerEvent: {}
+[19.461952] (-) TimerEvent: {}
+[19.563072] (-) TimerEvent: {}
+[19.664837] (-) TimerEvent: {}
+[19.765820] (-) TimerEvent: {}
+[19.866962] (-) TimerEvent: {}
+[19.968277] (-) TimerEvent: {}
+[20.070123] (-) TimerEvent: {}
+[20.171495] (-) TimerEvent: {}
+[20.273672] (-) TimerEvent: {}
+[20.375462] (-) TimerEvent: {}
+[20.476700] (-) TimerEvent: {}
+[20.578315] (-) TimerEvent: {}
+[20.679430] (-) TimerEvent: {}
+[20.781013] (-) TimerEvent: {}
+[20.882113] (-) TimerEvent: {}
+[20.983132] (-) TimerEvent: {}
+[21.084323] (-) TimerEvent: {}
+[21.187253] (-) TimerEvent: {}
+[21.288833] (-) TimerEvent: {}
+[21.390833] (-) TimerEvent: {}
+[21.492620] (-) TimerEvent: {}
+[21.593620] (-) TimerEvent: {}
+[21.694536] (-) TimerEvent: {}
+[21.795334] (-) TimerEvent: {}
+[21.896541] (-) TimerEvent: {}
+[21.997955] (-) TimerEvent: {}
+[22.099482] (-) TimerEvent: {}
+[22.201686] (-) TimerEvent: {}
+[22.303009] (-) TimerEvent: {}
+[22.403882] (-) TimerEvent: {}
+[22.504437] (-) TimerEvent: {}
+[22.605197] (-) TimerEvent: {}
+[22.705763] (-) TimerEvent: {}
+[22.806970] (-) TimerEvent: {}
+[22.908125] (-) TimerEvent: {}
+[23.008758] (-) TimerEvent: {}
+[23.110006] (-) TimerEvent: {}
+[23.211028] (-) TimerEvent: {}
+[23.312658] (-) TimerEvent: {}
+[23.413738] (-) TimerEvent: {}
+[23.514743] (-) TimerEvent: {}
+[23.615934] (-) TimerEvent: {}
+[23.718744] (-) TimerEvent: {}
+[23.819730] (-) TimerEvent: {}
+[23.921160] (-) TimerEvent: {}
+[24.022015] (-) TimerEvent: {}
+[24.122749] (-) TimerEvent: {}
+[24.224040] (-) TimerEvent: {}
+[24.325137] (-) TimerEvent: {}
+[24.430640] (-) TimerEvent: {}
+[24.531365] (-) TimerEvent: {}
+[24.634007] (-) TimerEvent: {}
+[24.736814] (-) TimerEvent: {}
+[24.839885] (-) TimerEvent: {}
+[24.941636] (-) TimerEvent: {}
+[25.046145] (-) TimerEvent: {}
+[25.147144] (-) TimerEvent: {}
+[25.249601] (-) TimerEvent: {}
+[25.351679] (-) TimerEvent: {}
+[25.454090] (-) TimerEvent: {}
+[25.554744] (-) TimerEvent: {}
+[25.655390] (-) TimerEvent: {}
+[25.756578] (-) TimerEvent: {}
+[25.858812] (-) TimerEvent: {}
+[25.961988] (-) TimerEvent: {}
+[26.064499] (-) TimerEvent: {}
+[26.165527] (-) TimerEvent: {}
+[26.267417] (-) TimerEvent: {}
+[26.368758] (-) TimerEvent: {}
+[26.471598] (-) TimerEvent: {}
+[26.573630] (-) TimerEvent: {}
+[26.675636] (-) TimerEvent: {}
+[26.776374] (-) TimerEvent: {}
+[26.878672] (-) TimerEvent: {}
+[26.980117] (-) TimerEvent: {}
+[27.083041] (-) TimerEvent: {}
+[27.184017] (-) TimerEvent: {}
+[27.285022] (-) TimerEvent: {}
+[27.386195] (-) TimerEvent: {}
+[27.488989] (-) TimerEvent: {}
+[27.592980] (-) TimerEvent: {}
+[27.694185] (-) TimerEvent: {}
+[27.797850] (-) TimerEvent: {}
+[27.900945] (-) TimerEvent: {}
+[28.002653] (-) TimerEvent: {}
+[28.104212] (-) TimerEvent: {}
+[28.206058] (-) TimerEvent: {}
+[28.308649] (-) TimerEvent: {}
+[28.411172] (-) TimerEvent: {}
+[28.516854] (-) TimerEvent: {}
+[28.623364] (-) TimerEvent: {}
+[28.730611] (-) TimerEvent: {}
+[28.842246] (-) TimerEvent: {}
+[28.951790] (-) TimerEvent: {}
+[29.055261] (-) TimerEvent: {}
+[29.156998] (-) TimerEvent: {}
+[29.262150] (-) TimerEvent: {}
+[29.365106] (-) TimerEvent: {}
+[29.466748] (-) TimerEvent: {}
+[29.570695] (-) TimerEvent: {}
+[29.672727] (-) TimerEvent: {}
+[29.775699] (-) TimerEvent: {}
+[29.879831] (-) TimerEvent: {}
+[29.987516] (-) TimerEvent: {}
+[30.091449] (-) TimerEvent: {}
+[30.195345] (-) TimerEvent: {}
+[30.298547] (-) TimerEvent: {}
+[30.404938] (-) TimerEvent: {}
+[30.506455] (-) TimerEvent: {}
+[30.613385] (-) TimerEvent: {}
+[30.714394] (-) TimerEvent: {}
+[30.816591] (-) TimerEvent: {}
+[30.917979] (-) TimerEvent: {}
+[31.018985] (-) TimerEvent: {}
+[31.119721] (-) TimerEvent: {}
+[31.220643] (-) TimerEvent: {}
+[31.321106] (-) TimerEvent: {}
+[31.421835] (-) TimerEvent: {}
+[31.522453] (-) TimerEvent: {}
+[31.623349] (-) TimerEvent: {}
+[31.724436] (-) TimerEvent: {}
+[31.825241] (-) TimerEvent: {}
+[31.925775] (-) TimerEvent: {}
+[32.028313] (-) TimerEvent: {}
+[32.132126] (-) TimerEvent: {}
+[32.235132] (-) TimerEvent: {}
+[32.336214] (-) TimerEvent: {}
+[32.439343] (-) TimerEvent: {}
+[32.540828] (-) TimerEvent: {}
+[32.642494] (-) TimerEvent: {}
+[32.745391] (-) TimerEvent: {}
+[32.846140] (-) TimerEvent: {}
+[32.949451] (-) TimerEvent: {}
+[33.050279] (-) TimerEvent: {}
+[33.150780] (-) TimerEvent: {}
+[33.251956] (-) TimerEvent: {}
+[33.353140] (-) TimerEvent: {}
+[33.454531] (-) TimerEvent: {}
+[33.555149] (-) TimerEvent: {}
+[33.655712] (-) TimerEvent: {}
+[33.756242] (-) TimerEvent: {}
+[33.856842] (-) TimerEvent: {}
+[33.958253] (-) TimerEvent: {}
+[34.058762] (-) TimerEvent: {}
+[34.159618] (-) TimerEvent: {}
+[34.260615] (-) TimerEvent: {}
+[34.361764] (-) TimerEvent: {}
+[34.462182] (-) TimerEvent: {}
+[34.562857] (-) TimerEvent: {}
+[34.663312] (-) TimerEvent: {}
+[34.763850] (-) TimerEvent: {}
+[34.864286] (-) TimerEvent: {}
+[34.964741] (-) TimerEvent: {}
+[35.065185] (-) TimerEvent: {}
+[35.165617] (-) TimerEvent: {}
+[35.266020] (-) TimerEvent: {}
+[35.366408] (-) TimerEvent: {}
+[35.466809] (-) TimerEvent: {}
+[35.567174] (-) TimerEvent: {}
+[35.667547] (-) TimerEvent: {}
+[35.767992] (-) TimerEvent: {}
+[35.868427] (-) TimerEvent: {}
+[35.968830] (-) TimerEvent: {}
+[36.069211] (-) TimerEvent: {}
+[36.169599] (-) TimerEvent: {}
+[36.269989] (-) TimerEvent: {}
+[36.370369] (-) TimerEvent: {}
+[36.470776] (-) TimerEvent: {}
+[36.571254] (-) TimerEvent: {}
+[36.671631] (-) TimerEvent: {}
+[36.772023] (-) TimerEvent: {}
+[36.872433] (-) TimerEvent: {}
+[36.972871] (-) TimerEvent: {}
+[37.073297] (-) TimerEvent: {}
+[37.173708] (-) TimerEvent: {}
+[37.274103] (-) TimerEvent: {}
+[37.374508] (-) TimerEvent: {}
+[37.474913] (-) TimerEvent: {}
+[37.575303] (-) TimerEvent: {}
+[37.675735] (-) TimerEvent: {}
+[37.776204] (-) TimerEvent: {}
+[37.876609] (-) TimerEvent: {}
+[37.977011] (-) TimerEvent: {}
+[38.077605] (-) TimerEvent: {}
+[38.178002] (-) TimerEvent: {}
+[38.278460] (-) TimerEvent: {}
+[38.378905] (-) TimerEvent: {}
+[38.479353] (-) TimerEvent: {}
+[38.579763] (-) TimerEvent: {}
+[38.680221] (-) TimerEvent: {}
+[38.780704] (-) TimerEvent: {}
+[38.881120] (-) TimerEvent: {}
+[38.981609] (-) TimerEvent: {}
+[39.082073] (-) TimerEvent: {}
+[39.182448] (-) TimerEvent: {}
+[39.282973] (-) TimerEvent: {}
+[39.383668] (-) TimerEvent: {}
+[39.488890] (-) TimerEvent: {}
+[39.591762] (-) TimerEvent: {}
+[39.692352] (-) TimerEvent: {}
+[39.792894] (-) TimerEvent: {}
+[39.811542] (articubot_one) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obstacle_approach_node\x1b[0m\n'}
+[39.893367] (-) TimerEvent: {}
+[39.994444] (-) TimerEvent: {}
+[40.095279] (-) TimerEvent: {}
+[40.196311] (-) TimerEvent: {}
+[40.296929] (-) TimerEvent: {}
+[40.397419] (-) TimerEvent: {}
+[40.498245] (-) TimerEvent: {}
+[40.598780] (-) TimerEvent: {}
+[40.699194] (-) TimerEvent: {}
+[40.799541] (-) TimerEvent: {}
+[40.865830] (articubot_one) StdoutLine: {'line': b'[100%] Built target obstacle_approach_node\n'}
+[40.888519] (articubot_one) CommandEnded: {'returncode': 0}
+[40.889387] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[40.890788] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one'], 'cwd': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robogames', 'SSH_CLIENT': '172.20.10.3 50740 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robogames', 'OLDPWD': '/home/robogames/vt-cro/robogames_pi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ros2_python_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robogames', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/aarch64-linux-gnu/pkgconfig:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/home/robogames/.local/bin:/home/robogames/ros2_python_venv/bin:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros2_python_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/robogames/ros2_python_venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 50740 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[40.899648] (-) TimerEvent: {}
+[40.907408] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.908332] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.909233] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[40.909855] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[40.910007] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[40.910106] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[40.910261] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[40.910389] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/gz_bridge.yaml\n'}
+[40.910495] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/hardcode.xml\n'}
+[40.929573] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[40.929918] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/keepout_nav2_params.yaml\n'}
+[40.930115] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/keepout_params.yaml\n'}
+[40.930871] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[40.931043] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[40.931209] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[40.932111] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[40.932225] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[40.932324] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/navigate_w_replanning_and_recovery.xml\n'}
+[40.932416] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/nrc_bt.xml\n'}
+[40.932509] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/rtabmap_params.yaml\n'}
+[40.932625] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/speedlimit_nav2_params.yaml\n'}
+[40.932722] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/speedlimit_params.yaml\n'}
+[40.932815] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[40.932927] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[40.933167] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[40.933297] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[40.933395] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[40.933488] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[40.933635] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[40.933739] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[40.933825] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[40.933912] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[40.934074] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[40.934200] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/__pycache__/launch_robot.launch.cpython-312.pyc\n'}
+[40.952575] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/actions.launch.py\n'}
+[40.952956] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[40.953157] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/controllers.launch.py\n'}
+[40.953301] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[40.953425] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[40.953565] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[40.953703] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[40.953815] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[40.953949] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[40.954079] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/robot_master.launch.py\n'}
+[40.954206] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[40.954325] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rs_pointcloud_launch.py\n'}
+[40.954447] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[40.954870] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/rtabmap.launch.py\n'}
+[40.954980] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/launch/vision.launch.py\n'}
+[40.955119] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[40.955309] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[40.955837] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/color_detection_node\n'}
+[40.956173] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/main_bt_node\n'}
+[40.956493] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/filter_scan\n'}
+[40.956844] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_ramp\n'}
+[40.957596] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_red_buckets\n'}
+[40.957725] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/navigate_yellow_buckets\n'}
+[40.957891] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/lib/articubot_one/obstacle_approach_node\n'}
+[40.958069] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[40.958301] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[40.958531] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[40.958969] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[40.959080] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[40.959193] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[40.959388] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[40.959620] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[40.959912] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[40.960133] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[40.960314] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[40.980211] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[40.980782] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[40.980992] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[40.981143] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[40.983893] (articubot_one) CommandEnded: {'returncode': 0}
+[40.999742] (-) TimerEvent: {}
+[41.009028] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[41.010372] (-) EventReactorShutdown: {}

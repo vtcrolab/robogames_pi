@@ -1,11 +1,12 @@
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/uninstall.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/articubot_one_uninstall.dir
-/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/joy_serial.dir
-/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/depth_to_laserscan.dir
-/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/yolo_detector_node.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/color_detection_node.dir
-/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/depth_processing_node.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/main_bt_node.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/filter_scan.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/navigate_ramp.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/navigate_red_buckets.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/navigate_yellow_buckets.dir
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/obstacle_approach_node.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/test.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/edit_cache.dir
 /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles/rebuild_cache.dir

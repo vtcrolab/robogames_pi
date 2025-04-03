@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h

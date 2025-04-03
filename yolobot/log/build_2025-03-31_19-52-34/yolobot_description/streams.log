@@ -1,0 +1,54 @@
+[0.028s] Invoking command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description
+[0.460s] -- The C compiler identification is GNU 13.3.0
+[0.972s] -- The CXX compiler identification is GNU 13.3.0
+[1.013s] -- Detecting C compiler ABI info
+[1.279s] -- Detecting C compiler ABI info - done
+[1.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.293s] -- Detecting C compile features
+[1.293s] -- Detecting C compile features - done
+[1.312s] -- Detecting CXX compiler ABI info
+[1.578s] -- Detecting CXX compiler ABI info - done
+[1.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.596s] -- Detecting CXX compile features
+[1.596s] -- Detecting CXX compile features - done
+[1.601s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.010s] -- Found Python3: /home/robogames/ros2_python_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.401s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.527s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.561s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.861s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.863s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.864s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.865s] -- Added test 'lint_cmake' to check CMake code style
+[2.866s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.867s] -- Added test 'xmllint' to check XML markup files
+[2.872s] -- Configuring done (2.8s)
+[2.880s] -- Generating done (0.0s)
+[2.882s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description
+[2.910s] Invoked command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description
+[2.913s] Invoking command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description -- -j4 -l4
+[3.012s] Invoked command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description -- -j4 -l4
+[3.012s] Invoking command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description
+[3.028s] -- Install configuration: ""
+[3.029s] -- Execute custom install script
+[3.030s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description//launch/spawn_yolobot.py
+[3.052s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description//launch/spawn_yolobot_launch.launch.py
+[3.073s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description//robot/yolobot.urdf
+[3.100s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/lib/yolobot_description/spawn_yolobot.py
+[3.118s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/ament_index/resource_index/package_run_dependencies/yolobot_description
+[3.138s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/ament_index/resource_index/parent_prefix_path/yolobot_description
+[3.160s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/environment/ament_prefix_path.sh
+[3.180s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/environment/ament_prefix_path.dsv
+[3.202s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/environment/path.sh
+[3.222s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/environment/path.dsv
+[3.245s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/local_setup.bash
+[3.266s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/local_setup.sh
+[3.285s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/local_setup.zsh
+[3.307s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/local_setup.dsv
+[3.326s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/package.dsv
+[3.348s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/ament_index/resource_index/packages/yolobot_description
+[3.366s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/cmake/yolobot_descriptionConfig.cmake
+[3.387s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/cmake/yolobot_descriptionConfig-version.cmake
+[3.405s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/yolobot/install/yolobot_description/share/yolobot_description/package.xml
+[3.428s] Invoked command in '/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/object_detection:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_description

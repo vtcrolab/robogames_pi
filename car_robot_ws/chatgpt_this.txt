@@ -1,2 +1,0 @@
-[WARN] [1743045359.655845616] [rviz2]: topic '/cmd_vel_joy' has more than one types associated, rviz will arbitrarily use the type 'geometry_msgs/msg/Twist' -- all types for the topic: 'geometry_msgs/msg/Twist' 'geometry_msgs/msg/TwistStamped'
-[WARN] [1743045359.655930060] [rviz2]: topic '/diff_cont/cmd_vel_unstamped' has more than one types associated, rviz will arbitrarily use the type 'geometry_msgs/msg/Twist' -- all types for the topic: 'geometry_msgs/msg/Twist' 'geometry_msgs/msg/TwistStamped'

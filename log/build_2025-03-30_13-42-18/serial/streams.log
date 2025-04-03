@@ -1,0 +1,65 @@
+[0.576s] Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/serial
+[0.739s] -- The C compiler identification is GNU 13.3.0
+[0.912s] -- The CXX compiler identification is GNU 13.3.0
+[0.966s] -- Detecting C compiler ABI info
+[1.236s] -- Detecting C compiler ABI info - done
+[1.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.264s] -- Detecting C compile features
+[1.264s] -- Detecting C compile features - done
+[1.287s] -- Detecting CXX compiler ABI info
+[1.542s] -- Detecting CXX compiler ABI info - done
+[1.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.555s] -- Detecting CXX compile features
+[1.558s] -- Detecting CXX compile features - done
+[1.567s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.893s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.431s] -- Configuring done (1.8s)
+[2.444s] -- Generating done (0.0s)
+[2.446s] [33mCMake Warning:
+[2.447s]   Manually-specified variables were not used by the project:
+[2.447s] 
+[2.447s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.448s] 
+[2.448s] [0m
+[2.448s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/build/serial
+[2.459s] Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/serial
+[2.464s] Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/serial -- -j4 -l4
+[2.586s] [ 16%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.631s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.636s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[4.189s] [ 66%] [32m[1mLinking CXX static library libserial.a[0m
+[4.389s] [ 66%] Built target serial
+[4.443s] [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[5.250s] [100%] [32m[1mLinking CXX executable serial_example[0m
+[5.581s] [100%] Built target serial_example
+[5.649s] Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/serial -- -j4 -l4
+[5.694s] Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/serial
+[5.742s] -- Install configuration: ""
+[5.742s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/lib/libserial.a
+[5.747s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/bin/serial_example
+[5.753s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial
+[5.755s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial/serial.h
+[5.756s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial/impl
+[5.757s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial/impl/win.h
+[5.759s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial/impl/unix.h
+[5.762s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/include/serial/v8stdint.h
+[5.763s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/library_path.sh
+[5.763s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/library_path.dsv
+[5.764s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[5.764s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[5.764s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/ament_prefix_path.sh
+[5.768s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/ament_prefix_path.dsv
+[5.769s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/path.sh
+[5.770s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/environment/path.dsv
+[5.770s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/local_setup.bash
+[5.770s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/local_setup.sh
+[5.771s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/local_setup.zsh
+[5.771s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/local_setup.dsv
+[5.771s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.dsv
+[5.771s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/ament_index/resource_index/packages/serial
+[5.776s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.778s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[5.778s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/cmake/serialConfig.cmake
+[5.779s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/cmake/serialConfig-version.cmake
+[5.779s] -- Installing: /home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.xml
+[5.784s] Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/serial

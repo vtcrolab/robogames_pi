@@ -1,0 +1,51 @@
+[0.034s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino
+[0.250s] -- The CXX compiler identification is GNU 13.3.0
+[0.302s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.812s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.826s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.290s] -- Found Python3: /home/robogames/ros2_python_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.658s] -- Found hardware_interface: 4.27.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.777s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.803s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.360s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.453s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.457s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.508s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.748s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.755s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.790s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.797s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.837s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.872s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.508s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.564s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[3.595s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.716s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.757s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.757s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.758s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.772s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.013s] -- Configuring done (4.0s)
+[4.057s] -- Generating done (0.0s)
+[4.069s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino
+[4.099s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino
+[4.101s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[4.234s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[21.117s] In file included from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:38[m[K,
+[21.122s]                  from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[21.128s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:[m[K In member function ‘[01m[Kstd::string ArduinoComms::[01;32m[Ksend_msg[m[K(const std::string&, bool)[m[K’:
+[21.129s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:50:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprint_output[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.129s]    50 |   std::string send_msg(const std::string &msg_to_send, [01;35m[Kbool print_output = false[m[K){
+[21.129s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[38.026s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K At global scope:
+[38.027s] [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:542:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Klast_motion_command[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[38.029s]   542 | static char [01;35m[Klast_motion_command[m[K = 'H';
+[38.036s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[58.708s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[60.978s] [100%] Built target diffdrive_arduino

@@ -1,0 +1,479 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9f2d3590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9f2d32f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9f2d32f0>>, mixin_verb=('build',))
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robogames/vt-cro/robogames_pi'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_code) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/build) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/build) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/install) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/log) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/log) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/articubot_one) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'car_robot_ws/src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/build) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/build) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/diffdrive_arduino) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'car_robot_ws/src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/install) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/install) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/log) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/log) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/opencv_tools) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'car_robot_ws/src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(car_robot_ws/src/serial) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'car_robot_ws/src/serial' with type 'ros.catkin' and name 'serial'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/images) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/train/labels) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/images) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(color.v1i.yolov5pytorch/valid/labels) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.329s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/robogames/vt-cro/robogames_pi/car_robot_ws/install
+[0.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 489 installed packages in /opt/ros/jazzy
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogames/vt-cro/robogames_pi/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogames/vt-cro/robogames_pi/install/articubot_one', 'merge_install': False, 'path': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogames/vt-cro/robogames_pi/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogames/vt-cro/robogames_pi/install/opencv_tools', 'merge_install': False, 'path': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogames/vt-cro/robogames_pi/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogames/vt-cro/robogames_pi/install/serial', 'merge_install': False, 'path': '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one'
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools' with build type 'ament_python'
+[0.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial' with build type 'catkin'
+[0.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/articubot_one
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino
+[1.045s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools'
+[1.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/serial
+[2.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/build/opencv_tools/install.log --single-version-externally-managed install_data
+[2.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/serial
+[2.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/serial -- -j4 -l4
+[4.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino
+[4.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino -- -j4 -l4
+[5.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/vt-cro/robogames_pi/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/build/opencv_tools/install.log --single-version-externally-managed install_data
+[5.058s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools' for CMake module files
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools' for CMake config files
+[5.060s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib'
+[5.060s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/bin'
+[5.061s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[5.061s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/lib/python3.12/site-packages'
+[5.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[5.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[5.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[5.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/bin'
+[5.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[5.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/package.ps1'
+[5.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/package.dsv'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/package.sh'
+[5.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/package.bash'
+[5.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/opencv_tools/package.zsh'
+[5.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[5.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/install/articubot_one
+[5.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/articubot_one -- -j4 -l4
+[6.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/serial -- -j4 -l4
+[6.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/serial
+[6.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/serial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/serial
+[6.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ros_package_path')
+[6.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/ros_package_path.ps1'
+[6.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/ros_package_path.dsv'
+[6.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/ros_package_path.sh'
+[6.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pkg_config_path')
+[6.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path.ps1'
+[6.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path.dsv'
+[6.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path.sh'
+[6.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pkg_config_path_multiarch')
+[6.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path_multiarch.ps1'
+[6.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path_multiarch.dsv'
+[6.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pkg_config_path_multiarch.sh'
+[6.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial' for CMake module files
+[6.290s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial' for CMake config files
+[6.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[6.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[6.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[6.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[6.294s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial/lib'
+[6.294s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial/bin'
+[6.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'path')
+[6.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/path.ps1'
+[6.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/path.dsv'
+[6.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/path.sh'
+[6.298s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial/lib/pkgconfig/serial.pc'
+[6.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial/lib/python3.12/site-packages'
+[6.300s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/serial/bin'
+[6.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'pythonscriptspath')
+[6.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pythonscriptspath.ps1'
+[6.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pythonscriptspath.dsv'
+[6.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/hook/pythonscriptspath.sh'
+[6.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.ps1'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.dsv'
+[6.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.sh'
+[6.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.bash'
+[6.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/serial/share/serial/package.zsh'
+[6.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/serial/share/colcon-core/packages/serial)
+[49.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino -- -j4 -l4
+[49.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino
+[49.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[49.746s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino' for CMake module files
+[49.747s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino' for CMake config files
+[49.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/diffdrive_arduino
+[49.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[49.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[49.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[49.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[49.754s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib'
+[49.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[49.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[49.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[49.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[49.761s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/bin'
+[49.761s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[49.762s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib/python3.12/site-packages'
+[49.762s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/bin'
+[49.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[49.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[49.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[49.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[49.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[49.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[49.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[49.776s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino' for CMake module files
+[49.777s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino' for CMake config files
+[49.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[49.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[49.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[49.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[49.785s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib'
+[49.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[49.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[49.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[49.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[49.792s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/bin'
+[49.792s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[49.793s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/lib/python3.12/site-packages'
+[49.793s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/bin'
+[49.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[49.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[49.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[49.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[49.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[49.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[69.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/build/articubot_one -- -j4 -l4
+[69.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/articubot_one
+[69.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[69.202s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one' for CMake module files
+[69.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogames/vt-cro/robogames_pi/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/build/articubot_one
+[69.204s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one' for CMake config files
+[69.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[69.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[69.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[69.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[69.206s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib'
+[69.206s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/bin'
+[69.206s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[69.206s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib/python3.12/site-packages'
+[69.206s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/bin'
+[69.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.ps1'
+[69.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.dsv'
+[69.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.sh'
+[69.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.bash'
+[69.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.zsh'
+[69.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/colcon-core/packages/articubot_one)
+[69.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[69.210s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one' for CMake module files
+[69.211s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one' for CMake config files
+[69.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[69.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[69.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[69.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[69.214s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib'
+[69.214s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/bin'
+[69.214s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[69.214s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/lib/python3.12/site-packages'
+[69.215s] Level 1:colcon.colcon_core.environment:checking '/home/robogames/vt-cro/robogames_pi/install/articubot_one/bin'
+[69.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.ps1'
+[69.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.dsv'
+[69.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.sh'
+[69.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.bash'
+[69.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/articubot_one/package.zsh'
+[69.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogames/vt-cro/robogames_pi/install/articubot_one/share/colcon-core/packages/articubot_one)
+[69.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[69.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[69.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[69.221s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[69.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[69.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[69.245s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[69.334s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[69.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogames/vt-cro/robogames_pi/install/local_setup.ps1'
+[69.336s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robogames/vt-cro/robogames_pi/install/_local_setup_util_ps1.py'
+[69.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogames/vt-cro/robogames_pi/install/setup.ps1'
+[69.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogames/vt-cro/robogames_pi/install/local_setup.sh'
+[69.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robogames/vt-cro/robogames_pi/install/_local_setup_util_sh.py'
+[69.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogames/vt-cro/robogames_pi/install/setup.sh'
+[69.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogames/vt-cro/robogames_pi/install/local_setup.bash'
+[69.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogames/vt-cro/robogames_pi/install/setup.bash'
+[69.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogames/vt-cro/robogames_pi/install/local_setup.zsh'
+[69.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogames/vt-cro/robogames_pi/install/setup.zsh'

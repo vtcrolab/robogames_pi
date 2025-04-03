@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/src/yolobot_recognition/scripts/yolov8_ros2_subscriber.py

@@ -1,0 +1,99 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="MainSequence">
+
+      <!-- Retry full system check + mission until successful -->
+      <RetryUntilSuccessful num_attempts="-1">
+        <Sequence name="RunFullBehavior">
+          <Sequence name="SystemCheckSequence">
+            <!-- <Fallback name="RSPFallback">
+              <CheckTopicAlive topic="/robot_description" timeout="2.0"/>
+              <CheckTopicAlive topic="/robot_description" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one rsp.launch.py"/>
+            </Fallback> -->
+            <Fallback name="DiffContFallback">
+              <CheckControllerAlive controller_name="diff_cont"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+            <Fallback name="JointBroadFallback">
+              <CheckControllerAlive controller_name="joint_broad"/>
+              <RunSystemRecovery launch_command="bash /home/robogames/vt-cro/robogames_pi/car_robot_ws/system_recovery.sh"/>
+            </Fallback>
+            <Fallback name="LiDARFallback">
+              <CheckTopicAlive topic="/scan" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one rplidar.launch.py"/>
+            </Fallback>
+            <Fallback name="CameraFallback">
+              <CheckTopicAlive topic="/camera/image_raw" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one vision.launch.py"/>
+            </Fallback>
+            <!-- <Fallback name="JoystickFallback">
+              <CheckTopicAlive topic="/joy" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 launch articubot_one joystick.launch.py"/>
+            </Fallback> -->
+            <!-- <Fallback name="TwistMuxFallback">
+              <CheckTopicAlive topic="" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash ros2 run twist_mux twist_mux --ros-args --params-file $(ros2 pkg prefix articubot_one)/config/twist_mux.yaml --remap /cmd_vel_out:=/diff_cont/cmd_vel_unstamped"/>
+            </Fallback> -->
+            <!-- <Fallback name="">
+              <CheckTopicAlive topic="" timeout="2.0"/>
+              <RunSystemRecovery launch_command="bash "/>
+            </Fallback> -->
+          </Sequence>
+
+          <!-- MAIN TASK BEHAVIOR TREE -->
+          <!-- <SubTree ID="ConeTaskTree"/> -->
+        </Sequence>
+      </RetryUntilSuccessful>
+
+      <!-- These two must also be INSIDE the main sequence
+      <Fallback name="ConeDetection">
+        <DetectObject object_type="cones_ramp" detected="{object_detected}"/>
+        <Sequence name="RotateUntilConeFound">
+          <Spin spin_dist="1.57"/>
+          <Wait wait_duration="2"/>
+        </Sequence>
+      </Fallback>
+
+      <Switch3 variable="{object_detected}">
+        <Case value="yellow">
+          <Sequence name="YellowConeBehavior">
+            <NavigateToPose goal="{yellow_cone_location}"/>
+            <Wait wait_duration="1"/>
+            <Turn direction="left" angle="90"/>
+          </Sequence>
+        </Case>
+
+        <Case value="blue">
+          <Sequence name="BlueConeBehavior">
+            <NavigateToPose goal="{blue_cone_location}"/>
+            <Wait wait_duration="1"/>
+            <Turn direction="right" angle="90"/>
+          </Sequence>
+        </Case>
+
+        <Case value="red">
+          <Fallback name="SecondRedConeRecovery">
+            <DetectObject object_type="red_cone" detected="{second_red_detected}"/>
+            <Sequence>
+              <Spin spin_dist="1.57"/>
+              <Wait wait_duration="2"/>
+            </Sequence>
+          </Fallback>
+          <NavigateToPose goal="{middle_of_red_cones}"/>
+        </Case>
+
+        <Case value="ramp">
+          <Sequence name="RampClimb">
+            <NavigateToPose goal="{ramp_location}"/>
+            <Wait wait_duration="1"/>
+            <NavigateToPose goal="{top_of_ramp}"/>
+          </Sequence>
+        </Case>
+      </Switch3> -->
+
+    </Sequence>
+  </BehaviorTree>
+
+
+</root>

@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/build/yolov8_msgs/rosidl_generator_cpp/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp

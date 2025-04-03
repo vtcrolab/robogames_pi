@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/src/yolov8_msgs/msg/Yolov8Inference.msg

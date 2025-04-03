@@ -1,0 +1,13 @@
+ function 'total'
+
+[ERROR] [1743352132.617095849] [yolo_detector_node]: Error processing image: OpenCV(4.6.0) ./modules/dnn/include/opencv2/dnn/shape_utils.hpp:170: error: (-215:Assertion failed) start <= (int)shape.size() && end <= (int)shape.size() && start <= end in function 'total'
+
+[ERROR] [1743352135.441742435] [yolo_detector_node]: Error processing image: OpenCV(4.6.0) ./modules/dnn/include/opencv2/dnn/shape_utils.hpp:170: error: (-215:Assertion failed) start <= (int)shape.size() && end <= (int)shape.size() && start <= end in function 'total'
+
+[ERROR] [1743352137.895049169] [yolo_detector_node]: Error processing image: OpenCV(4.6.0) ./modules/dnn/include/opencv2/dnn/shape_utils.hpp:170: error: (-215:Assertion failed) start <= (int)shape.size() && end <= (int)shape.size() && start <= end in function 'total'
+
+[ERROR] [1743352140.433818180] [yolo_detector_node]: Error processing image: OpenCV(4.6.0) ./modules/dnn/include/opencv2/dnn/shape_utils.hpp:170: error: (-215:Assertion failed) start <= (int)shape.size() && end <= (int)shape.size() && start <= end in function 'total'
+
+^C[INFO] [1743352142.612832223] [rclcpp]: signal_handler(signum=2)
+[ERROR] [1743352143.267220965] [yolo_detector_node]: Error processing image: OpenCV(4.6.0) ./modules/dnn/include/opencv2/dnn/shape_utils.hpp:170: error: (-215:Assertion failed) start <= (int)shape.size() && end <= (int)shape.size() && start <= end in function 'total'
+

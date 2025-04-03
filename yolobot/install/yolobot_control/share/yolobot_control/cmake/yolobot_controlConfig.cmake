@@ -1,0 +1,1 @@
+/home/robogames/vt-cro/robogames_pi/yolobot/build/yolobot_control/ament_cmake_core/yolobot_controlConfig.cmake

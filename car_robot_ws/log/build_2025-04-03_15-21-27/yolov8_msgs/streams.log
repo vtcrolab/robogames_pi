@@ -1,0 +1,182 @@
+[0.040s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs
+[0.071s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.138s] -- Found Python3: /home/robogames/ros2_python_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.434s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.480s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.646s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.335s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.217s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.756s] -- Found Python3: /home/robogames/ros2_python_venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.812s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.834s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.836s] -- Added test 'lint_cmake' to check CMake code style
+[2.837s] -- Added test 'xmllint' to check XML markup files
+[2.848s] -- Configuring done (2.8s)
+[3.027s] -- Generating done (0.2s)
+[3.082s] -- Build files have been written to: /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs
+[3.103s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake /home/robogames/vt-cro/robogames_pi/car_robot_ws/src/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs
+[3.109s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs -- -j4 -l4
+[3.283s] [  1%] Built target yolov8_msgs__rosidl_generator_type_description
+[3.307s] [  1%] Built target ament_cmake_python_symlink_yolov8_msgs
+[3.351s] [  3%] Built target yolov8_msgs__cpp
+[3.374s] [ 24%] Built target yolov8_msgs__rosidl_generator_c
+[3.519s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[3.552s] [ 42%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[3.580s] [ 51%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[3.634s] [ 61%] Built target yolov8_msgs__rosidl_typesupport_c
+[3.690s] [ 70%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[3.758s] [ 79%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[3.878s] [ 79%] Built target yolov8_msgs
+[3.996s] [ 81%] Built target yolov8_msgs__py
+[4.162s] [ 88%] Built target yolov8_msgs__rosidl_generator_py
+[4.247s] [ 92%] Built target yolov8_msgs_s__rosidl_typesupport_c
+[4.273s] [ 96%] Built target yolov8_msgs_s__rosidl_typesupport_introspection_c
+[4.280s] [100%] Built target yolov8_msgs_s__rosidl_typesupport_fastrtps_c
+[4.944s] running egg_info
+[5.044s] writing yolov8_msgs.egg-info/PKG-INFO
+[5.044s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[5.048s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[5.297s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[5.298s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[5.438s] [100%] Built target ament_cmake_python_build_yolov8_msgs_egg
+[5.468s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --build /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs -- -j4 -l4
+[5.471s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs
+[5.489s] -- Install configuration: ""
+[5.490s] -- Execute custom install script
+[5.490s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[5.490s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.json
+[5.491s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.json
+[5.492s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.json
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/color_detection.h
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__functions.h
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__struct.h
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__type_support.h
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h
+[5.494s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h
+[5.495s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[5.496s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[5.496s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_fastrtps_c.h
+[5.496s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[5.497s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[5.497s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/color_detection.hpp
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__builder.hpp
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__struct.hpp
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__traits.hpp
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__type_support.hpp
+[5.498s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[5.499s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[5.499s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[5.499s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp
+[5.499s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[5.499s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[5.500s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[5.500s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp
+[5.500s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp
+[5.500s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.500s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_introspection_c.h
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[5.503s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[5.504s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.504s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/color_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.504s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[5.504s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[5.504s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[5.505s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[5.505s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.505s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.506s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.506s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[5.507s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/__init__.py
+[5.507s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[5.507s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.507s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/__init__.py
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_color_detection.py
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_color_detection_s.c
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result.py
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_inference_result_s.c
+[5.508s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference.py
+[5.509s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[5.509s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so
+[5.509s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.509s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so
+[5.510s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.510s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.so
+[5.510s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.so
+[5.511s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[5.512s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[5.513s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.idl
+[5.513s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[5.513s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[5.513s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/msg/ColorDetection.msg
+[5.514s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[5.514s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[5.514s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[5.514s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[5.514s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[5.515s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[5.515s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[5.515s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[5.515s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[5.515s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[5.515s] -- Symlinking: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[5.546s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[5.546s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.547s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[5.548s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[5.548s] -- Up-to-date symlink: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[5.549s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[5.551s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[5.553s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.555s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[5.556s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[5.558s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[5.559s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[5.642s] Listing '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs'...
+[5.643s] Compiling '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/__init__.py'...
+[5.643s] Listing '/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/python3.12/site-packages/yolov8_msgs/msg'...
+[5.659s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[5.659s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[5.660s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.660s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.660s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.661s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[5.662s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.662s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.662s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.663s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.663s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[5.663s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.664s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.664s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.664s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[5.664s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.667s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[5.667s] -- Up-to-date: /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.669s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolov8_msgs:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/yolobot_recognition:/opt/ros/jazzy:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/serial:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/diffdrive_arduino:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/cmake --install /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/yolov8_msgs

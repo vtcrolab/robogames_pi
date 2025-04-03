@@ -1,0 +1,57 @@
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:61:35:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   61 |         joy_msg.axes = [0.0] * 8  [01;31m[K#[m[K Initialize axes array (8 elements for axes[0] to axes[9])
+      |                                   [01;31m[K^[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:120:38:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  120 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KBool[m[K>::SharedPtr result_pub_;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:120:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     rclcpp::Publisher<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr result_pub_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:120:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  120 |     rclcpp::Publisher<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K result_pub_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:120:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_pub_[m[K’ does not name a type
+  120 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr [01;31m[Kresult_pub_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:[m[K In constructor ‘[01m[KObstacleApproachNode::[01;32m[KObstacleApproachNode[m[K()[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_pub_[m[K’ was not declared in this scope
+   20 |         [01;31m[Kresult_pub_[m[K = this->create_publisher<std_msgs::msg::Bool>("/obstacle_approach_done", 10);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:20:61:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   20 |         result_pub_ = this->create_publisher<std_msgs::msg::[01;31m[KBool[m[K>("/obstacle_approach_done", 10);
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:20:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleApproachNode::create_publisher<<expression error> >(const char [24], int)[m[K’
+   20 |         result_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Bool>("/obstacle_approach_done", 10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:20:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |         result_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Bool>("/obstacle_approach_done", 10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:[m[K In member function ‘[01m[Kvoid ObstacleApproachNode::[01;32m[KmaybeDrive[m[K()[m[K’:
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy_msg[m[K’ was not declared in this scope
+   59 |         [01;31m[Kjoy_msg[m[K = Joy()
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:59:19:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ was not declared in this scope
+   59 |         joy_msg = [01;31m[KJoy[m[K()
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:83:28:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   83 |             std_msgs::msg::[01;31m[KBool[m[K result;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:84:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   84 |             [01;31m[Kresult[m[K.data = true;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one/src/obstacle_approach_node.cpp:85:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_pub_[m[K’ was not declared in this scope
+   85 |             [01;31m[Kresult_pub_[m[K->publish(result);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_approach_node.dir/build.make:76: CMakeFiles/obstacle_approach_node.dir/src/obstacle_approach_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/obstacle_approach_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
