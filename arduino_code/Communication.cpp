@@ -19,6 +19,8 @@ void handleSerialInput() {
       int mIndex = receivedData.indexOf("M") + 1;
 
       float joystickX = receivedData.substring(sIndex, mIndex - 1).toInt();
+      //float joystickX = receivedData.substring(sIndex, mIndex - 1).toFloat();
+
       joystickX = constrain(joystickX, -1.0, 1.0);
       int motorSpeed = receivedData.substring(mIndex).toInt();
 

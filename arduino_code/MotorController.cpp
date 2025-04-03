@@ -18,6 +18,14 @@ void setupMotors() {
 }
 
 void setMotorSpeed(int speed) {
+
+ // ========= Updates both motors ============== 
+
+  //motor1_speed = speed;
+  //motor2_speed = speed; 
+
+  // ========================
+
   analogWrite(ENABLEA_PIN, abs(motor1_speed));
   analogWrite(ENABLEB_PIN, abs(motor2_speed));
 

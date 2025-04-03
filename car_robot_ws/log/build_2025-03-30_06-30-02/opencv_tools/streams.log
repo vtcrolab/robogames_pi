@@ -1,0 +1,41 @@
+[1.585s] Invoking command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_py_env) PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch_py_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[2.077s] running egg_info
+[2.077s] creating ../../build/opencv_tools/opencv_tools.egg-info
+[2.116s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[2.117s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[2.117s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[2.117s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[2.117s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.200s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.201s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.202s] running build
+[2.202s] running build_py
+[2.202s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build
+[2.202s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib
+[2.203s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools
+[2.203s] copying opencv_tools/__init__.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools
+[2.203s] copying opencv_tools/detect_object_node.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools
+[2.203s] copying opencv_tools/detect_yolo_node.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools
+[2.203s] running install
+[2.213s] running install_lib
+[2.253s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[2.253s] copying /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[2.253s] copying /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools/detect_object_node.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[2.253s] copying /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build/lib/opencv_tools/detect_yolo_node.py -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools
+[2.254s] byte-compiling /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/__init__.py to __init__.cpython-312.pyc
+[2.254s] byte-compiling /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/detect_object_node.py to detect_object_node.cpython-312.pyc
+[2.255s] byte-compiling /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools/detect_yolo_node.py to detect_yolo_node.cpython-312.pyc
+[2.256s] running install_data
+[2.256s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/ament_index
+[2.256s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/ament_index/resource_index
+[2.256s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[2.256s] copying resource/opencv_tools -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[2.257s] copying package.xml -> /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/opencv_tools
+[2.257s] creating /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/share/opencv_tools/models
+[2.257s] running install_egg_info
+[2.301s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages/opencv_tools-0.0.0-py3.12.egg-info
+[2.302s] running install_scripts
+[2.566s] Installing detect_node script to /home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/opencv_tools
+[2.567s] writing list of installed files to '/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log'
+[2.659s] Invoked command in '/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_py_env) PYTHONPATH=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/vt-cro/robogames_pi/car_robot_ws/install/opencv_tools/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch_py_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/build install --record /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/opencv_tools/install.log --single-version-externally-managed install_data

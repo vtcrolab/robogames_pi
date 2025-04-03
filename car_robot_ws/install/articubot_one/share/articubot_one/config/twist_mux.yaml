@@ -14,3 +14,7 @@ twist_mux:
         topic   : cmd_vel_joy
         timeout : 0.5
         priority: 100
+      custom_joystick:
+        topic   : cmd_vel_custom_joy
+        timeout : 0.5
+        priority : 101

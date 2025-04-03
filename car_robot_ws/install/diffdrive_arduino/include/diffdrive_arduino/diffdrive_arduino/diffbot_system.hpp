@@ -33,9 +33,16 @@
 
 #include "sensor_msgs/msg/joy.hpp"
 
+#include "geometry_msgs/msg/twist.hpp"
 
 #include "diffdrive_arduino/arduino_comms.hpp"
 #include "diffdrive_arduino/wheel.hpp"
+
+#include "nav_msgs/msg/odometry.hpp"
+#include "geometry_msgs/msg/transform_stamped.hpp"
+#include "tf2/LinearMath/Quaternion.hpp"
+#include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
+#include "tf2_ros/transform_broadcaster.h"
 
 namespace diffdrive_arduino
 {
@@ -50,11 +57,13 @@ struct Config
   std::string device = "";
   int baud_rate = 0;
   int timeout_ms = 0;
+  double wheel_radius = 0;      //(meters) 
+  double base_width = 0;  //distance between wheels (meters)
   int enc_counts_per_rev = 0;
-  int pid_p = 0;
-  int pid_d = 0;
-  int pid_i = 0;
-  int pid_o = 0;
+  // int pid_p = 0;
+  // int pid_d = 0;
+  // int pid_i = 0;
+  // int pid_o = 0;
 };
 
 
@@ -66,6 +75,15 @@ public:
     // Create the joystick subscription
     joy_sub_ = node_->create_subscription<sensor_msgs::msg::Joy>(
         "/joy", 10, std::bind(&DiffDriveArduinoHardware::joy_callback, this, std::placeholders::_1));
+
+    cmd_vel_pub_ = node_->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_custom_joy", 10);
+
+    // tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(node_);
+
+    // Inside on_init or on_activate:
+    odom_pub_ = node_->create_publisher<nav_msgs::msg::Odometry>("/odom", 10);
+    tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(node_);
+
 
     // Start a separate thread to spin the node
     spin_thread_ = std::thread([this]() {
@@ -130,11 +148,19 @@ private:
 
   void joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg);
 
-  rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub_;
   rclcpp::Node::SharedPtr node_;
   std::thread spin_thread_;
 
-  int servo_min, servo_max, servo_center;
+  rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub_;
+
+  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
+
+  // Member variables you must add in header:
+  double x_ , y_, theta_;
+  rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_pub_;
+  std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+  // std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+
   int speed_min, speed_max, current_speed;
 };
 

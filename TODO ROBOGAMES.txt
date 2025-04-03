@@ -1,0 +1,29 @@
+March 27 2025:
+
+- Fixed the Arduino-launch_robot.launch.py issue (ROS controller activation) => removed delay in Arduino code. 
+- Got Servo Motors (only) to move using Xbox controller Joystick
+
+Todo:
+	- Implement movement in motors using Arduino code
+	- Make diff drive Arduino communicate with cmd_vel topic to move robot on rviz
+	- Implement buttons using joystick.yaml so it runs in rviz
+	- Fix motor controller issue (wiring is wrong -> capacitor circuit output gives no voltage)
+	
+ROS side:
+- Behavior tree 
+- Camera code integration
+- Ensure SLAM MAPPING stays consistent
+
+Extra:
+- Buy Ribbon cable to ensure Lidar works
+
+Arduino Code:
+- Test motors forward backward with Xbox controller after fixing motor controller issues
+- Add loop feedback with GPS and IMU 
+- Differential Drive
+
+
+
+	
+	
+

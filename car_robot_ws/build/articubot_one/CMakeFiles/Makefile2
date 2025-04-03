@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articu
 # The main recursive "all" target.
 all: CMakeFiles/joy_serial.dir/all
 all: CMakeFiles/depth_to_laserscan.dir/all
+all: CMakeFiles/yolo_detector_node.dir/all
 all: CMakeFiles/color_detection_node.dir/all
 all: CMakeFiles/depth_processing_node.dir/all
 all: CMakeFiles/main_bt_node.dir/all
@@ -79,6 +80,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/articubot_one_uninstall.dir/clean
 clean: CMakeFiles/joy_serial.dir/clean
 clean: CMakeFiles/depth_to_laserscan.dir/clean
+clean: CMakeFiles/yolo_detector_node.dir/clean
 clean: CMakeFiles/color_detection_node.dir/clean
 clean: CMakeFiles/depth_processing_node.dir/clean
 clean: CMakeFiles/main_bt_node.dir/clean
@@ -187,6 +189,32 @@ depth_to_laserscan: CMakeFiles/depth_to_laserscan.dir/rule
 CMakeFiles/depth_to_laserscan.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_laserscan.dir/build.make CMakeFiles/depth_to_laserscan.dir/clean
 .PHONY : CMakeFiles/depth_to_laserscan.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/yolo_detector_node.dir
+
+# All Build rule for target.
+CMakeFiles/yolo_detector_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles --progress-num=11,12 "Built target yolo_detector_node"
+.PHONY : CMakeFiles/yolo_detector_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/yolo_detector_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/yolo_detector_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeFiles 0
+.PHONY : CMakeFiles/yolo_detector_node.dir/rule
+
+# Convenience name for target.
+yolo_detector_node: CMakeFiles/yolo_detector_node.dir/rule
+.PHONY : yolo_detector_node
+
+# clean rule for target.
+CMakeFiles/yolo_detector_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detector_node.dir/build.make CMakeFiles/yolo_detector_node.dir/clean
+.PHONY : CMakeFiles/yolo_detector_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/color_detection_node.dir
