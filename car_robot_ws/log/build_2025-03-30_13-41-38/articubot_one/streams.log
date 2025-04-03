@@ -1,0 +1,6 @@
+[0.013s] Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j16 -l16
+[0.022s] [0mCMake Error: The current CMakeCache.txt directory /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one/CMakeCache.txt is different than the directory /home/robogames/vt-cro/robogames_pi/car_robot_ws/build/articubot_one where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.035s] [0mCMake Error: The source directory "/home/robogames/vt-cro/robogames_pi/car_robot_ws/src/articubot_one" does not exist.
+[0.035s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.037s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j16 -l16
