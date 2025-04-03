@@ -1,0 +1,2 @@
+Invoking command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j16 -l16
+Invoked command in '/home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/houndsito/vt-cro/robogames_pi/car_robot_ws/build/articubot_one -- -j16 -l16
